@@ -1,0 +1,1057 @@
+*{
+  margin: 0;
+  list-style: none;
+  font-family: "Nunito", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/*Página - HOME*/
+
+.header-home{
+  width: 100vw;
+  height: 180px;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+
+}
+.logo-header{
+  width: 400px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 60px;
+  margin-right: 640px;
+  background-image: url(/src/image/Logo-home-1.2.svg);
+  background-position: center;
+  background-size: cover;
+}
+.indice-header{
+  width: 410px;
+  height: 80px;
+  margin-top: 64px;
+  margin-right: 60px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+.produtos-home-header{
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.0px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.produtos-home-header:hover{
+  box-shadow: 0px 3px 0px  #000;
+}
+.sobre-nos-home{
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.0px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.sobre-nos-home:hover{
+  box-shadow: 0px 3px 0px  #000;
+}
+.entrar-home{
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 1.0px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.link-login{
+  text-decoration: none;
+  text-align: center;
+  color: #000000;
+  letter-spacing: 1.5px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  cursor: pointer;
+}
+.entrar-home:hover{
+  box-shadow: 0px 3px 0px  #000;
+}
+.img-header-home{
+  width: 40px;
+  height: 40px;
+  margin-top: 78px;
+  cursor: pointer;
+}
+
+/*Carrosel - HOME*/
+.carrosel-home{
+  width: 100vw;
+  height: 766px;
+  margin-top: 20px;
+  background-color: #8F8F8F;
+  display: flex;
+}
+.promocao-home{
+  margin-top: 140px;
+  display: block;
+}
+.titulo2-botao-carrosel{
+  width: 400px;
+  height: 600px;
+}
+.img-1-carrosel{
+  width: 650px;
+  height: 766px;
+  background-color: #8F8F8F;
+}
+.titulo-carrosel{
+  width: 400px;
+  height: 280px;
+  font-size: 100px;
+  margin-top: 160px;
+  text-align: center;
+  background-color: transparent;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 2px;
+}
+.subtitulo-carrosel{
+  width: 400px;
+  height: 40px;
+  color: #fff;
+  margin-top: 20px;
+  font-size: 18px;
+  text-align: center;
+  background-color: transparent;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+.botao-carrosel{
+  width: 160px;
+  height: 46px;
+  font-size: 16px;
+  margin-top: 60px;
+  margin-left: 120px;
+  border: none;
+  color: #fff;
+  background-color: black;
+  letter-spacing: .80px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+}
+.img-2-carrosel{
+  width: 650px;
+  height: 766px;
+  background-image: url(/src/image/Img-carrosel\ 1-4.2.svg);
+  background-size: cover;
+  background-position: center;
+}
+
+
+/*Produtos - HOME*/
+
+.div-titulo-home{
+  width: 100vw;
+  height: 60px;
+  display: flex;
+
+  justify-content: center;
+}
+.titulo-produtos{
+  width: 260px;
+  height: 60px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.titulo-produtos:hover{
+  box-shadow: 0px 3px 0px  #000;
+  cursor: pointer;
+}
+
+/* LINHA 1 - PRODUTOS - HOME */
+
+.section-l1{
+  width: 100vw;
+  min-height: 100vh;
+}
+.linha1-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 36px;
+}
+.produto1{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-color: #fff;
+  background-image: url(/src/image/Camisa-Maculina1.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto2{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/CamisaMasculina2.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto3{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/CamisaMasculina3.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto4{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/CamisaMasculina4.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.tipo-de-produto1{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 40px;
+}
+.tipo1{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo2{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo3{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo4{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.linha1-descricao-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.descricao1{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao2{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao3{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao4{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.valores-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.valor1-produto{
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor1-1{
+  color: #a0a0a0;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor2-produto{
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor2-1{
+  color: #8F8F8F;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor3-produto{
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+.valor3-1{
+  color: #8F8F8F;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor4-produto{
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor4-1{
+  color: #8F8F8F;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.botoes-produtos-linha1{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 40px;
+}
+.botao-produto1{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto2{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto3{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto4{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+
+/* LINHA 2 - PRODUTOS - HOME */
+
+.div-titulo-home2{
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.titulo-produto2{
+  width: 260px;
+  height: 60px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.titulo-produto2:hover{
+  box-shadow: 0px 3px 0px  #000;
+  cursor: pointer;
+}
+.section-l2{
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(247, 247, 247);
+}
+.linha2-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.produto5{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/Vestido1.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto6{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/Vestido2.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto7{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/Vestido3.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto8{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/vestido4.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.tipo-de-produto2{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 40px;
+}
+.tipo5{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo6{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo7{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo8{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.linha2-descricao-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.descricao5{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao6{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao7{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao8{
+  width: 360px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.valores-produto2{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.valor5-produto{
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor5-1{
+  color: #a0a0a0;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor6-produto{
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor6-1{
+  color: #8F8F8F;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor7-produto{
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  
+}
+.valor7-1{
+  color: #8F8F8F;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor8-produto{
+  width: 360px;
+  height: 40px;
+  display: flex;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor8-1{
+  color: #8F8F8F;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.botoes-produtos-linha2{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 36px;
+}
+.botao-produto5{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto6{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto7{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto8{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+
+/*LINHA 3 - PRODUTOS - HOME*/
+
+.section-l3{
+  margin: 0;
+  min-height: 100vh;
+  background-color: rgb(255, 255, 255);
+}
+.div-titulo-home3{
+  width: 100vw;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+}
+.titulo-produto3{
+  width: 260px;
+  height: 60px;
+  margin-top: 100px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  letter-spacing: 2px;
+  font-weight: normal;
+  cursor: pointer;
+}
+.titulo-produt3:hover{
+  box-shadow: 0px 3px 0px  #000;
+  cursor: pointer;
+}
+
+.linha3-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.produto9{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/Acessorios1-brinco.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto10{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/Acessorios2-colar.jpg);
+  background-position: center;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto11{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/Acessorios3-aneis.jpg);
+  background-position: bottom;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto12{
+  width: 360px;
+  height: 400px;
+  margin-top: 180px;
+  background-image: url(/src/image/Acessorios4-brincos2.jpg);
+  background-position: bottom;
+  background-size: cover;
+  box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.tipo-de-produto3{
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+  gap: 40px;
+}
+.tipo9{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo10{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo11{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.tipo12{
+  width: 360px;
+  height: 20px;
+  font-size: 16px;
+  letter-spacing: .80px;
+}
+.linha3-descricao-produtos{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  margin-top: 20px;
+}
+.descricao9{
+  width: 360px;
+  height: 100px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao10{
+  width: 360px;
+  height: 100px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao11{
+  width: 360px;
+  height: 100px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.descricao12{
+  width: 360px;
+  height: 100px;
+  height: 38px;
+  font-size: 24px;
+  letter-spacing: .80px;
+}
+.valores-produto3{
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.valor9-produto{
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor9-1{
+  color: #a0a0a0;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor10-produto{
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor10-1{
+  color: #a0a0a0;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor11-produto{
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor10-1{
+  color: #a0a0a0;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor11-produto{
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor11-1{
+  color: #a0a0a0;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+.valor12-produto{
+  display: flex;
+  width: 360px;
+  height: 40px;
+  justify-content: baseline;
+  font-size: 24px;
+  margin-top: 10px;
+  gap: 10px;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.valor12-1{
+  color: #a0a0a0;
+  text-decoration: line-through;
+  letter-spacing: 0.75px;
+}
+
+.botoes-produtos-linha3{
+  display: flex;
+  justify-content: center;
+  gap: 300px;
+  margin-top: 36px;
+}
+.botao-produto9{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto10{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto11{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+.botao-produto12{
+  width: 100px;
+  height: 40px;
+  font-size: 16px;
+  border: none;
+  color: #fff;
+  background-color: #000;
+  letter-spacing: 0.80px;
+  cursor: pointer;
+}
+
+/* FOOTER */
+
+.footer{
+  width: 100vw;
+  height: 400px;
+  display: flex;
+  justify-items: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #ffffff;
+  margin-top: 100px;
+}
+.logo-footer{
+  width: 400px;
+  height: 120px;
+  margin-top: 20px;
+  background-image: url(/src/image/Logo-footer.svg);
+  background-position: center;
+  background-size: cover;
+}
+.ul-footer{
+  display: flex;
+  gap: 60px;
+  margin-top: 26px;
+}
+.ul1-footer{
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.ul1-footer:hover{
+  box-shadow: 0px 3px 0px  #000;
+}
+.ul2-footer{
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.ul2-footer:hover{
+  box-shadow: 0px 3px 0px  #000;
+}
+.ul3-footer{
+  font-size: 20px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.ul3-footer:hover{
+  box-shadow: 0px 3px 0px  #000;
+}
+.redes-sociais-footer{
+  width: 100vw;
+  height: 60px;
+  margin-top: 28px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+
+.pinterest{
+  width: 38px;
+  height: 38px;
+  cursor: pointer;
+}
+.instagram{
+  width: 36px;
+  height: 36px;
+  cursor: pointer;
+}
+.email{
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+}
+.direitos-reservados{
+  margin-top: 40px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
