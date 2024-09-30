@@ -8,7 +8,6 @@ const Home = () => {
         <>
         <Header/>
         <Cs/>
-        {/* <Carousel/> */}
         <ProdutosHome/>
         <Footer/>
         </> 
