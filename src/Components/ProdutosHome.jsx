@@ -7,7 +7,7 @@ const ProdutosHome = () => {
         {/* LINHA 1 - PRODUTOS - HOME */}
         
         <section className="section-l1">
-        <div className="div-titulo-home"><h1 className="titulo-produtos">Sobretudo</h1></div>
+        <div className="div-titulo-home"><h1 className="titulo-produtos">Blazer</h1></div>
         
 
         <div className="linha1-produtos">
@@ -18,17 +18,17 @@ const ProdutosHome = () => {
         </div>
 
         <div className="tipo-de-produto1">
-        <div className="tipo1">Sobretudo</div>
-        <div className="tipo2">Sobretudo</div>
-        <div className="tipo3">Sobretudo</div>
-        <div className="tipo4">Sobretudo</div>
+        <div className="tipo1">Blazer</div>
+        <div className="tipo2">Blazer</div>
+        <div className="tipo3">Blazer</div>
+        <div className="tipo4">Blazer</div>
         </div>
 
         <div className="linha1-descricao-produtos">
-        <div className="descricao1">Sobretudo Azul</div>
-        <div className="descricao2">Sobretudo Verde</div>
-        <div className="descricao3">Sobretudo Rosa</div>
-        <div className="descricao4">Sobretudo Preto</div>
+        <div className="descricao1">Blazer Azul</div>
+        <div className="descricao2">Blazer Verde</div>
+        <div className="descricao3">Blazer Rosa</div>
+        <div className="descricao4">Blazer Preto</div>
         </div>
 
         <div className="valores-produtos">

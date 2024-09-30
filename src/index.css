@@ -101,7 +101,7 @@
 }
 
 /*Carrosel - HOME*/
-.carrosel-home{
+#carouselExample{
   width: 100vw;
   height: 766px;
   margin-top: 20px;
@@ -158,20 +158,8 @@
   margin-top: 60px;
   margin-left: 120px;
   border: none;
-  color: #fff;
-  background-color: black;
-  letter-spacing: .80px;
-  cursor: pointer;
-  font-family: "Montserrat", sans-serif;
-}
-.img-2-carrosel{
-  width: 650px;
-  height: 766px;
-  background-image: url(/src/image/Img-carrosel\ 1-4.2.svg);
   background-size: cover;
-  background-position: center;
 }
-
 
 /*Produtos - HOME*/
 
