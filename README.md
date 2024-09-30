@@ -1,5 +1,6 @@
 # React + Vite
-
+<!-- https://getbootstrap.com/docs/5.3/getting-started/introduction/ -->
+npm i boostrap
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
 Currently, two official plugins are available:
