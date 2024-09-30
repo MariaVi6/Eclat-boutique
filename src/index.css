@@ -1,4 +1,6 @@
+
 *{
+  overflow-x: hidden;
   margin: 0;
   list-style: none;
   font-family: "Nunito", sans-serif;
@@ -145,6 +147,9 @@
   font-optical-sizing: auto;
   font-style: normal;
   
+}
+#btn:hover{
+  background-color: rgba(0, 0, 0, 0.712);
 }
 .botao-carrosel{
   width: 160px;
