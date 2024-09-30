@@ -1,8 +1,7 @@
 import Header from "../Components/Header";
-// import Carrosel from "../Components/Carrosel"
+import Carousel from "../Components/Carousel";
 import ProdutosHome from "../Components/ProdutosHome"
 import Footer from "../Components/Footer"
-import { Carousel } from "bootstrap";
 const Home = () => {
     return (
         <>

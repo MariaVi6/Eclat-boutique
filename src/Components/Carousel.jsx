@@ -1,5 +1,4 @@
 import React from 'react';
-import foto1 from "../assets/1.png"
 const Carousel = () => {
     return (
         <>
