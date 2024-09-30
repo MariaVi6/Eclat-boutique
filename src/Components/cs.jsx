@@ -1,3 +1,6 @@
+import slide1 from "../image/slide1.png";
+import slide2 from "../image/slide2.png";
+import slide3 from "../image/3.svg";
 
 
 import React from "react";
@@ -33,10 +36,6 @@ const Cs = () => {
       </button>
     </div>
   );
-};
+}
 
-export default Cs;
-
-
-
-
+export default Carrosel;

@@ -1,8 +1,7 @@
 import Header from "../Components/Header";
-// import Carousel from "../Components/Carousel";
 import ProdutosHome from "../Components/ProdutosHome"
 import Footer from "../Components/Footer"
-import Cs from "../Components/cs";
+import Carousel from "../Components/Carousel";
 const Home = () => {
     return (
         <>

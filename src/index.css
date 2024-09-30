@@ -1,4 +1,6 @@
+
 *{
+  overflow-x: hidden;
   margin: 0;
   list-style: none;
   font-family: "Nunito", sans-serif;
