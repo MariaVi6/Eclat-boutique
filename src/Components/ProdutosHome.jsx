@@ -1,6 +1,8 @@
-import { useLayoutEffect, useRef } from "react";
+
 
 const ProdutosHome = () => {
+
+
         return (
         <>
 
@@ -60,8 +62,6 @@ const ProdutosHome = () => {
         <button className="botao-produto3">Comprar</button>
         <button className="botao-produto4">Comprar</button>
         </div>
-        
-        
 
         </section>
 
