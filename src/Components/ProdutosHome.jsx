@@ -55,10 +55,10 @@ const ProdutosHome = () => {
         </div>
 
         <div className="botoes-produtos-linha1">
-        <button id="btn" className="botao-produto5">Comprar</button>
-        <button id="btn" className="botao-produto6">Comprar</button>
-        <button id="btn" className="botao-produto7">Comprar</button>
-        <button id="btn" className="botao-produto8">Comprar</button>
+        <button className="botao-produto1">Comprar</button>
+        <button className="botao-produto2">Comprar</button>
+        <button className="botao-produto3">Comprar</button>
+        <button className="botao-produto4">Comprar</button>
         </div>
         
         
@@ -121,10 +121,10 @@ const ProdutosHome = () => {
         </div>
 
         <div className="botoes-produtos-linha2">
-        <button id="btn" className="botao-produto5">Comprar</button>
-        <button id="btn" className="botao-produto6">Comprar</button>
-        <button id="btn" className="botao-produto7">Comprar</button>
-        <button id="btn" className="botao-produto8">Comprar</button>
+        <button className="botao-produto5">Comprar</button>
+        <button className="botao-produto6">Comprar</button>
+        <button className="botao-produto7">Comprar</button>
+        <button className="botao-produto8">Comprar</button>
         </div>
         
         </section>
@@ -181,10 +181,10 @@ const ProdutosHome = () => {
         </div>
 
         <div className="botoes-produtos-linha3">
-        <button id="btn" className="botao-produto5">Comprar</button>
-        <button id="btn" className="botao-produto6">Comprar</button>
-        <button id="btn" className="botao-produto7">Comprar</button>
-        <button id="btn" className="botao-produto8">Comprar</button>
+        <button className="botao-produto9">Comprar</button>
+        <button className="botao-produto10">Comprar</button>
+        <button className="botao-produto11">Comprar</button>
+        <button className="botao-produto12">Comprar</button>
         </div>
         
 

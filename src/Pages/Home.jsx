@@ -1,12 +1,12 @@
 import Header from "../Components/Header";
 import ProdutosHome from "../Components/ProdutosHome"
 import Footer from "../Components/Footer"
-import Carousel from "../Components/Carousel";
+import CarroselHome from "../Components/CarroselHome";
 const Home = () => {
     return (
         <>
         <Header/>
-        <Cs/>
+        <CarroselHome/>
         <ProdutosHome/>
         <Footer/>
         </> 
