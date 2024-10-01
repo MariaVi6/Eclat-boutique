@@ -101,65 +101,11 @@
 /*Carrosel - HOME*/
 #carouselExampleIndicators{
   width: 100vw;
-  height: 770px;
+  height: 772px;
   margin-top: 24px;
-  height: 766px;
-  margin-top: 20px;
-  background-color: #8F8F8F;
   display: flex;
 }
-.promocao-home{
-  margin-top: 140px;
-  display: block;
-}
-.titulo2-botao-carrosel{
-  width: 400px;
-  height: 600px;
-}
-.img-1-carrosel{
-  width: 650px;
-  height: 766px;
-  background-color: #8F8F8F;
-}
-.titulo-carrosel{
-  width: 400px;
-  height: 280px;
-  font-size: 100px;
-  margin-top: 160px;
-  text-align: center;
-  background-color: transparent;
-  color: #fff;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  letter-spacing: 2px;
-}
-.subtitulo-carrosel{
-  width: 400px;
-  height: 40px;
-  color: #fff;
-  margin-top: 20px;
-  font-size: 18px;
-  text-align: center;
-  background-color: transparent;
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  
-}
-#btn:hover{
-  background-color: rgba(0, 0, 0, 0.712);
-}
-.botao-carrosel{
-  width: 160px;
-  height: 46px;
-  font-size: 16px;
-  margin-top: 60px;
-  margin-left: 120px;
-  border: none;
-  background-size: cover;
-}
+
 
 /*Produtos - HOME*/
 
