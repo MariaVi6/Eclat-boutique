@@ -1,240 +1,184 @@
+import React, { useEffect, useRef } from 'react';
 const Login = () => {
     
-    // Animations
-const registerButton = document.getElementById("register");
-const loginButton = document.getElementById("login");
-const container = document.getElementById("container");
-
-registerButton.addEventListener("click", () => {
-  container.classList.add("right-panel-active");
-});
-
-loginButton.addEventListener("click", () => {
-  container.classList.remove("right-panel-active");
-});
-
-
-// Check Register Error
-const form = document.querySelector('form')
-const username = document.getElementById('username')
-const usernameError = document.querySelector("#username-error")
-const email = document.getElementById('email')
-const emailError = document.querySelector("#email-error")
-const password = document.getElementById('password')
-const passwordError = document.querySelector("#password-error")
-
-// Show input error message
-function showError(input, message) {
-    const formControl = input.parentElement
-    formControl.className = 'form-control error'
-    const small = formControl.querySelector('small')
-    small.innerText = message
-}
-
-// Show success outline
-function showSuccess(input) {
-    const formControl = input.parentElement
-    formControl.className = 'form-control success'
-    const small = formControl.querySelector('small')
-    small.innerText = ''
-}
-
-// Check email is valid
-function checkEmail(email) {
-    const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
-    return emailRegex.test(email);
-}
-
-email.addEventListener("input", function(){
-    if (!checkEmail(email.value)) {
-        emailError.textContent = "*Email is not valid"
-    }else {
-        emailError.textContent = "";
-    }
-})
-
-// Check length input user name
-username.addEventListener("input", function(){
-    if (username.value.length < 4) {
-        usernameError.textContent = "*Username must be at least 8 characters."
-    }else if(username.value.length > 20){
-        usernameError.textContent = "*Username must be less than 20 characters.";
-    }else {
-        usernameError.textContent = "";
-    }
-})
-
-// Check length input password
-password.addEventListener("input", function(){
-    if (password.value.length < 8) {
-        passwordError.textContent = "*Password must be at least 8 characters."
-    }else if(password.value.length > 20){
-        passwordError.textContent = "*Password must be less than 20 characters."
-    }else {
-        passwordError.textContent = "";
-    }
-})
-
-
-// Check required fields
-function checkRequired(inputArr) {
-    let isRequired = false
-    inputArr.forEach(function(input) {
-        if (input.value.trim() === '') {
-            showError(input, `*${getFieldName(input)} is required`)
-            isRequired = true
-        }else {
-            showSuccess(input)
+        const containerRef = useRef(null);
+        const usernameRef = useRef(null);
+        const emailRef = useRef(null);
+        const passwordRef = useRef(null);
+        const lgEmailRef = useRef(null);
+        const lgPasswordRef = useRef(null);
+    
+        useEffect(() => {
+        const container = containerRef.current;
+    
+        const handleRegisterClick = () => {
+        if (container) {
+            container.classList.add("right-panel-active");
         }
-    })
-
-    return isRequired
-}
-
-// Get fieldname
-function getFieldName(input) {
-    return input.id.charAt(0).toUpperCase() + input.id.slice(1)
-}
-
-// Event listeners
-form.addEventListener('submit', function (e) {
-    e.preventDefault()
-
-    if (!checkRequired([username, email, password])) {
-        // checkLength(username, 3, 15)
-        // checkLength(password, 6, 25)
-        // checkEmail(email)
-    } 
-})
-
-// Check Login Error
-
-let lgForm = document.querySelector('.form-lg')
-let lgEmail = document.querySelector('.email-2')
-let lgEmailError = document.querySelector(".email-error-2")
-let lgPassword = document.querySelector('.password-2')
-let lgPasswordError = document.querySelector(".password-error-2")
-
-function showError2(input, message) {
-    const formControl2 = input.parentElement
-    formControl2.className = 'form-control2 error'
-    const small2 = formControl2.querySelector('small')
-    small2.innerText = message
-}
-
-function showSuccess2(input) {
-    const formControl2 = input.parentElement
-    formControl2.className = 'form-control2 success'
-    const small2 = formControl2.querySelector('small')
-    small2.innerText = '';
-}
-
-// Check email is valid
-function checkEmail2(lgEmail) {
-    const emailRegex2 = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
-    return emailRegex2.test(lgEmail);
-}
-
-lgEmail.addEventListener("input", function(){
-    if (!checkEmail2(lgEmail.value)) {
-        lgEmailError.textContent = "*Email is not valid"
-    }else {
-        lgEmailError.textContent = "";
-    }
-})
-
-// Check length input passwrod
-lgPassword.addEventListener("input", function(){
-    if (lgPassword.value.length < 8) {
-        lgPasswordError.textContent = "*Password must be at least 8 characters."
-    }else if (lgPassword.value.length > 20){
-        lgPasswordError.textContent = "*Password must be less than 20 characters."
-    }else {
-        lgPasswordError.textContent = "";
-    }
-})
-
-function checkRequiredLg(inputArr2) {
-    let isRequiredLg = false
-    inputArr2.forEach(function(input){
-        if (input.value.trim() === '') {
-            showError2(input, `*${getFieldNameLg(input)} Please enter your information in this field`)
-            isRequiredLg = true
-        }else {
-            showSuccess2(input)
+        };
+    
+        const handleLoginClick = () => {
+        if (container) {
+            container.classList.remove("right-panel-active");
         }
-    })
-
-    return isRequiredLg
-}
-
-function getFieldNameLg(input) {
-    return input.id.charAt(0).toUpperCase() + input.id.slice(1)
-}
-
-lgForm.addEventListener('submit', function (e){
-    e.preventDefault()
-
-    if (!checkRequiredLg([lgEmail, lgPassword])) {
-        checkEmail2(lgEmail)
-    }
-})
-            
+        };
+    
+        // Adicionando event listeners
+        const registerButton = document.getElementById("register");
+        const loginButton = document.getElementById("login");
+        
+        registerButton.addEventListener("click", handleRegisterClick);
+        loginButton.addEventListener("click", handleLoginClick);
+    
+        // Removendo event listeners
+        return () => {
+            registerButton.removeEventListener("click", handleRegisterClick);
+            loginButton.removeEventListener("click", handleLoginClick);
+        };
+    }, []);
+    
+    const showError = (input, message) => {
+        const formControl = input.current.parentElement;
+        formControl.className = 'form-control error';
+        const small = formControl.querySelector('small');
+        small.innerText = message;
+    };
+    
+    const showSuccess = (input) => {
+        const formControl = input.current.parentElement;
+        formControl.className = 'form-control success';
+        const small = formControl.querySelector('small');
+        small.innerText = '';
+    };
+    
+    const checkEmail = (email) => {
+        const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+        return emailRegex.test(email);
+    };
+    
+    const validateRegisterForm = (e) => {
+        e.preventDefault();
+        const username = usernameRef.current.value.trim();
+        const email = emailRef.current.value.trim();
+        const password = passwordRef.current.value.trim();
+        
+        let valid = true;
+    
+        if (username.length < 4) {
+        showError(usernameRef, "*Username must be at least 4 characters.");
+        valid = false;
+        } else {
+        showSuccess(usernameRef);
+        }
+    
+        if (!checkEmail(email)) {
+        showError(emailRef, "*Email is not valid.");
+        valid = false;
+        } else {
+        showSuccess(emailRef);
+        }
+    
+        if (password.length < 8) {
+        showError(passwordRef, "*Password must be at least 8 characters.");
+        valid = false;
+        } else {
+        showSuccess(passwordRef);
+        }
+    
+        if (valid) {
+          // Submit the form or do something
+        console.log("Register form is valid.");
+        }
+    };
+    
+    const validateLoginForm = (e) => {
+        e.preventDefault();
+        const email = lgEmailRef.current.value.trim();
+        const password = lgPasswordRef.current.value.trim();
+        
+        let valid = true;
+    
+        if (!checkEmail(email)) {
+        showError(lgEmailRef, "*Email is not valid.");
+        valid = false;
+        } else {
+        showSuccess(lgEmailRef);
+        }
+    
+        if (password.length < 8) {
+        showError(lgPasswordRef, "*Password must be at least 8 characters.");
+        valid = false;
+        } else {
+        showSuccess(lgPasswordRef);
+        }
+    
+        if (valid) {
+          // Submit the form or do something
+        console.log("Login form is valid.");
+        }
+    };
+    
     return (
-    <>
-    <div className="body">
-    <div className="container" id="container">
+        <div className="body">
+
+        <div className="container" ref={containerRef}>
+
         <div className="form-container register-container">
-            <form>
-                <h1 className="titulo-login">Registre-se aqui</h1>
-                <div className="form-control">
-                    <input type="text" id="username" placeholder="Nome" />
-                    <small id="username-error"></small>
-                    <span></span>
-                </div>
-                <div className="form-control">
-                    <input type="email" id="email" placeholder="Email" />
-                    <small id="email-error"></small>
-                    <span></span>
-                </div>
-                <div className="form-control">
-                    <input type="password" id="password" placeholder="Senha" />
-                    <small id="password-error"></small>
-                    <span></span>
-                </div>
-                <button type="submit" value="submit" className="botao-login">Registrar</button>
-                <span className="subtitulo-botao-login">ou use sua conta</span>
-                <div className="social-container">
-                    <a href="#" className="social"><i className="fa-brands fa-facebook-f"></i></a>
-                    <a href="#" className="social"><i className="fa-brands fa-google"></i></a>
-                    <a href="#" className="social"><i className="fa-brands fa-tiktok"></i></a>
-                </div>
-            </form>
-        </div>
 
-        {/* LOGIN  */}
-        <div className="form-container login-container">
-            <form className="form-lg">
+            <form onSubmit={validateRegisterForm}>
+            <h1 className="titulo-register">Registre-se aqui</h1>
 
-            <h1 className="titulo-login">Faça login aqui</h1>
-
-            <div className="form-control2">
-                <input type="email" className="email-2" placeholder="Email" />
-                <small className="email-error-2"></small>
-                <span></span>
+            <div className="form-control">
+                <input className='nome-register' type="text" id="username" placeholder="Nome" ref={usernameRef} />
+                <small id="username-error"></small>
             </div>
 
-            <div className="form-control2">
-                <input type="password" className="password-2" placeholder="Senha" />
+            <div className="form-control">
+                <input className='email-register' type="email" id="email" placeholder="Email" ref={emailRef} />
+                <small id="email-error"></small>
+            </div>
+
+            <div className="form-control">
+                <input className='passaword-register' type="password" id="password" placeholder="Senha" ref={passwordRef} />
+                <small id="password-error"></small>
+            </div>
+
+            <button type="submit" className="botao-login">Registrar</button>
+                <span className="subtitulo-botao-login">ou use sua conta</span>
+
+            <div className="social-container">
+
+            <div className="facebook-login"></div>
+
+            <div className="google-login"></div>
+
+            <div className="email-login"></div>
+
+            </div>
+
+            </form>
+
+            </div>
+    
+            <div className="form-container login-container">
+                <form onSubmit={validateLoginForm}>
+                <h1 className="titulo-login">Faça login aqui</h1>
+
+            <div className="form-control">
+                <input type="email" className="email-2" placeholder="Email" ref={lgEmailRef} />
+                <small className="email-error-2"></small>
+            </div>
+
+            <div className="form-control">
+                <input type="password" className="password-2" placeholder="Senha" ref={lgPasswordRef} />
                 <small className="password-error-2"></small>
-                <span></span>
             </div>
 
             <div className="content">
                 <div className="checkbox">
                 <input type="checkbox" name="checkbox" className="checkbox" id="checkbox" />
-                <label className="texto-checkbox-login" id="checkbox"htmlFor="checkbox">Lembre-me</label>
-                </div>
+                <label className="texto-checkbox-login" htmlFor="checkbox">Lembre-me</label>
+            </div>
 
             <div className="esquecer-senha">
                 <a className="a-esquecer-senha" href="#">Esqueceu a senha?</a>
@@ -242,45 +186,45 @@ lgForm.addEventListener('submit', function (e){
 
             </div>
 
-            <button type="submit" value="submit" className="botao-login">Fazer login</button>
-
-            <span className="subtitulo-botao-login">ou use sua conta</span>
+            <button type="submit" className="botao-login">Fazer login</button>
+                <span className="subtitulo-botao-login">ou use sua conta</span>
+                
             <div className="social-container">
-                <div  className="facebook-login"></div>
-                <div  className="google-login"></div>
-                <div  className="email-login"></div>
 
+            <div className="facebook-login"></div>
+            <div className="google-login"></div>
+            <div className="email-login"></div>
+                
             </div>
 
             </form>
 
-        </div>
-
-        {/*OVERLAY*/}
-
-        <div className="overlay-container">
-            <div className="overlay">
-                <div className="overlay-panel overlay-left">
-                    <h1 className="title">Olá <br /> amigos</h1>
-                    <p className="p">Se você tem uma conta, faça login aqui e divirta-se</p>
-                    <button className="ghost" id="login">
-                        Fazer login
-                        <i className="fa-solid fa-arrow-left"></i>
-                    </button>
-                </div>
-
-                <div className="overlay-panel overlay-right">
-                    <h1 className="titulo-overlay">Ainda não tem conta?</h1>
-                    <button className="ghost" id="register">Registra-se<i className="fa-solid fa-arrow-right"></i>
-                    </button>
-                </div>
             </div>
-        </div>
-    </div>
-</div>
+    
+            {/* OVERLAY */}
+            <div className="overlay-container">
 
+            <div className="overlay">
 
-    </> );
-}
+            <div className="overlay-panel overlay-left">
+                <h1 className="titulo-register">Já tem conta?</h1>
+                <button className="ghost" id="login">Fazer login</button>
+            </div>
+
+            <div className="overlay-panel overlay-right">
+                <h1 className="titulo-overlay">Ainda não tem conta?</h1>
+                <button className="ghost" id="register">Registra-se</button>
+            </div>
+            
+            </div>
+
+            </div>
+
+            </div>
+
+            </div>
+
+    );
+};
 
 export default Login;
