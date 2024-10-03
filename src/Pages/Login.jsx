@@ -130,7 +130,6 @@ const Login = () => {
         if (response.data.length > 0) {
           alert("Login successful!");
           localStorage.setItem("user-info", JSON.stringify(response.data[0]));
-          console.log("Redirecionando para a home..."); // For debugging
           navigate('/'); // Redirect to home after successful login
         } else {
           alert("Invalid credentials!");
@@ -143,15 +142,20 @@ const Login = () => {
 
   return (
     <div className="body">
+
       <div className="container" ref={containerRef}>
         {/* Register form */}
-        <div className="form-container register-container">
-          <form onSubmit={validateRegisterForm}>
-            <h1>Registre-se aqui</h1>
-            <div className="form-control">
-              <input type="text" placeholder="Nome" ref={usernameRef} />
+      <div className="form-container register-container">
+
+      <form onSubmit={validateRegisterForm}>
+          <h1>Registre-se aqui</h1>
+
+          <div className="form-control">
+            
+          <input type="text" placeholder="Nome" ref={usernameRef} />
               <small></small>
-            </div>
+
+          </div>
             <div className="form-control">
               <input type="email" placeholder="Email" ref={emailRef} />
               <small></small>
@@ -160,7 +164,15 @@ const Login = () => {
               <input type="password" placeholder="Senha" ref={passwordRef} />
               <small></small>
             </div>
-            <button type="submit">Registrar</button>
+            <button type="submit" className='botao-register'>Registrar</button>
+
+            <span className="subtitulo-botao-register">ou use sua conta</span>
+
+            <div className="social-container">
+              <div className="facebook-login"></div>
+              <div className="google-login"></div>
+              <div className="email-login"></div>
+            </div>
           </form>
         </div>
 
@@ -176,7 +188,25 @@ const Login = () => {
               <input type="password" placeholder="Senha" ref={lgPasswordRef} />
               <small></small>
             </div>
-            <button type="submit">Fazer login</button>
+            <div className="content">
+              <div className="checkbox">
+                <input type="checkbox" name="checkbox" className="checkbox" id="checkbox" />
+                <label className="texto-checkbox-login" htmlFor="checkbox">Lembre-me</label>
+              </div>
+
+            <div className="esquecer-senha">
+                <a className="a-esquecer-senha" href="#">Esqueceu a senha?</a>
+            </div>
+
+            </div>
+            
+            <button type="submit" className='botao-login'>Fazer login</button>
+            <span className="subtitulo-botao-login">ou use sua conta</span>
+            <div className="social-container">
+              <div className="facebook-login"></div>
+              <div className="google-login"></div>
+              <div className="email-login"></div>
+            </div>
           </form>
         </div>
 
@@ -199,3 +229,4 @@ const Login = () => {
 };
 
 export default Login;
+
