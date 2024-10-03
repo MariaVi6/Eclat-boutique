@@ -28,5 +28,13 @@
       "password": "pabloranahr1",
       "remenberPwd": false
     }
+  ],
+  "products": [
+    {
+      "id": "5047",
+      "name": "testesada",
+      "price": 9932,
+      "imageUrl": "https://up.yimg.com/ib/th?id=OIP.NVIBNQGXujTefQMY1elQQAHaHP&pid=Api&rs=1&c=1&qlt=95&w=120&h=117"
+    }
   ]
 }
