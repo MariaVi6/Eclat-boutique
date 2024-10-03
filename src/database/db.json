@@ -6,6 +6,27 @@
       "email": "pablodamaga@gmail.com",
       "password": "pablo12302",
       "remenberPwd": false
+    },
+    {
+      "id": "bb64",
+      "name": "homemaranaha",
+      "email": "aranhahomem@gmail.com",
+      "password": "aranha1234",
+      "remenberPwd": false
+    },
+    {
+      "id": "9fb8",
+      "name": "pablolima",
+      "email": "pablolima@gmail.com",
+      "password": "pablo01923",
+      "remenberPwd": false
+    },
+    {
+      "id": "7207",
+      "name": "pablolima",
+      "email": "pablo12313@gmail.com",
+      "password": "pabloranahr1",
+      "remenberPwd": false
     }
   ]
 }
