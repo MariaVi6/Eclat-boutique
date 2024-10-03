@@ -6,6 +6,20 @@
       "email": "pablodamaga@gmail.com",
       "password": "pablo12302",
       "remenberPwd": false
+    },
+    {
+      "id": "ec25",
+      "name": "Maria Vitória",
+      "email": "vitoriagaara@gmail.com",
+      "password": "12345678",
+      "remenberPwd": false
+    },
+    {
+      "id": "c3fb",
+      "name": "Lua Lima",
+      "email": "luasaturna56@gmail.com",
+      "password": "12345678",
+      "remenberPwd": false
     }
   ]
 }

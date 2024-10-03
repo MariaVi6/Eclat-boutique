@@ -1398,4 +1398,23 @@ form {
   margin-top: 14px;
   letter-spacing: 2px;
 }
-
+.botao-register{
+  width: 160px;
+  height: 48px;
+  margin-top: 40px;
+  padding: 0;
+  border: none;
+  color: #fff;
+  letter-spacing: 4px;
+  background-color: #000;
+}
+.subtitulo-botao-register{
+  width: 160px;
+  font-size: 14px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
