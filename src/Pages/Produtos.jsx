@@ -1,6 +1,9 @@
+
+import HeaderProdutos from "../Components/HeaderProdutos";
+
 const Produtos = () => {
     return ( <>
-    <h1 className="bg-primary">product</h1>
+    <HeaderProdutos/>
     </> );
 }
  

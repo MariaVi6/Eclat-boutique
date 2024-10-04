@@ -1148,11 +1148,11 @@ form {
   align-items: center;
   justify-content: center;
 }
-.checkbox input{
+.checkbox {
   width: 10px;
   height: 10px;
 }
-.content input {
+.content  {
   accent-color: #333;
   min-width: 20px;
   min-height:20px;
@@ -1418,3 +1418,45 @@ form {
   font-style: normal;
   font-weight: normal;
 }
+
+/*PÁGINA PRODUTOS */
+.header-produtos{
+  width: 100vw;
+  height: 180px;
+  display: flex;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+}
+.logo-header-produtos{
+  width: 400px;
+  height: 120px;
+  margin-top: 30px;
+  margin-left: 60px;
+  background-image: url(/src/image/Logo-home-1.2.svg);
+  background-position: center;
+  background-size: cover;
+}
+.input-produtos{
+  width: 920px;
+  height: 60px;
+  margin-top: 66px;
+  margin-right: 80px;
+  font-size: 16px;
+  padding-left: 14px;
+  background-color: #eeeeee;
+  border: none;
+  border-radius: 10px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+  
+}
+.img-header-home{
+  width: 40px;
+  height: 40px;
+  margin-top: 74px;
+  cursor: pointer;
+}
+
