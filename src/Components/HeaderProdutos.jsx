@@ -2,15 +2,15 @@
 const  HeaderProdutos  = () => {
     return ( 
     <>
-    <div className="header-produtos">
+    <div className="header-produtos bg-black  gap-5 pr-14">
 
-        <div className="logo-header-produtos"></div>
+        {/* <div className="logo-header-produtos"></div> */}
 
         <div className="filtro-produtos">
         <ul className="ul-filtros">
             <li>Camisas
                 <ul className="sub-menu">
-                    <li>Manga Longa</li>
+                    <li className="">Manga Longa</li>
                     <li>Regata</li>
                 </ul>
             </li>
@@ -27,8 +27,10 @@ const  HeaderProdutos  = () => {
 
     
     </div>
+
     </> 
     );
 }
 
 export default HeaderProdutos;
+
