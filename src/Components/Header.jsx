@@ -11,7 +11,7 @@ const  Header  = () => {
             <div className="sobre-nos-home">Sobre Nós</div>
             <div className="entrar-home"><Link  className="link-login" to={"/login"}>Entrar</Link></div>
         </div>
-        <img className="img-header-home" src="/src/image/carrinho-de-compras.png" alt="" />
+        <img className="img-carrinho-header-home" src="/src/image/carrinho-de-compras.png" alt="" />
     </div>
     </> 
     );

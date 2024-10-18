@@ -6,9 +6,19 @@ const  HeaderProdutos  = () => {
 
         <div className="logo-header-produtos"></div>
 
-        <input className="input-produtos" type="text" placeholder="Pesquise mais produtos" />
+        <div className="filtro-produtos">
+        <ul>
+            <li>Camisas</li>
+            <li>Vestidos</li>
+            <li>Calças</li>
+            <li>Shorts</li>
+            <li>Acessórios</li>
+        </ul>
+    </div>
+    
+        <img className="lupa-pagina-produtos" src="/src/image/lupa.png" alt="" />
 
-        <img className="img-header-home" src="/src/image/carrinho-de-compras.png" alt="" />
+        <img className="img-carrinho-header-produtos" src="/src/image/carrinho-de-compras.png" alt="" />
 
     
     </div>
