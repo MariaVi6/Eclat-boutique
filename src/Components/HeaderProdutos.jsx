@@ -7,8 +7,13 @@ const  HeaderProdutos  = () => {
         <div className="logo-header-produtos"></div>
 
         <div className="filtro-produtos">
-        <ul>
-            <li>Camisas</li>
+        <ul className="ul-filtros">
+            <li>Camisas
+                <ul className="sub-menu">
+                    <li>Manga Longa</li>
+                    <li>Regata</li>
+                </ul>
+            </li>
             <li>Vestidos</li>
             <li>Calças</li>
             <li>Shorts</li>
