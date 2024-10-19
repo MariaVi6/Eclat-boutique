@@ -1,6 +1,3 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;  
 
 *{
   margin: 0;
@@ -22,7 +19,7 @@
 .logo-header{
   width: 400px;
   height: 120px;
-  margin-top: 30px;
+  margin-top: 22px;
   margin-left: 60px;
   margin-right: 640px;
   background-image: url(/src/image/Logo-home-1.2.svg);
@@ -1424,35 +1421,45 @@ form {
 }
 
 /*PÁGINA PRODUTOS */
-.header-produtos{
+
+.header-produtos {
   width: 100vw;
   height: 160px;
   display: flex;
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
-.logo-header-produtos{
+
+.nav-bar {
+  display: flex;
+}
+
+.logo-header-produtos {
   width: 400px;
   height: 120px;
-  margin-top: 30px;
+  margin-top: 22px;
   margin-left: 60px;
   background-image: url(/src/image/Logo-home-1.2.svg);
   background-position: center;
   background-size: cover;
 }
-.filtro-produtos{
+
+.filtro-produtos {
   width: 900px;
   height: 160px;
 }
-ul{
+
+.ul-filtros {
   display: flex;
-  position: absolute;
   gap: 80px;
 }
-.ul-filtros{
+
+.ul-filtros {
   padding: 0;
+
 }
-li{
+
+.titulo-filtro {
   margin-top: 80px;
   padding: 0;
   font-size: 20px;
@@ -1462,30 +1469,49 @@ li{
   font-style: normal;
   cursor: pointer;
 }
-.sub-menu{
-  height: 200px;
-  gap: 40px;
-  background-color: #fff;
-}
-.filtro-produtos ul ul{
-  display: none;
-  position: relative;
-  padding: 0;
-}
-.filtro-produtos ul li:hover ul {
-  display: flex;
+.sub-menu {
+  display: grid; 
+  grid-template-columns: repeat(4, 1fr);
+  width: 100vw;
   position: absolute;
-  padding: 0;
-  margin: 0;
+  left: 0;
+  background-color: #fff;
+  opacity: 0; 
+  visibility: hidden; 
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+  gap: 10px; 
+  padding: 10px; 
+  justify-items: center;
+}
+.li-camisas-submenu-1linha{
+  margin-top: 40px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.li-camisas-submenu{
+  margin-top: 10px;
+  font-size: 14px;
+  cursor: pointer;
+}
+.li-camisas-submenu-1linha:hover{
+  box-shadow: 0px 3px 0px  #000;
+}
+.li-camisas-submenu:hover{
+  box-shadow: 0px 3px 0px  #000;
 }
 
-.lupa-pagina-produtos{
+.ul-filtros li:hover .sub-menu {
+  opacity: 1; /* Torna visível */
+  visibility: visible; /* Permite interação */
+}
+
+.lupa-pagina-produtos {
   width: 38px;
   height: 38px;
   margin-top: 74px;
 }
 
-.img-carrinho-header-produtos{
+.img-carrinho-header-produtos {
   width: 38px;
   height: 38px;
   margin-top: 70px;
@@ -2955,3 +2981,65 @@ li{
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+
+/* PÁGINAÇÃO */
+.pagination-produtos{
+  width: 100vw;
+  height: 120px;
+  display: flex;
+
+  align-items: center;
+  justify-content: center;
+  color: #000;
+}
+.pagination{
+  width: 100vw;
+  display: flex;
+  align-items: center;
+}
+.pagination-ul{
+  width: 100vw;
+  height: 48px;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+.seta-para-esquerda{
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border: 0.98px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
+}
+.numeros-paginacao{
+  width: 48px;
+  height: 48px;
+  background-color: transparent;
+  border: 0.98px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.seta-para-direita{
+    width: 48px;
+    height: 48px;
+    background-color: transparent;
+    border: 0.98px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #000000;
+    cursor: pointer;
+}
+
+
