@@ -1,12 +1,15 @@
-
+import { Link } from "react-router-dom";
 const  HeaderProdutos  = () => {
     return ( 
     <>
     <div className="header-produtos">
 
         <div className="nav-bar">
-            <img className="logo-header-produtos" src="/src/image/Logo-home-1.2.svg" alt="" />
 
+      
+      <Link to={"/"}>
+            <img className="logo-header" src="/src/image/Logo-home-1.2.svg" alt="" />
+        </Link>
             <div className="filtro-produtos">
 
                 <ul className="ul-filtros">

@@ -10,7 +10,6 @@ const Registrar = () => {
     const handleSubmit = async (e) => {
         e.preventDefault();
 
-        // Validar preço para garantir que seja um número positivo
         if (parseFloat(preco) <= 0) {
             setMensagem('O preço deve ser um número positivo.');
             return;
