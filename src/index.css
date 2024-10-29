@@ -21,25 +21,47 @@
   height: 120px;
   margin-top: 22px;
   margin-left: 60px;
-  margin-right: 640px;
+  margin-right: 60px;
   background-image: url(/src/image/Logo-home-1.2.svg);
   background-position: center;
   background-size: cover;
 }
 .indice-header{
-  width: 410px;
+  width: 600px;
   height: 80px;
   margin-top: 48px;
-  margin-right: 60px;
+  margin-right: 100px;
   display: flex;
-  gap: 20px;
+  justify-content: center;
   align-items: center;
+  gap: 80px;
+}
+.novidade-home{
+  width: 130px;
+  height: 30px;
+  font-size: 20px;
+  text-align: center;
+  letter-spacing: 2.0px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
+}
+.novidade-home:hover{
+  box-shadow: 0px 3px 0px  #000;
 }
 .produtos-home-header{
   width: 130px;
   height: 30px;
   font-size: 20px;
   text-align: center;
+  letter-spacing: 1.0px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  cursor: pointer;
 }
 .produtos-home-header:hover{
   box-shadow: 0px 3px 0px  #000;
@@ -47,7 +69,7 @@
 .link-produtos{
   text-decoration: none;
   color: #000;
-  letter-spacing: 1.0px;
+  letter-spacing: 2.0px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -59,7 +81,7 @@
   height: 30px;
   font-size: 20px;
   text-align: center;
-  letter-spacing: 1.0px;
+  letter-spacing: 2.0px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -69,12 +91,22 @@
 .sobre-nos-home:hover{
   box-shadow: 0px 3px 0px  #000;
 }
+.entrar-login-home{
+  width: 130px;
+  height: 80px;
+  margin-top: 48px;
+  margin-right: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
 .entrar-home{
   width: 130px;
   height: 30px;
   font-size: 20px;
   text-align: center;
-  letter-spacing: 1.0px;
+  letter-spacing: 2.0px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -95,10 +127,17 @@
 .entrar-home:hover{
   box-shadow: 0px 3px 0px  #000;
 }
+.lupa-header-home{
+  width: 36px;
+  height: 36px;
+  margin-top: 70px;
+  margin-right: 46px;
+  cursor: pointer;
+}
 .img-carrinho-header-home{
-  width: 40px;
-  height: 40px;
-  margin-top: 64px;
+  width: 38px;
+  height: 38px;
+  margin-top: 67px;
   cursor: pointer;
 }
 
@@ -905,6 +944,97 @@
   cursor: pointer;
 }
 
+/* FORMAS DE PAGAMENTOS*/
+
+.forma-pagamentos-home{
+  width: 100vw;
+  height: 400px;
+  margin-top: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container-div-descricao-eclac{
+  display: flex;
+  gap: 40px;
+}
+.div-descricao1-eclac{
+  width: 200px;
+  height: 200px;
+  text-align: center;
+  background-image: url(/src/image/Parcelamento.png);
+  background-position: center;
+  background-size: cover;
+}
+.div-descricao2-eclac{
+  width: 200px;
+  height: 200px;
+  background-image: url(/src/image/Frete-Grátis.png);
+  background-position: center;
+  background-size: cover;
+}
+.div-descricao3-eclac{
+  width: 200px;
+  height: 200px;
+  background-image: url(/src/image/Devolucao.png);
+  background-position: center;
+  background-size: cover;
+}
+.div-descricao4-eclac{
+  width: 200px;
+  height: 200px;
+  background-image: url(/src/image/Cupom.png);
+  background-position: center;
+  background-size: cover;
+}
+.div-descricao5-eclac{
+  width: 200px;
+  height: 200px;
+  background-image: url(/src/image/Entrega-rapida.png);
+  background-position: center;
+  background-size: cover;
+}.div-descricao6-eclac{
+  width: 200px;
+  height: 200px;
+  background-image: url(/src/image/Cupom-de-aniversario.png);
+  background-position: center;
+  background-size: cover;
+}
+.container-descricao-eclac{
+  display: flex;
+  gap: 40px;
+}
+.descricao-eclac{
+  width: 200px;
+  height: 24px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+.container-descricao2-eclac{
+  display: flex;
+  gap: 40px;
+  margin-top: 10px;
+}
+.descricao2-eclac{
+  width: 200px;
+  height: 60px;
+  font-size: 15px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 0.75px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
 /* FOOTER */
 
 .footer{
@@ -1429,11 +1559,9 @@ form {
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
 }
-
 .nav-bar {
   display: flex;
 }
-
 .logo-header-produtos {
   width: 400px;
   height: 120px;
@@ -1443,7 +1571,6 @@ form {
   background-position: center;
   background-size: cover;
 }
-
 .filtro-produtos {
   width: 900px;
   height: 160px;
@@ -1458,7 +1585,6 @@ form {
   padding: 0;
 
 }
-
 .titulo-filtro {
   margin-top: 80px;
   padding: 0;
@@ -1506,8 +1632,8 @@ form {
 }
 
 .lupa-pagina-produtos {
-  width: 38px;
-  height: 38px;
+  width: 36px;
+  height: 36px;
   margin-top: 74px;
 }
 
