@@ -154,14 +154,14 @@
 
 .div-titulo-home{
   width: 100vw;
-  height: 60px;
+  height: 100px;
+  margin-top: 60px;
   display: flex;
   justify-content: center;
 }
 .titulo-produtos{
   width: 260px;
   height: 60px;
-  margin-top: 100px;
   text-align: center;
   font-size: 40px;
   font-family: "Montserrat", sans-serif;
@@ -180,7 +180,7 @@
 
 .section-l1{
   width: 100vw;
-  min-height: 100vh;
+  min-height: 700px;
 }
 .linha1-produtos{
   display: flex;
@@ -191,7 +191,6 @@
 .produto1{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-color: #fff;
   background-image: url(/src/image/Sobretudo1.jpg);
   background-position: center;
@@ -201,7 +200,6 @@
 .produto2{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Sobretudo2.jpg);
   background-position: center;
   background-size: cover;
@@ -210,7 +208,6 @@
 .produto3{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Sobretudo3.jpg);
   background-position: center;
   background-size: cover;
@@ -219,7 +216,6 @@
 .produto4{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Sobretudo4.jpg);
   background-position: center;
   background-size: cover;
@@ -412,35 +408,14 @@
 
 /* LINHA 2 - PRODUTOS - HOME */
 
-.div-titulo-home2{
-  width: 100vw;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-}
-.titulo-produto2{
-  width: 260px;
-  height: 60px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 40px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  letter-spacing: 2px;
-  font-weight: normal;
-  cursor: pointer;
-}
-.titulo-produto2:hover{
-  box-shadow: 0px 3px 0px  #000;
-  cursor: pointer;
-}
 .section-l2{
   margin: 0;
-  min-height: 100vh;
-  background-color: rgb(247, 247, 247);
+  width: 100vw;
+  min-height: 700px;
 }
 .linha2-produtos{
+  width: 100vw;
+  height: 400px;
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -448,7 +423,6 @@
 .produto5{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Vestido1.jpg);
   background-position: center;
   background-size: cover;
@@ -457,7 +431,6 @@
 .produto6{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Vestido2.jpg);
   background-position: center;
   background-size: cover;
@@ -466,7 +439,6 @@
 .produto7{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Vestido3.jpg);
   background-position: center;
   background-size: cover;
@@ -475,7 +447,6 @@
 .produto8{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/vestido4.jpg);
   background-position: center;
   background-size: cover;
@@ -670,32 +641,9 @@
 
 .section-l3{
   margin: 0;
-  min-height: 100vh;
-  background-color: rgb(255, 255, 255);
+  min-height: 680px;
 }
-.div-titulo-home3{
-  width: 100vw;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-}
-.titulo-produto3{
-  width: 260px;
-  height: 60px;
-  margin-top: 100px;
-  text-align: center;
-  font-size: 40px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  letter-spacing: 2px;
-  font-weight: normal;
-  cursor: pointer;
-}
-.titulo-produt3:hover{
-  box-shadow: 0px 3px 0px  #000;
-  cursor: pointer;
-}
+
 .linha3-produtos{
   display: flex;
   justify-content: center;
@@ -704,7 +652,6 @@
 .produto9{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Acessorios1-brinco.jpg);
   background-position: center;
   background-size: cover;
@@ -713,7 +660,6 @@
 .produto10{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Acessorios2-colar.jpg);
   background-position: center;
   background-size: cover;
@@ -722,7 +668,6 @@
 .produto11{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Acessorios3-aneis.jpg);
   background-position: bottom;
   background-size: cover;
@@ -731,7 +676,6 @@
 .produto12{
   width: 360px;
   height: 400px;
-  margin-top: 180px;
   background-image: url(/src/image/Acessorios4-brincos2.jpg);
   background-position: bottom;
   background-size: cover;
@@ -949,7 +893,6 @@
 .forma-pagamentos-home{
   width: 100vw;
   height: 400px;
-  margin-top: 60px;
   display: flex;
   justify-content: center;
   align-items: center;

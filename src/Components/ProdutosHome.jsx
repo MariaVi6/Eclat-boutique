@@ -7,10 +7,10 @@ const ProdutosHome = () => {
         <>
 
         {/* LINHA 1 - PRODUTOS - HOME */}
-        
-        <section className="section-l1">
+
         <div className="div-titulo-home"><h1 className="titulo-produtos">Blazer</h1></div>
-        
+
+        <section className="section-l1">
 
         <div className="linha1-produtos">
         <div className="produto1"></div>
@@ -69,7 +69,7 @@ const ProdutosHome = () => {
         {/* LINHA 2 - PRODUTOS - HOME */}
 
         <section className="section-l2">
-        <div className="div-titulo-home2"><h1 className="titulo-produto2">Vestidos</h1></div>
+        
 
         <div className="linha2-produtos">
         <div className="produto5"></div>
@@ -132,7 +132,6 @@ const ProdutosHome = () => {
         {/* LINHA 3 - PRODUTOS - HOME */}
 
         <section className="section-l3">
-        <div className="div-titulo-home3"><h1 className="titulo-produto3">Acessorios</h1></div>
 
         <div className="linha3-produtos">
         <div className="produto9"></div>
