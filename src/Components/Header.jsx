@@ -11,13 +11,14 @@ const  Header  = () => {
             <div className="produtos-home-header"><Link className="link-produtos" to={"/produtos"}>Produtos</Link></div>
             <div className="sobre-nos-home">Sobre Nós</div>
         </div>
-
-        <div className="entrar-login-home">
-        <div className="entrar-home"><Link  className="link-login" to={"/login"}>Entrar</Link></div>
-        </div>
-
+        
         <img className="lupa-header-home" src="/src/image/lupa.png" alt="" />
         <img className="img-carrinho-header-home" src="/src/image/carrinho-de-compras.png" alt="" />
+
+        <div className="entrar-login-home">
+        <img className="entrar-img-home" src="/src/image/adicionar-usuario.png" alt="" />
+        <div className="entrar-home"><Link  className="link-login" to={"/login"}>Entrar</Link></div>
+        </div>
     </div>
     </> 
     );
