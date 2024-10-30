@@ -106,7 +106,7 @@
 #carouselExampleIndicators{
   width: 100vw;
   height: 772px;
-  margin-top: 24px;
+  margin-top: 22px;
   display: flex;
 }
 
@@ -1079,7 +1079,7 @@
   transform: translateX(100%);
 }
 .register-container {
-  /* position: relative; */
+
   left: 0;
   width: 50%;
   opacity: 0;
@@ -1545,7 +1545,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo1.jpg);
+  background-image: url(/src/image/Calca\ Jeans.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1553,15 +1553,15 @@ form {
 .produto2-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
-  background-position: center;
+  background-image: url(/src/image/Moletom\ Jeans.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto3-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Jaqueta\ Jeans.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1569,7 +1569,7 @@ form {
 .produto4-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Jaqueta\ Botões\ Jeans.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1727,7 +1727,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo1.jpg);
+  background-image: url(/src/image/Colar\ Verde.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1735,15 +1735,15 @@ form {
 .produto6-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
-  background-position: center;
+  background-image: url(/src/image//Bolsa\ de\ Mão.jpg);
+  background-position: top;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto7-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
+  background-image: url(/src/image/Anel\ Azul.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1751,8 +1751,8 @@ form {
 .produto8-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
-  background-position: center;
+  background-image: url(/src/image/Brinco\ Verde.jpg);
+  background-position: top;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
@@ -1909,7 +1909,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo1.jpg);
+  background-image: url(/src/image/Camisa\ Social\ Azul.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1917,15 +1917,15 @@ form {
 .produto10-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
-  background-position: center;
+  background-image: url(/src/image/Camisa\ Masculina\ Social\ Azul.jpg);
+  background-position: top;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto11-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Saia\ Social\ Bege.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -1933,8 +1933,8 @@ form {
 .produto12-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
-  background-position: center;
+  background-image: url(/src/image/Calça\ Social\ Preta.jpg);
+  background-position: top;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
@@ -2091,7 +2091,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo1.jpg);
+  background-image: url(/src/image/Sobretudo\ Bege.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2099,7 +2099,7 @@ form {
 .produto14-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
+  background-image: url(/src/image/Jaqueta\ Off-White.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2107,7 +2107,7 @@ form {
 .produto15-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Jaqueta\ Preta\ Listrada.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2115,7 +2115,7 @@ form {
 .produto16-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Salto\ Alto\ Branco.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2271,7 +2271,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo1.jpg);
+  background-image: url(/src/image/Camisa\ Sport\ Cinza.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2279,15 +2279,15 @@ form {
 .produto18-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
-  background-position: center;
+  background-image: url(/src/image/Camisa\ Sport\ Branca.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto19-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Moletom\ Sport\ Azul.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2295,7 +2295,7 @@ form {
 .produto20-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Moletom\ Sport\ Verde.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2452,7 +2452,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo1.jpg);
+  background-image: url(/src/image/Blazer\ Verde.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2460,16 +2460,16 @@ form {
 .produto22-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
-  background-position: center;
+  background-image: url(/src/image/Blazer\ Branco.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto23-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
-  background-position: center;
+  background-image: url(/src/image/Blazer\ Azul.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
@@ -2632,7 +2632,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo1.jpg);
+  background-image: url(/src/image/Sobretudo\ Preto.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2640,7 +2640,7 @@ form {
 .produto26-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo2.jpg);
+  background-image: url(/src/image/Sobretudo\ Listrado.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -2648,7 +2648,7 @@ form {
 .produto27-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Sobretudo\ Verde.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
