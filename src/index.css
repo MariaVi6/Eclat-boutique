@@ -3592,13 +3592,13 @@ form {
 
 /*LINHA 3 - PAGINA PRODUTOS*/
 
-.linha3-pag-produtos{
+.linha11-pag-produtos{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 60px;
 }
-.produto9-pagina-produtos{
+.produto41-pagina-produtos{
   width: 360px;
   height: 400px;
   background-color: #fff;
@@ -3607,7 +3607,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto10-pagina-produtos{
+.produto42-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Camisa\ Masculina\ Social\ Azul.jpg);
@@ -3615,7 +3615,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto11-pagina-produtos{
+.produto43-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Saia\ Social\ Bege.jpg);
@@ -3623,7 +3623,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto12-pagina-produtos{
+.produto44-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Calça\ Social\ Preta.jpg);
@@ -3632,74 +3632,74 @@ form {
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 
-.tipo-de-produto3-pagina{
+.tipo-de-produto11-pagina{
   display: flex;
   justify-content: center;
   margin-top: 10px;
   gap: 40px;
 }
-.tipo9-pagina-produto{
+.tipo41-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo10-pagina-produto{
+.tipo42-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo11-pagina-produto{
+.tipo43-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo12-pagina-produto{
+.tipo44-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
 
-.linha3-descricao-produtos-pagina{
+.linha11-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 20px;
 }
-.descricao9-pagina-produto{
+.descricao41-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao10-pagina-produto{
+.descricao42-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao11-pagina-produto{
+.descricao43-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao12-pagina-produto{
+.descricao44-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
 
-.valores3-produtos-pagina{
+.valores41-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
 }
-.valor9-produto-pagina{
+.valor41-produto-pagina{
   display: flex;
   width: 360px;
   height: 40px;
@@ -3712,12 +3712,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor9-1-pagina-produto{
+.valor41-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor10-produto-pagina{
+.valor42-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -3730,12 +3730,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor10-1-pagina-produto{
+.valor42-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor11-produto-pagina{
+.valor43-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -3748,12 +3748,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor11-1-pagina-produto{
+.valor43-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor12-produto-pagina{
+.valor44-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -3766,7 +3766,7 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor12-1-pagina-produto{
+.valor44-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;

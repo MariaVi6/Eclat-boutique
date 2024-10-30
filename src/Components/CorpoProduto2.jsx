@@ -96,46 +96,46 @@ const CorpoProduto2 = () => {
 
 </div>
 
-<div className="linha3-pag-produtos">
-<div className="produto9-pagina-produtos"></div>
-<div className="produto10-pagina-produtos"></div>
-<div className="produto11-pagina-produtos"></div>
-<div className="produto12-pagina-produtos"></div>
+<div className="linha11-pag-produtos">
+<div className="produto41-pagina-produtos"></div>
+<div className="produto42-pagina-produtos"></div>
+<div className="produto43-pagina-produtos"></div>
+<div className="produto44-pagina-produtos"></div>
 </div>
 
-<div className="tipo-de-produto3-pagina">
-<div className="tipo9-pagina-produto">Social</div>
-<div className="tipo10-pagina-produto">Social</div>
-<div className="tipo11-pagina-produto">Social</div>
-<div className="tipo12-pagina-produto">Social</div>
+<div className="tipo-de-produto11-pagina">
+<div className="tipo41-pagina-produto">Social</div>
+<div className="tipo42-pagina-produto">Social</div>
+<div className="tipo43-pagina-produto">Social</div>
+<div className="tipo44-pagina-produto">Social</div>
 </div>
 
-<div className="linha3-descricao-produtos-pagina">
-<div className="descricao9-pagina-produto">Camisa Social Azul</div>
-<div className="descricao10-pagina-produto">Camisa Social Azul</div>
-<div className="descricao11-pagina-produto">Saia Social Bege</div>
-<div className="descricao12-pagina-produto">Calça Social Preta</div>
+<div className="linha11-descricao-produtos-pagina">
+<div className="descricao41-pagina-produto">Camisa Social Azul</div>
+<div className="descricao42-pagina-produto">Camisa Social Azul</div>
+<div className="descricao43-pagina-produto">Saia Social Bege</div>
+<div className="descricao44-pagina-produto">Calça Social Preta</div>
 </div>
 
-<div className="valores3-produtos-pagina">
-<div className="valor9-produto-pagina">
-<div className="valor9-1-pagina-produto">R$200</div>
-<div className="valor9-2-pagina-produto"><b>R$180</b></div>
+<div className="valores41-produtos-pagina">
+<div className="valor41-produto-pagina">
+<div className="valor41-1-pagina-produto">R$200</div>
+<div className="valor41-2-pagina-produto"><b>R$180</b></div>
 </div>
 
-<div className="valor10-produto-pagina">
-<div className="valor10-1-pagina-produto">R$200</div>
-<div className="valor10-2-pagina-produto"><b>R$180</b></div>
+<div className="valor42-produto-pagina">
+<div className="valor42-1-pagina-produto">R$200</div>
+<div className="valor42-2-pagina-produto"><b>R$180</b></div>
 </div>
 
-<div className="valor11-produto-pagina">
-<div className="valor11-1-pagina-produto">R$200</div>
-<div className="valor11-2-pagina-produto"><b>R$190</b></div>
+<div className="valor43-produto-pagina">
+<div className="valor43-1-pagina-produto">R$200</div>
+<div className="valor43-2-pagina-produto"><b>R$190</b></div>
 </div>
 
-<div className="valor12-produto-pagina">
-<div className="valor12-1-pagina-produto">R$200</div>
-<div className="valor12-2-pagina-produto"><b>R$190</b></div>
+<div className="valor44-produto-pagina">
+<div className="valor44-1-pagina-produto">R$200</div>
+<div className="valor44-2-pagina-produto"><b>R$190</b></div>
 </div>
 
 </div>
