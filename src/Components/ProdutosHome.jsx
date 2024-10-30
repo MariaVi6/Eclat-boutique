@@ -7,10 +7,10 @@ const ProdutosHome = () => {
         <>
 
         {/* LINHA 1 - PRODUTOS - HOME */}
-        
+
+        <div className="div-titulo-home"><h1 className="titulo-produtos">Mais Vendidos</h1></div>
+
         <section className="section-l1">
-        <div className="div-titulo-home"><h1 className="titulo-produtos">Blazer</h1></div>
-        
 
         <div className="linha1-produtos">
         <div className="produto1"></div>
@@ -20,17 +20,17 @@ const ProdutosHome = () => {
         </div>
 
         <div className="tipo-de-produto1">
-        <div className="tipo1">Blazer</div>
-        <div className="tipo2">Blazer</div>
-        <div className="tipo3">Blazer</div>
-        <div className="tipo4">Blazer</div>
+        <div className="tipo1">Brinco</div>
+        <div className="tipo2">Colar</div>
+        <div className="tipo3">Aneis</div>
+        <div className="tipo4">Brinco</div>
         </div>
 
         <div className="linha1-descricao-produtos">
-        <div className="descricao1">Blazer Azul</div>
-        <div className="descricao2">Blazer Verde</div>
-        <div className="descricao3">Blazer Rosa</div>
-        <div className="descricao4">Blazer Preto</div>
+        <div className="descricao1">Brinco Coração</div>
+        <div className="descricao2">Colar Circulo Verde</div>
+        <div className="descricao3">Conjunto de Aneis</div>
+        <div className="descricao4">Brinco Circulo Verde</div>
         </div>
 
         <div className="valores-produtos">
@@ -64,12 +64,13 @@ const ProdutosHome = () => {
         </div>
 
         </section>
+        
 
         
         {/* LINHA 2 - PRODUTOS - HOME */}
 
         <section className="section-l2">
-        <div className="div-titulo-home2"><h1 className="titulo-produto2">Vestidos</h1></div>
+        
 
         <div className="linha2-produtos">
         <div className="produto5"></div>
@@ -79,17 +80,17 @@ const ProdutosHome = () => {
         </div>
 
         <div className="tipo-de-produto2">
-        <div className="tipo5">Vestido</div>
-        <div className="tipo6">Vestido</div>
-        <div className="tipo7">Vestido</div>
-        <div className="tipo8">Vestido</div>
+        <div className="tipo5">Sobretudo</div>
+        <div className="tipo6">Alfaiataria</div>
+        <div className="tipo7">Listrado</div>
+        <div className="tipo8">Salto</div>
         </div>
 
         <div className="linha2-descricao-produtos">
-        <div className="descricao5">Vestido Branco Florido</div>
-        <div className="descricao6">Vestido Branco</div>
-        <div className="descricao7">Vestido Branco Rendado</div>
-        <div className="descricao8">Vestido Branco Liso</div>
+        <div className="descricao5">Sobretudo Bege</div>
+        <div className="descricao6">Jaqueta Off Withe</div>
+        <div className="descricao7">Jaqueta Preta Listrada</div>
+        <div className="descricao8">Salto Alto Branco</div>
         </div>
 
         <div className="valores-produto2">
@@ -132,7 +133,6 @@ const ProdutosHome = () => {
         {/* LINHA 3 - PRODUTOS - HOME */}
 
         <section className="section-l3">
-        <div className="div-titulo-home3"><h1 className="titulo-produto3">Acessorios</h1></div>
 
         <div className="linha3-produtos">
         <div className="produto9"></div>

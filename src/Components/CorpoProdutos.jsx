@@ -287,7 +287,7 @@ const CorpoProdutos = () => {
         <div className="linha7-descricao-produtos-pagina">
         <div className="descricao25-pagina-produto">Sobretudo Preto</div>
         <div className="descricao26-pagina-produto">Sobretudo Listrado</div>
-        <div className="descricao27-pagina-produto">Blazer Rosa</div>
+        <div className="descricao27-pagina-produto">Sobretudo Verde</div>
         <div className="descricao28-pagina-produto">Blazer Rosa</div>
         </div>
 
@@ -322,17 +322,17 @@ const CorpoProdutos = () => {
         </div>
 
         <div className="tipo-de-produto8-pagina">
-        <div className="tipo25-pagina-produto">Botões</div>
-        <div className="tipo26-pagina-produto">Blazer</div>
-        <div className="tipo27-pagina-produto">Blazer</div>
-        <div className="tipo28-pagina-produto">Blazer</div>
+        <div className="tipo25-pagina-produto">Vestido</div>
+        <div className="tipo26-pagina-produto">Vestido</div>
+        <div className="tipo27-pagina-produto">Vestido</div>
+        <div className="tipo28-pagina-produto">Vestido</div>
         </div>
 
         <div className="linha8-descricao-produtos-pagina">
-        <div className="descricao29-pagina-produto">Camisa Botões Rosa</div>
-        <div className="descricao30-pagina-produto">Blazer Verde</div>
-        <div className="descricao31-pagina-produto">Blazer Rosa</div>
-        <div className="descricao32-pagina-produto">Blazer Rosa</div>
+        <div className="descricao29-pagina-produto">Vestido Branco Florido</div>
+        <div className="descricao30-pagina-produto">Vestido Branco</div>
+        <div className="descricao31-pagina-produto">Vestido Branco Rendado</div>
+        <div className="descricao32-pagina-produto">Vestido Branco Liso</div>
         </div>
 
         <div className="valores8-produtos-pagina">

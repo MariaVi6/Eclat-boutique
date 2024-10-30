@@ -9,12 +9,22 @@ const  Header  = () => {
             <img className="logo-header" src="/src/image/Logo-home-1.2.svg" alt="" />
         </Link>
         <div className="indice-header">
+<<<<<<< HEAD
        
+=======
+            <div className="novidade-home">Novidades</div>
+>>>>>>> d0e52c7853a15f44bb31f79bb3c5e3ff533166b7
             <div className="produtos-home-header"><Link className="link-produtos" to={"/produtos"}>Produtos</Link></div>
             <div className="sobre-nos-home">Sobre Nós</div>
-            <div className="entrar-home"><Link  className="link-login" to={"/login"}>Entrar</Link></div>
         </div>
+        
+        <img className="lupa-header-home" src="/src/image/lupa.png" alt="" />
         <img className="img-carrinho-header-home" src="/src/image/carrinho-de-compras.png" alt="" />
+
+        <div className="entrar-login-home">
+        <img className="entrar-img-home" src="/src/image/adicionar-usuario.png" alt="" />
+        <div className="entrar-home"><Link  className="link-login" to={"/login"}>Entrar</Link></div>
+        </div>
     </div>
     </> 
     );
