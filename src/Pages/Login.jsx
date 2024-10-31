@@ -1,6 +1,6 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
-// import { auth } from '/firebaseConfig';
+import { getAuth } from 'firebase/auth';
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 const Login = () => {
@@ -12,8 +12,8 @@ const Login = () => {
     const lgPasswordRef = useRef(null);
     const navigate = useNavigate();
 
-    const [createUserWithEmailAndPassword, , registerLoading, registerError] = useCreateUserWithEmailAndPassword(auth);
-    const [signInWithEmailAndPassword, , loginLoading, loginError] = useSignInWithEmailAndPassword(auth);
+    const [createUserWithEmailAndPassword, , registerLoading, registerError] = useCreateUserWithEmailAndPassword(getAuth);
+    const [signInWithEmailAndPassword, , loginLoading, loginError] = useSignInWithEmailAndPassword(getAuth);
 
     const validateRegisterForm = async (e) => {
         e.preventDefault();
