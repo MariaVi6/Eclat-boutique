@@ -148,8 +148,8 @@ const CorpoProduto2 = () => {
 
         {/*LINHA 12 PAGINA PROSUTOS - 2*/}
 
-<div className="linha12-pag-produtos">
-<div className="produto45-pagina-produtos"></div>
+        <div className="linha12-pag-produtos">
+        <div className="produto45-pagina-produtos"></div>
 <div className="produto46-pagina-produtos"></div>
 <div className="produto47-pagina-produtos"></div>
 <div className="produto48-pagina-produtos"></div>
