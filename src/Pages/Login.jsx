@@ -1,33 +1,28 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { getAuth } from 'firebase/auth';
+import { auth } from './FirebaseConfig'; 
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 const Login = () => {
     const containerRef = useRef(null);
     const usernameRef = useRef(null);
     const emailRef = useRef(null);
-    const passwordRef = useRef(null);
+    const passwordRef = useRef(null);   
     const lgEmailRef = useRef(null);
     const lgPasswordRef = useRef(null);
     const navigate = useNavigate();
 
-    const [createUserWithEmailAndPassword, , registerLoading, registerError] = useCreateUserWithEmailAndPassword(getAuth);
-    const [signInWithEmailAndPassword, , loginLoading, loginError] = useSignInWithEmailAndPassword(getAuth);
+    const [generalError, setGeneralError] = useState('');
+    const [createUserWithEmailAndPassword, , registerLoading, registerError] = useCreateUserWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, , loginLoading, loginError] = useSignInWithEmailAndPassword(auth);
 
     useEffect(() => {
         const container = containerRef.current;
-
-        const handleRegisterClick = () => {
-            if (container) container.classList.add("right-panel-active");
-        };
-
-        const handleLoginClick = () => {
-            if (container) container.classList.remove("right-panel-active");
-        };
-
         const registerButton = document.getElementById("register");
         const loginButton = document.getElementById("login");
+
+        const handleRegisterClick = () => container && container.classList.add("right-panel-active");
+        const handleLoginClick = () => container && container.classList.remove("right-panel-active");
 
         registerButton.addEventListener("click", handleRegisterClick);
         loginButton.addEventListener("click", handleLoginClick);
@@ -40,6 +35,7 @@ const Login = () => {
 
     const validateRegisterForm = async (e) => {
         e.preventDefault();
+        setGeneralError('');
         const username = usernameRef.current.value.trim();
         const email = emailRef.current.value.trim();
         const password = passwordRef.current.value.trim();
@@ -72,13 +68,15 @@ const Login = () => {
                 await createUserWithEmailAndPassword(email, password);
                 navigate('/');
             } catch (error) {
-                console.error("Registration error:", error);
+                console.error("Error during registration:", error);
+                setGeneralError(registerError?.message || "Registration failed. Please try again.");
             }
         }
     };
 
     const validateLoginForm = async (e) => {
         e.preventDefault();
+        setGeneralError('');
         const email = lgEmailRef.current.value.trim();
         const password = lgPasswordRef.current.value.trim();
 
@@ -100,7 +98,8 @@ const Login = () => {
             await signInWithEmailAndPassword(email, password);
             navigate('/');
         } catch (error) {
-            console.error("Login error:", error);
+            console.error("Error during login:", error);
+            setGeneralError(loginError?.message || "Login failed. Please check your credentials.");
         }
     };
 
@@ -141,14 +140,11 @@ const Login = () => {
                             <input type="password" placeholder="Senha" ref={passwordRef} />
                             <small></small>
                         </div>
-                        <button type="submit" className='botao-register'>Registrar</button>
+                        <button type="submit" className='botao-register' disabled={registerLoading}>
+                            {registerLoading ? "Registering..." : "Registrar"}
+                        </button>
                         {registerError && <small className="error">{registerError.message}</small>}
                         <span className="subtitulo-botao-register">ou use sua conta</span>
-                        <div className="social-container">
-                            <div className="facebook-login"></div>
-                            <div className="google-login"></div>
-                            <div className="email-login"></div>
-                        </div>
                     </form>
                 </div>
                 <div className="form-container login-container">
@@ -162,23 +158,11 @@ const Login = () => {
                             <input type="password" placeholder="Senha" ref={lgPasswordRef} />
                             <small></small>
                         </div>
-                        <div className="content">
-                            <div className="checkbox">
-                                <input type="checkbox" name="checkbox" className="checkbox" id="checkbox" />
-                                <label className="texto-checkbox-login" htmlFor="checkbox">Lembre-me</label>
-                            </div>
-                            <div className="esquecer-senha">
-                                <a className="a-esquecer-senha" href="#">Esqueceu a senha?</a>
-                            </div>
-                        </div>
-                        <button type="submit" className='botao-login'>Fazer login</button>
+                        <button type="submit" className='botao-login' disabled={loginLoading}>
+                            {loginLoading ? "Logging in..." : "Fazer login"}
+                        </button>
                         {loginError && <small className="error">{loginError.message}</small>}
                         <span className="subtitulo-botao-login">ou use sua conta</span>
-                        <div className="social-container">
-                            <div className="facebook-login"></div>
-                            <div className="google-login"></div>
-                            <div className="email-login"></div>
-                        </div>
                     </form>
                 </div>
                 <div className="overlay-container">
@@ -194,6 +178,7 @@ const Login = () => {
                     </div>
                 </div>
             </div>
+            {generalError && <small className="error">{generalError}</small>}
         </div>
     );
 };
