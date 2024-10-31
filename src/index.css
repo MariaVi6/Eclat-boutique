@@ -16,7 +16,7 @@
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
   display: flex;
 }
-.logo-header{
+.logo-header-home{
   width: 400px;
   height: 120px;
   margin-top: 22px;
@@ -1512,11 +1512,12 @@ form {
 .nav-bar {
   display: flex;
 }
-.logo-header-produtos {
+.logo-header{
   width: 400px;
   height: 120px;
   margin-top: 22px;
   margin-left: 40px;
+  margin-right: 0;
   background-image: url(/src/image/Logo-home-1.2.svg);
   background-position: center;
   background-size: cover;
@@ -3298,7 +3299,6 @@ form {
   font-size: 16px;
   letter-spacing: .80px;
 }
-
 .linha9-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
@@ -3329,7 +3329,6 @@ form {
   font-size: 24px;
   letter-spacing: .80px;
 }
-
 .valores9-produtos-pagina{
   display: flex;
   justify-content: center;
@@ -3449,7 +3448,6 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-
 .tipo-de-produto10-pagina{
   display: flex;
   justify-content: center;
@@ -3480,7 +3478,6 @@ form {
   font-size: 16px;
   letter-spacing: .80px;
 }
-
 .linha10-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
@@ -3511,8 +3508,7 @@ form {
   font-size: 24px;
   letter-spacing: .80px;
 }
-
-.valores37-produtos-pagina{
+.valores10-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -3631,7 +3627,6 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-
 .tipo-de-produto11-pagina{
   display: flex;
   justify-content: center;
@@ -3662,7 +3657,6 @@ form {
   font-size: 16px;
   letter-spacing: .80px;
 }
-
 .linha11-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
@@ -3693,8 +3687,7 @@ form {
   font-size: 24px;
   letter-spacing: .80px;
 }
-
-.valores41-produtos-pagina{
+.valores11-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
@@ -3774,13 +3767,13 @@ form {
 
 /*LINHA 4 - PÁGINA PRODUTOS*/
 
-.linha4-pag-produtos{
+.linha12-pag-produtos{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 60px;
 }
-.produto13-pagina-produtos{
+.produto45-pagina-produtos{
   width: 360px;
   height: 400px;
   background-color: #fff;
@@ -3789,7 +3782,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto14-pagina-produtos{
+.produto46-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Jaqueta\ Off-White.jpg);
@@ -3797,7 +3790,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto15-pagina-produtos{
+.produto47-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Jaqueta\ Preta\ Listrada.jpg);
@@ -3805,7 +3798,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto16-pagina-produtos{
+.produto48-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Salto\ Alto\ Branco.jpg);
@@ -3814,73 +3807,72 @@ form {
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 
-.tipo-de-produto4-pagina{
+.tipo-de-produto12-pagina{
   display: flex;
   justify-content: center;
   margin-top: 10px;
   gap: 40px;
 }
-.tipo13-pagina-produto{
+.tipo45-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo14-pagina-produto{
+.tipo46-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo15-pagina-produto{
+.tipo47-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo16-pagina-produto{
+.tipo48-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha4-descricao-produtos-pagina{
+.linha12-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 20px;
 }
-.descricao13-pagina-produto{
+.descricao45-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao14-pagina-produto{
+.descricao46-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao15-pagina-produto{
+.descricao47-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao16-pagina-produto{
+.descricao48-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-
-.valores4-produtos-pagina{
+.valores12-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
 }
-.valor13-produto-pagina{
+.valor45-produto-pagina{
   display: flex;
   width: 360px;
   height: 40px;
@@ -3893,12 +3885,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor13-1-pagina-produto{
+.valor45-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor14-produto-pagina{
+.valor46-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -3911,12 +3903,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor14-1-pagina-produto{
+.valor46-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor15-produto-pagina{
+.valor47-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -3929,12 +3921,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor15-1-pagina-produto{
+.valor47-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor16-produto-pagina{
+.valor48-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -3947,20 +3939,20 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor16-1-pagina-produto{
+.valor48-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
 /*LINHA 5 - PÁGINA PRODUTOS*/
 
-.linha5-pag-produtos{
+.linha13-pag-produtos{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 60px;
 }
-.produto17-pagina-produtos{
+.produto49-pagina-produtos{
   width: 360px;
   height: 400px;
   background-color: #fff;
@@ -3969,7 +3961,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto18-pagina-produtos{
+.produto50-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Camisa\ Sport\ Branca.jpg);
@@ -3977,7 +3969,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto19-pagina-produtos{
+.produto51-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Moletom\ Sport\ Azul.jpg);
@@ -3985,7 +3977,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto20-pagina-produtos{
+.produto52-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Moletom\ Sport\ Verde.jpg);
@@ -3994,73 +3986,72 @@ form {
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 
-.tipo-de-produto5-pagina{
+.tipo-de-produto13-pagina{
   display: flex;
   justify-content: center;
   margin-top: 10px;
   gap: 40px;
 }
-.tipo17-pagina-produto{
+.tipo49-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo18-pagina-produto{
+.tipo50-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo19-pagina-produto{
+.tipo51-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo20-pagina-produto{
+.tipo52-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha5-descricao-produtos-pagina{
+.linha13-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 20px;
 }
-.descricao17-pagina-produto{
+.descricao49-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao18-pagina-produto{
+.descricao50-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao19-pagina-produto{
+.descricao51-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao20-pagina-produto{
+.descricao52-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-
-.valores5-produtos-pagina{
+.valores13-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
 }
-.valor17-produto-pagina{
+.valor49-produto-pagina{
   display: flex;
   width: 360px;
   height: 40px;
@@ -4073,12 +4064,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor17-1-pagina-produto{
+.valor49-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor18-produto-pagina{
+.valor50-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4091,12 +4082,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor18-1-pagina-produto{
+.valor50-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor19-produto-pagina{
+.valor51-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4109,12 +4100,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor19-1-pagina-produto{
+.valor51-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor20-produto-pagina{
+.valor52-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4127,7 +4118,7 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor20-1-pagina-produto{
+.valor52-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
@@ -4135,13 +4126,13 @@ form {
 
 /*LINHA 6 - PÁGINA PRODUTOS*/
 
-.linha6-pag-produtos{
+.linha14-pag-produtos{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 60px;
 }
-.produto21-pagina-produtos{
+.produto53-pagina-produtos{
   width: 360px;
   height: 400px;
   background-color: #fff;
@@ -4150,7 +4141,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto22-pagina-produtos{
+.produto54-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Blazer\ Branco.jpg);
@@ -4158,7 +4149,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto23-pagina-produtos{
+.produto55-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Blazer\ Azul.jpg);
@@ -4166,7 +4157,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto24-pagina-produtos{
+.produto56-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Sobretudo3.jpg);
@@ -4174,74 +4165,72 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-
-.tipo-de-produto6-pagina{
+.tipo-de-produto14-pagina{
   display: flex;
   justify-content: center;
   margin-top: 10px;
   gap: 40px;
 }
-.tipo21-pagina-produto{
+.tipo53-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo22-pagina-produto{
+.tipo54-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo23-pagina-produto{
+.tipo55-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo24-pagina-produto{
+.tipo56-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha6-descricao-produtos-pagina{
+.linha14-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 20px;
 }
-.descricao21-pagina-produto{
+.descricao53-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao22-pagina-produto{
+.descricao54-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao23-pagina-produto{
+.descricao55-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao24-pagina-produto{
+.descricao56-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-
-.valores6-produtos-pagina{
+.valores14-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
 }
-.valor21-produto-pagina{
+.valor53-produto-pagina{
   display: flex;
   width: 360px;
   height: 40px;
@@ -4254,12 +4243,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor21-1-pagina-produto{
+.valor53-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor22-produto-pagina{
+.valor54-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4272,12 +4261,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor22-1-pagina-produto{
+.valor54-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor23-produto-pagina{
+.valor55-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4290,12 +4279,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor23-1-pagina-produto{
+.valor55-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor24-produto-pagina{
+.valor56-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4308,20 +4297,21 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor24-1-pagina-produto{
+.valor56-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+
 /*LINHA 7 - PÁGINA PRODUTOS*/
 
-.linha7-pag-produtos{
+.linha15-pag-produtos{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 60px;
 }
-.produto25-pagina-produtos{
+.produto57-pagina-produtos{
   width: 360px;
   height: 400px;
   background-color: #fff;
@@ -4330,7 +4320,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto26-pagina-produtos{
+.produto58-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Sobretudo\ Listrado.jpg);
@@ -4338,7 +4328,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto27-pagina-produtos{
+.produto59-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Sobretudo\ Verde.jpg);
@@ -4346,7 +4336,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto28-pagina-produtos{
+.produto60-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Sobretudo3.jpg);
@@ -4354,74 +4344,72 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-
-.tipo-de-produto7-pagina{
+.tipo-de-produto15-pagina{
   display: flex;
   justify-content: center;
   margin-top: 10px;
   gap: 40px;
 }
-.tipo25-pagina-produto{
+.tipo57-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo26-pagina-produto{
+.tipo58-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo27-pagina-produto{
+.tipo59-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo28-pagina-produto{
+.tipo60-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha7-descricao-produtos-pagina{
+.linha15-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 20px;
 }
-.descricao25-pagina-produto{
+.descricao57-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao26-pagina-produto{
+.descricao58-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao27-pagina-produto{
+.descricao59-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao28-pagina-produto{
+.descricao60-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-
-.valores7-produtos-pagina{
+.valores15-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
 }
-.valor25-produto-pagina{
+.valor57-produto-pagina{
   display: flex;
   width: 360px;
   height: 40px;
@@ -4434,12 +4422,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor25-1-pagina-produto{
+.valor57-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor26-produto-pagina{
+.valor58-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4452,12 +4440,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor26-1-pagina-produto{
+.valor58-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor27-produto-pagina{
+.valor59-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4470,12 +4458,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor27-1-pagina-produto{
+.valor59-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor28-produto-pagina{
+.valor60-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4488,7 +4476,7 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor28-1-pagina-produto{
+.valor60-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
@@ -4496,13 +4484,13 @@ form {
 
 /*LINHA 8 - PÁGINA PRODUTOS*/
 
-.linha8-pag-produtos{
+.linha16-pag-produtos{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 60px;
 }
-.produto29-pagina-produtos{
+.produto61-pagina-produtos{
   width: 360px;
   height: 400px;
   background-color: #fff;
@@ -4511,7 +4499,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto30-pagina-produtos{
+.produto62-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Vestido2.jpg);
@@ -4519,7 +4507,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto31-pagina-produtos{
+.produto63-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Vestido3.jpg);
@@ -4527,7 +4515,7 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.produto32-pagina-produtos{
+.produto64-pagina-produtos{
   width: 360px;
   height: 400px;
   background-image: url(/src/image/Vestido4.jpg);
@@ -4536,73 +4524,73 @@ form {
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 
-.tipo-de-produto8-pagina{
+.tipo-de-produto16-pagina{
   display: flex;
   justify-content: center;
   margin-top: 10px;
   gap: 40px;
 }
-.tipo29-pagina-produto{
+.tipo62-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo30-pagina-produto{
+.tipo62-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo31-pagina-produto{
+.tipo63-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.tipo32-pagina-produto{
+.tipo64-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha8-descricao-produtos-pagina{
+.linha16-descricao-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
   margin-top: 20px;
 }
-.descricao29-pagina-produto{
+.descricao61-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao30-pagina-produto{
+.descricao62-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao31-pagina-produto{
+.descricao63-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
-.descricao32-pagina-produto{
+.descricao64-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
 }
 
-.valores9-produtos-pagina{
+.valores16-produtos-pagina{
   display: flex;
   justify-content: center;
   gap: 40px;
 }
-.valor29-produto-pagina{
+.valor61-produto-pagina{
   display: flex;
   width: 360px;
   height: 40px;
@@ -4615,12 +4603,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor29-1-pagina-produto{
+.valor61-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor30-produto-pagina{
+.valor62-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4633,12 +4621,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor30-1-pagina-produto{
+.valor62-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor31-produto-pagina{
+.valor63-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4651,12 +4639,12 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor31-1-pagina-produto{
+.valor63-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-.valor32-produto-pagina{
+.valor64-produto-pagina{
   width: 360px;
   height: 40px;
   display: flex;
@@ -4669,7 +4657,7 @@ form {
   font-optical-sizing: auto;
   font-style: normal;
 }
-.valor32-1-pagina-produto{
+.valor64-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;

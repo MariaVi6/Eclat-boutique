@@ -6,6 +6,8 @@ const CorpoProdutos = () => {
 
         <div className="produtos-pag-produtos">
 
+        {/*LINHA 1 - PAGINA PRODUTOS*/}
+
         <div className="linha1-pag-produtos">
         <div className="produto1-pagina-produtos"></div>
         <div className="produto2-pagina-produtos"></div>
@@ -49,6 +51,8 @@ const CorpoProdutos = () => {
         </div>
 
         </div>
+
+        {/*LINHA 2 - PAGINA PRODUTOS*/}
 
         <div className="linha2-pag-produtos">
         <div className="produto5-pagina-produtos"></div>
@@ -94,6 +98,8 @@ const CorpoProdutos = () => {
 
         </div>
 
+        {/*LINHA 3 - PAGINA PRODUTOS*/}
+
         <div className="linha3-pag-produtos">
         <div className="produto9-pagina-produtos"></div>
         <div className="produto10-pagina-produtos"></div>
@@ -137,6 +143,8 @@ const CorpoProdutos = () => {
         </div>
 
         </div>
+
+        {/*LINHA 4 - PAGINA PRODUTOS*/}
 
         <div className="linha4-pag-produtos">
         <div className="produto13-pagina-produtos"></div>
@@ -182,7 +190,9 @@ const CorpoProdutos = () => {
 
         </div>
 
-        <div className="linha4-pag-produtos">
+        {/*LINHA 5 - PAGINA PRODUTOS*/}
+
+        <div className="linha5-pag-produtos">
         <div className="produto17-pagina-produtos"></div>
         <div className="produto18-pagina-produtos"></div>
         <div className="produto19-pagina-produtos"></div>
@@ -225,6 +235,8 @@ const CorpoProdutos = () => {
         </div>
 
         </div>
+
+        {/*LINHA 6 - PAGINA PRODUTOS*/}
 
         <div className="linha6-pag-produtos">
         <div className="produto21-pagina-produtos"></div>
@@ -322,10 +334,10 @@ const CorpoProdutos = () => {
         </div>
 
         <div className="tipo-de-produto8-pagina">
-        <div className="tipo25-pagina-produto">Vestido</div>
-        <div className="tipo26-pagina-produto">Vestido</div>
-        <div className="tipo27-pagina-produto">Vestido</div>
-        <div className="tipo28-pagina-produto">Vestido</div>
+        <div className="tipo29-pagina-produto">Vestido</div>
+        <div className="tipo30-pagina-produto">Vestido</div>
+        <div className="tipo31-pagina-produto">Vestido</div>
+        <div className="tipo32-pagina-produto">Vestido</div>
         </div>
 
         <div className="linha8-descricao-produtos-pagina">
@@ -359,13 +371,10 @@ const CorpoProdutos = () => {
         </div>
 
 
-        
-
-        
-
         </div>
+
     </div>
     </> );
 }
- 
+
 export default CorpoProdutos;
