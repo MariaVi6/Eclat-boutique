@@ -1,5 +1,7 @@
 import React, { useRef } from 'react';
 import { useNavigate } from 'react-router-dom';
+// import { auth } from '/firebaseConfig';
+import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 const Login = () => {
     const containerRef = useRef(null);
@@ -10,7 +12,10 @@ const Login = () => {
     const lgPasswordRef = useRef(null);
     const navigate = useNavigate();
 
-    const validateRegisterForm = (e) => {
+    const [createUserWithEmailAndPassword, , registerLoading, registerError] = useCreateUserWithEmailAndPassword(auth);
+    const [signInWithEmailAndPassword, , loginLoading, loginError] = useSignInWithEmailAndPassword(auth);
+
+    const validateRegisterForm = async (e) => {
         e.preventDefault();
         const email = emailRef.current.value;
         const password = passwordRef.current.value;
@@ -28,11 +33,16 @@ const Login = () => {
         }
 
         if (email && password) {
-            navigate("/");
+            try {
+                await createUserWithEmailAndPassword(email, password);
+                navigate('/');
+            } catch (error) {
+                console.error("Registration error:", error);
+            }
         }
     };
 
-    const validateLoginForm = (e) => {
+    const validateLoginForm = async (e) => {
         e.preventDefault();
         const email = lgEmailRef.current.value;
         const password = lgPasswordRef.current.value;
@@ -50,7 +60,12 @@ const Login = () => {
         }
 
         if (email && password) {
-            navigate("/");
+            try {
+                await signInWithEmailAndPassword(email, password);
+                navigate('/');
+            } catch (error) {
+                console.error("Login error:", error);
+            }
         }
     };
 
@@ -73,6 +88,7 @@ const Login = () => {
                             <small></small>
                         </div>
                         <button type="submit" className='botao-register'>Registrar</button>
+                        {registerError && <small className="error">{registerError.message}</small>}
                         <span className="subtitulo-botao-register">ou use sua conta</span>
                         <div className="social-container">
                             <div className="facebook-login"></div>
@@ -102,6 +118,7 @@ const Login = () => {
                             </div>
                         </div>
                         <button type="submit" className='botao-login'>Fazer login</button>
+                        {loginError && <small className="error">{loginError.message}</small>}
                         <span className="subtitulo-botao-login">ou use sua conta</span>
                         <div className="social-container">
                             <div className="facebook-login"></div>
