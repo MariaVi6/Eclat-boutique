@@ -1,4 +1,4 @@
-import React, { useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
 import { getAuth } from 'firebase/auth';
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
@@ -15,24 +15,59 @@ const Login = () => {
     const [createUserWithEmailAndPassword, , registerLoading, registerError] = useCreateUserWithEmailAndPassword(getAuth);
     const [signInWithEmailAndPassword, , loginLoading, loginError] = useSignInWithEmailAndPassword(getAuth);
 
+    useEffect(() => {
+        const container = containerRef.current;
+
+        const handleRegisterClick = () => {
+            if (container) container.classList.add("right-panel-active");
+        };
+
+        const handleLoginClick = () => {
+            if (container) container.classList.remove("right-panel-active");
+        };
+
+        const registerButton = document.getElementById("register");
+        const loginButton = document.getElementById("login");
+
+        registerButton.addEventListener("click", handleRegisterClick);
+        loginButton.addEventListener("click", handleLoginClick);
+
+        return () => {
+            registerButton.removeEventListener("click", handleRegisterClick);
+            loginButton.removeEventListener("click", handleLoginClick);
+        };
+    }, []);
+
     const validateRegisterForm = async (e) => {
         e.preventDefault();
-        const email = emailRef.current.value;
-        const password = passwordRef.current.value;
+        const username = usernameRef.current.value.trim();
+        const email = emailRef.current.value.trim();
+        const password = passwordRef.current.value.trim();
 
-        if (!email) {
-            emailRef.current.nextElementSibling.textContent = 'Email é obrigatório';
+        let valid = true;
+
+        if (username.length < 4) {
+            showError(usernameRef, "*Username must be at least 4 characters.");
+            valid = false;
         } else {
-            emailRef.current.nextElementSibling.textContent = '';
+            showSuccess(usernameRef);
         }
 
-        if (!password) {
-            passwordRef.current.nextElementSibling.textContent = 'Senha é obrigatória';
+        if (!checkEmail(email)) {
+            showError(emailRef, "*Email is not valid.");
+            valid = false;
         } else {
-            passwordRef.current.nextElementSibling.textContent = '';
+            showSuccess(emailRef);
         }
 
-        if (email && password) {
+        if (password.length < 8) {
+            showError(passwordRef, "*Password must be at least 8 characters.");
+            valid = false;
+        } else {
+            showSuccess(passwordRef);
+        }
+
+        if (valid) {
             try {
                 await createUserWithEmailAndPassword(email, password);
                 navigate('/');
@@ -44,29 +79,48 @@ const Login = () => {
 
     const validateLoginForm = async (e) => {
         e.preventDefault();
-        const email = lgEmailRef.current.value;
-        const password = lgPasswordRef.current.value;
+        const email = lgEmailRef.current.value.trim();
+        const password = lgPasswordRef.current.value.trim();
 
-        if (!email) {
-            lgEmailRef.current.nextElementSibling.textContent = 'Email é obrigatório';
+        if (!checkEmail(email)) {
+            showError(lgEmailRef, "*Email is not valid.");
+            return;
         } else {
-            lgEmailRef.current.nextElementSibling.textContent = '';
+            showSuccess(lgEmailRef);
         }
 
-        if (!password) {
-            lgPasswordRef.current.nextElementSibling.textContent = 'Senha é obrigatória';
+        if (password.length < 8) {
+            showError(lgPasswordRef, "*Password must be at least 8 characters.");
+            return;
         } else {
-            lgPasswordRef.current.nextElementSibling.textContent = '';
+            showSuccess(lgPasswordRef);
         }
 
-        if (email && password) {
-            try {
-                await signInWithEmailAndPassword(email, password);
-                navigate('/');
-            } catch (error) {
-                console.error("Login error:", error);
-            }
+        try {
+            await signInWithEmailAndPassword(email, password);
+            navigate('/');
+        } catch (error) {
+            console.error("Login error:", error);
         }
+    };
+
+    const showError = (input, message) => {
+        const formControl = input.current.parentElement;
+        formControl.className = 'form-control error';
+        const small = formControl.querySelector('small');
+        small.innerText = message;
+    };
+
+    const showSuccess = (input) => {
+        const formControl = input.current.parentElement;
+        formControl.className = 'form-control success';
+        const small = formControl.querySelector('small');
+        small.innerText = '';
+    };
+
+    const checkEmail = (email) => {
+        const emailRegex = /^\w+([.-]?\w+)*@\w+([.-]?\w+)*(\.\w{2,3})+$/;
+        return emailRegex.test(email);
     };
 
     return (
