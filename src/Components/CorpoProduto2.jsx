@@ -247,17 +247,17 @@ const CorpoProduto2 = () => {
 </div>
 
 <div className="tipo-de-produto14-pagina">
-<div className="tipo53-pagina-produto">Blazer</div>
-<div className="tipo54-pagina-produto">Blazer</div>
-<div className="tipo55-pagina-produto">Blazer</div>
-<div className="tipo56-pagina-produto">Blazer</div>
+<div className="tipo53-pagina-produto">Calça</div>
+<div className="tipo54-pagina-produto">Calça</div>
+<div className="tipo55-pagina-produto">Salto</div>
+<div className="tipo56-pagina-produto">Jaqueta</div>
 </div>
 
 <div className="linha14-descricao-produtos-pagina">
-<div className="descricao53-pagina-produto">Blazer Azul</div>
-<div className="descricao54-pagina-produto">Blazer Verde</div>
-<div className="descricao55-pagina-produto">Blazer Preto</div>
-<div className="descricao56-pagina-produto">Blazer Rosa</div>
+<div className="descricao53-pagina-produto">Calça Moletom Preta</div>
+<div className="descricao54-pagina-produto">Calça Branca</div>
+<div className="descricao55-pagina-produto">Salto Fino Preto</div>
+<div className="descricao56-pagina-produto">Jaqueta Verde</div>
 </div>
 
 <div className="valores14-produtos-pagina">
