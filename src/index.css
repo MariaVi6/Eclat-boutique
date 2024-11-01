@@ -3419,7 +3419,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Colar\ Verde.jpg);
+  background-image: url(/src/image/Vestido\ Rosa.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3427,15 +3427,15 @@ form {
 .produto38-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image//Bolsa\ de\ Mão.jpg);
-  background-position: top;
+  background-image: url(/src/image/Conjunto\ de\ Colar.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto39-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Anel\ Azul.jpg);
+  background-image: url(/src/image/Bota\ Roxa.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3443,7 +3443,7 @@ form {
 .produto40-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Brinco\ Verde.jpg);
+  background-image: url(/src/image/Colar\ correntes.jpg);
   background-position: top;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3598,32 +3598,32 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Camisa\ Social\ Azul.jpg);
-  background-position: center;
+  background-image: url(/src/image/Salto\ Plataforma\ Transparente.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto42-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Camisa\ Masculina\ Social\ Azul.jpg);
-  background-position: top;
+  background-image: url(/src/image/Capa\ Bege.jpg);
+  background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto43-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Saia\ Social\ Bege.jpg);
-  background-position: center;
+  background-image: url(/src/image/Brinco\ ouro.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto44-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Calça\ Social\ Preta.jpg);
-  background-position: top;
+  background-image: url(/src/image/Casaco-marrom.jpg);
+  background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
@@ -3777,7 +3777,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo\ Bege.jpg);
+  background-image: url(/src/image/Jaqueta-jeans-sem-manga.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3785,15 +3785,15 @@ form {
 .produto46-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Jaqueta\ Off-White.jpg);
-  background-position: center;
+  background-image: url(/src/image/Tenis-branco.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto47-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Jaqueta\ Preta\ Listrada.jpg);
+  background-image: url(/src/image/Crooped-vermelho.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3801,12 +3801,11 @@ form {
 .produto48-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Salto\ Alto\ Branco.jpg);
-  background-position: center;
+  background-image: url(/src/image/Calça-jeans-coraçao.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-
 .tipo-de-produto12-pagina{
   display: flex;
   justify-content: center;
@@ -3956,7 +3955,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Camisa\ Sport\ Cinza.jpg);
+  background-image: url(/src/image/Top-preto-academia.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3964,7 +3963,7 @@ form {
 .produto50-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Camisa\ Sport\ Branca.jpg);
+  background-image: url(/src/image/Shorts-masculino.jpg);
   background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3972,16 +3971,16 @@ form {
 .produto51-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Moletom\ Sport\ Azul.jpg);
-  background-position: center;
+  background-image: url(/src/image/Calça-leggin-petra.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto52-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Moletom\ Sport\ Verde.jpg);
-  background-position: center;
+  background-image: url(/src/image/Macacão-um-ombro-so.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
@@ -4136,15 +4135,15 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Blazer\ Verde.jpg);
-  background-position: center;
+  background-image: url(/src/image/Sobretudo1.jpg);
+  background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto54-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Blazer\ Branco.jpg);
+  background-image: url(/src/image/Sobretudo2.jpg);
   background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4152,7 +4151,7 @@ form {
 .produto55-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Blazer\ Azul.jpg);
+  background-image: url(/src/image/Sobretudo4.jpg);
   background-position: bottom;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4315,7 +4314,7 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Sobretudo\ Preto.jpg);
+  background-image: url(/src/image/Conjunto-aneis-lantejoula.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4323,7 +4322,7 @@ form {
 .produto58-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo\ Listrado.jpg);
+  background-image: url(/src/image/Colar-dream.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4331,7 +4330,7 @@ form {
 .produto59-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo\ Verde.jpg);
+  background-image: url(/src/image/Conjunto-colar-pedrinhas.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4339,7 +4338,7 @@ form {
 .produto60-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
+  background-image: url(/src/image/Conjunto-pulseiras-smile.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4494,15 +4493,15 @@ form {
   width: 360px;
   height: 400px;
   background-color: #fff;
-  background-image: url(/src/image/Vestido1.jpg);
-  background-position: center;
+  background-image: url(/src/image/Chapeu-tenis.jpg);
+  background-position: top;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
 .produto62-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Vestido2.jpg);
+  background-image: url(/src/image/Tenis-esportivo-branco.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4510,7 +4509,7 @@ form {
 .produto63-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Vestido3.jpg);
+  background-image: url(/src/image/Vestido-azul-longo.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -4518,8 +4517,8 @@ form {
 .produto64-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Vestido4.jpg);
-  background-position: center;
+  background-image: url(/src/image/Conjunto-vermelho.jpg);
+  background-position: top;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }

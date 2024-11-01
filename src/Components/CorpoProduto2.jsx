@@ -64,17 +64,17 @@ const CorpoProduto2 = () => {
         </div>
 
         <div className="tipo-de-produto10-pagina">
-        <div className="tipo5-pagina-produto">Colar</div>
-        <div className="tipo6-pagina-produto">Bolsa</div>
-        <div className="tipo7-pagina-produto">Anel</div>
-        <div className="tipo8-pagina-produto">Brinco</div>
+        <div className="tipo5-pagina-produto">Vestido</div>
+        <div className="tipo6-pagina-produto">Colar</div>
+        <div className="tipo7-pagina-produto">Bota</div>
+        <div className="tipo8-pagina-produto">Colar</div>
         </div>
 
         <div className="linha10-descricao-produtos-pagina">
-        <div className="descricao37-pagina-produto">Colar Prata Verde</div>
-        <div className="descricao38-pagina-produto">Bolsa De Mão</div>
-        <div className="descricao39-pagina-produto">Anel Redondo Azul</div>
-        <div className="descricao40-pagina-produto">Brinco Redondo Verde</div>
+        <div className="descricao37-pagina-produto">Vestido Rosa</div>
+        <div className="descricao38-pagina-produto">Conjunto Colar Correntes</div>
+        <div className="descricao39-pagina-produto">Bota Roxa</div>
+        <div className="descricao40-pagina-produto">Colar Correntes</div>
         </div>
 
         <div className="valores10-produtos-pagina">
@@ -110,17 +110,17 @@ const CorpoProduto2 = () => {
         </div>
 
         <div className="tipo-de-produto11-pagina">
-        <div className="tipo41-pagina-produto">Social</div>
-        <div className="tipo42-pagina-produto">Social</div>
-        <div className="tipo43-pagina-produto">Social</div>
-        <div className="tipo44-pagina-produto">Social</div>
+        <div className="tipo41-pagina-produto">Salto</div>
+        <div className="tipo42-pagina-produto">Capa</div>
+        <div className="tipo43-pagina-produto">Brinco</div>
+        <div className="tipo44-pagina-produto">Casaco</div>
         </div>
 
         <div className="linha11-descricao-produtos-pagina">
-        <div className="descricao41-pagina-produto">Camisa Social Azul</div>
-        <div className="descricao42-pagina-produto">Camisa Social Azul</div>
-        <div className="descricao43-pagina-produto">Saia Social Bege</div>
-        <div className="descricao44-pagina-produto">Calça Social Preta</div>
+        <div className="descricao41-pagina-produto">Salto Plataforma Transparente</div>
+        <div className="descricao42-pagina-produto">Capa Bege</div>
+        <div className="descricao43-pagina-produto">Brinco Ouro</div>
+        <div className="descricao44-pagina-produto">Casaco Marrom</div>
         </div>
 
         <div className="valores11-produtos-pagina">
@@ -150,47 +150,48 @@ const CorpoProduto2 = () => {
 
         <div className="linha12-pag-produtos">
         <div className="produto45-pagina-produtos"></div>
-<div className="produto46-pagina-produtos"></div>
-<div className="produto47-pagina-produtos"></div>
-<div className="produto48-pagina-produtos"></div>
-</div>
+        <div className="produto46-pagina-produtos"></div>
+        <div className="produto47-pagina-produtos"></div>
+        <div className="produto48-pagina-produtos"></div>
+        </div>
 
-<div className="tipo-de-produto12-pagina">
-<div className="tipo45-pagina-produto">Sobretudo</div>
-<div className="tipo46-pagina-produto">Alfaiataria</div>
-<div className="tipo47-pagina-produto">Listrado</div>
-<div className="tipo48-pagina-produto">Salto</div>
-</div>
+        <div className="tipo-de-produto12-pagina">
+        <div className="tipo45-pagina-produto">Jeans</div>
+        <div className="tipo46-pagina-produto">Tênis</div>
+        <div className="tipo47-pagina-produto">Crooped</div>
+        <div className="tipo48-pagina-produto">Jeans</div>
+        </div>
 
-<div className="linha12-descricao-produtos-pagina">
-<div className="descricao45-pagina-produto">Sobretudo Bege</div>
-<div className="descricao46-pagina-produto">Jaqueta Off Withe</div>
-<div className="descricao47-pagina-produto">Jaqueta Preta Listrada</div>
-<div className="descricao48-pagina-produto">Salto Alto Branco</div>
-</div>
+        <div className="linha12-descricao-produtos-pagina">
+        <div className="descricao45-pagina-produto">Jaqueta Jeans Sem Manga</div>
+        <div className="descricao46-pagina-produto">Tênis Branco</div>
+        <div className="descricao47-pagina-produto">Crooped Lã Vermelho</div>
+        <div className="descricao48-pagina-produto">Calça Jeans Coração</div>
+        </div>
 
-<div className="valores12-produtos-pagina">
-<div className="valor45-produto-pagina">
-<div className="valor45-1-pagina-produto">R$200</div>
-<div className="valor45-2-pagina-produto"><b>R$180</b></div>
-</div>
+        <div className="valores12-produtos-pagina">
+        <div className="valor45-produto-pagina">
+        <div className="valor45-1-pagina-produto">R$200</div>
+        <div className="valor45-2-pagina-produto"><b>R$180</b></div>
+        </div>
 
-<div className="valor46-produto-pagina">
-<div className="valor46-1-pagina-produto">R$200</div>
-<div className="valor46-2-pagina-produto"><b>R$180</b></div>
-</div>
+        <div className="valor46-produto-pagina">
+        <div className="valor46-1-pagina-produto">R$200</div>
+        <div className="valor46-2-pagina-produto"><b>R$180</b></div>
+        </div>
 
-<div className="valor47-produto-pagina">
-<div className="valor47-1-pagina-produto">R$200</div>
-<div className="valor47-2-pagina-produto"><b>R$190</b></div>
-</div>
+        <div className="valor47-produto-pagina">
+        <div className="valor47-1-pagina-produto">R$200</div>
+        <div className="valor47-2-pagina-produto"><b>R$190</b></div>
+        </div>
 
-<div className="valor48-produto-pagina">
-<div className="valor48-1-pagina-produto">R$200</div>
-<div className="valor48-2-pagina-produto"><b>R$190</b></div>
-</div>
+        <div className="valor48-produto-pagina">
+        <div className="valor48-1-pagina-produto">R$200</div>
+        <div className="valor48-2-pagina-produto"><b>R$190</b></div>
+        </div>
 
-</div>
+        </div>
+{/*LINHA 13 PAGINA PROSUTOS - 2*/}
 
 <div className="linha13-pag-produtos">
 <div className="produto49-pagina-produtos"></div>
@@ -201,16 +202,16 @@ const CorpoProduto2 = () => {
 
 <div className="tipo-de-produto13-pagina">
 <div className="tipo49-pagina-produto">Sport</div>
-<div className="tipo50-pagina-produto">Sport</div>
+<div className="tipo50-pagina-produto">Short</div>
 <div className="tipo51-pagina-produto">Sport</div>
-<div className="tipo52-pagina-produto">Sport</div>
+<div className="tipo52-pagina-produto">Liso</div>
 </div>
 
 <div className="linha13-descricao-produtos-pagina">
-<div className="descricao49-pagina-produto">Camisa Sport Cinza</div>
-<div className="descricao50-pagina-produto">Camisa Sport Branca</div>
-<div className="descricao51-pagina-produto">Moletom Sport Azul</div>
-<div className="descricao52-pagina-produto">Moletom Sport Verde</div>
+<div className="descricao49-pagina-produto">Top Canelado Preto</div>
+<div className="descricao50-pagina-produto">Short Preto</div>
+<div className="descricao51-pagina-produto">Calça Legging Preta</div>
+<div className="descricao52-pagina-produto">Macacão Preto</div>
 </div>
 
 <div className="valores13-produtos-pagina">
@@ -236,6 +237,8 @@ const CorpoProduto2 = () => {
 
 </div>
 
+{/*LINHA 14 PAGINA PROSUTOS - 2*/}
+
 <div className="linha14-pag-produtos">
 <div className="produto53-pagina-produtos"></div>
 <div className="produto54-pagina-produtos"></div>
@@ -251,9 +254,9 @@ const CorpoProduto2 = () => {
 </div>
 
 <div className="linha14-descricao-produtos-pagina">
-<div className="descricao53-pagina-produto">Blazer Verde</div>
-<div className="descricao54-pagina-produto">Blazer Branco</div>
-<div className="descricao55-pagina-produto">Blazer Azul</div>
+<div className="descricao53-pagina-produto">Blazer Azul</div>
+<div className="descricao54-pagina-produto">Blazer Verde</div>
+<div className="descricao55-pagina-produto">Blazer Preto</div>
 <div className="descricao56-pagina-produto">Blazer Rosa</div>
 </div>
 
@@ -280,6 +283,8 @@ const CorpoProduto2 = () => {
 
 </div>
 
+{/*LINHA 15 PAGINA PROSUTOS - 2*/}
+
 <div className="linha15-pag-produtos">
 <div className="produto57-pagina-produtos"></div>
 <div className="produto58-pagina-produtos"></div>
@@ -288,17 +293,17 @@ const CorpoProduto2 = () => {
 </div>
 
 <div className="tipo-de-produto15-pagina">
-<div className="tipo57-pagina-produto">Sobretudo</div>
-<div className="tipo58-pagina-produto">Sobretudo</div>
+<div className="tipo57-pagina-produto">Aneis</div>
+<div className="tipo58-pagina-produto">Colar</div>
 <div className="tipo59-pagina-produto">Sobretudo</div>
-<div className="tipo60-pagina-produto">Blazer</div>
+<div className="tipo60-pagina-produto">Pulseiras</div>
 </div>
 
 <div className="linha15-descricao-produtos-pagina">
-<div className="descricao57-pagina-produto">Sobretudo Preto</div>
-<div className="descricao58-pagina-produto">Sobretudo Listrado</div>
-<div className="descricao59-pagina-produto">Blazer Rosa</div>
-<div className="descricao60-pagina-produto">Blazer Rosa</div>
+<div className="descricao57-pagina-produto">Conjunto De Aneis Smile</div>
+<div className="descricao58-pagina-produto">Colar Dream</div>
+<div className="descricao59-pagina-produto">Conjunto Colar Flores</div>
+<div className="descricao60-pagina-produto">Conjunto Pulseiras Slime</div>
 </div>
 
 <div className="valores15-produtos-pagina">
@@ -332,17 +337,17 @@ const CorpoProduto2 = () => {
 </div>
 
 <div className="tipo-de-produto16-pagina">
-<div className="tipo61-pagina-produto">Aneis</div>
-<div className="tipo62-pagina-produto">Brinco</div>
-<div className="tipo63-pagina-produto">Blazer</div>
-<div className="tipo64-pagina-produto">Blazer</div>
+<div className="tipo61-pagina-produto">Chapel</div>
+<div className="tipo62-pagina-produto">Tenis</div>
+<div className="tipo63-pagina-produto">Sport</div>
+<div className="tipo64-pagina-produto">Sport</div>
 </div>
 
 <div className="linha16-descricao-produtos-pagina">
-<div className="descricao61-pagina-produto">Camisa Botões Rosa</div>
-<div className="descricao62-pagina-produto">Blazer Verde</div>
-<div className="descricao63-pagina-produto">Blazer Rosa</div>
-<div className="descricao64-pagina-produto">Blazer Rosa</div>
+<div className="descricao61-pagina-produto">Viseira Vermelha</div>
+<div className="descricao62-pagina-produto">Tenis Sportivo Branco</div>
+<div className="descricao63-pagina-produto">Vestido Polo Azul</div>
+<div className="descricao64-pagina-produto">Conjunto Polo Vermelho</div>
 </div>
 
 <div className="valores16-produtos-pagina">
