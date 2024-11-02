@@ -6,8 +6,7 @@ const  HeaderProdutos  = () => {
 
         <div className="nav-bar">
 
-      
-      <Link to={"/"}>
+        <Link to={"/"}>
             <img className="logo-header" src="/src/image/Logo-home-1.2.svg" alt="" />
         </Link>
             <div className="filtro-produtos">
@@ -100,11 +99,20 @@ const  HeaderProdutos  = () => {
                 </li>
                 </ul>
 
-            </div>
+                </div>
 
-            <img className="lupa-pagina-produtos" src="/src/image/lupa.png" alt="" />
+                <div className="sub-menu-input2">
+                    <div className="div-input">
+                    <input className="input-submenu" type="text" placeholder="Pesquise mais produtos" />
+                </div>
+                </div>
 
-            <img className="img-carrinho-header-produtos" src="/src/image/carrinho-de-compras.png" alt="" />
+                <div className="sub-menu-carrinho3">
+                    <div className="div-carrinho3">
+                    <div className="carrinho-submenu3"></div>
+                </div>
+
+        </div>
         </div>
     </div>
 

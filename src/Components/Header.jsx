@@ -15,9 +15,19 @@ const  Header  = () => {
         <div className="sobre-nos-home">Sobre Nós</div>
 
         </div>
+
+        <div className="sub-menu-input">
+            <div className="div-input">
+                <input className="input-submenu" type="text" placeholder="Pesquise mais produtos" />
+            </div>
+        </div>
+
+        <div className="sub-menu-carrinho">
+            <div className="div-carrinho">
+                <div className="carrinho-submenu"></div>
+            </div>
+        </div>
         
-        <img className="lupa-header-home" src="/src/image/lupa.png" alt="" />
-        <img className="img-carrinho-header-home" src="/src/image/carrinho-de-compras.png" alt="" />
 
         <div className="entrar-login-home">
         <img className="entrar-img-home" src="/src/image/adicionar-usuario.png" alt="" />
