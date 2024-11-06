@@ -1,4 +1,4 @@
-
+import { Link } from "react-router-dom";
 
 const ProdutosHome = () => {
 
@@ -13,7 +13,7 @@ const ProdutosHome = () => {
         <section className="section-l1">
 
         <div className="linha1-produtos">
-        <div className="produto1"></div>
+        <Link to={"/descricao1"}><div className="produto1"></div></Link>
         <div className="produto2"></div>
         <div className="produto3"></div>
         <div className="produto4"></div>

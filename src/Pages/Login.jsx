@@ -93,7 +93,6 @@ const Login = () => {
         } else {
             showSuccess(lgPasswordRef);
         }
-
         try {
             await signInWithEmailAndPassword(email, password);
             navigate('/');
@@ -123,15 +122,21 @@ const Login = () => {
     };
 
     return (
+
         <div className="body">
-            <div className="container" ref={containerRef}>
-                <div className="form-container register-container">
-                    <form onSubmit={validateRegisterForm}>
-                        <h1>Registre-se aqui</h1>
-                        <div className="form-control">
-                            <input type="text" placeholder="Nome" ref={usernameRef} />
-                            <small></small>
-                        </div>
+        <div className="container" ref={containerRef}>
+
+                {/* LOGIN */}
+                
+        <div className="form-container register-container">
+            <form onSubmit={validateRegisterForm}>
+            <h1>Registre-se aqui</h1>
+
+        <div className="form-control">
+            <input type="text" placeholder="Nome" ref={usernameRef} />
+            <small></small>
+        </div>
+
                         <div className="form-control">
                             <input type="email" placeholder="Email" ref={emailRef} />
                             <small></small>
@@ -145,8 +150,15 @@ const Login = () => {
                         </button>
                         {registerError && <small className="error">{registerError.message}</small>}
                         <span className="subtitulo-botao-register">ou use sua conta</span>
+
+                        <div className="social-container">
+                            <div className="facebook-login"></div>
+                            <div className="google-login"></div>
+                            <div className="email-login"></div>
+                        </div>
                     </form>
                 </div>
+                {/* LOGIN */}
                 <div className="form-container login-container">
                     <form onSubmit={validateLoginForm}>
                         <h1>Faça login aqui</h1>
@@ -163,6 +175,11 @@ const Login = () => {
                         </button>
                         {loginError && <small className="error">{loginError.message}</small>}
                         <span className="subtitulo-botao-login">ou use sua conta</span>
+                        <div className="social-container">
+                            <div className="facebook-login"></div>
+                            <div className="google-login"></div>
+                            <div className="email-login"></div>
+                        </div>
                     </form>
                 </div>
                 <div className="overlay-container">

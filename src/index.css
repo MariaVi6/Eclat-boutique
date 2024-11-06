@@ -1522,7 +1522,6 @@ form {
   left: 70px;
 }
 
-
 /*REGISTER*/
 
 
@@ -1572,8 +1571,100 @@ form {
   font-weight: normal;
 }
 
+/*DESCRIÇÃO DOS PRODUTOS*/
 
-/*PÁGINA PRODUTOS */
+.descricao-brinco-coracao{
+  width: 100vw;
+  height: 2000px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.imgs-brinco-coracao{
+  width: 820px;
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.img-1-brinco-coracao{
+  width: 847px;
+  height: 800px;
+  display: flex;
+  gap: 10px;
+}
+.img-1-1{
+  width: 413px;
+  height: 800px;
+  background-image: url(/src/image/1.1-brinco-coracao.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-2{
+  width: 413px;
+  height: 800px;
+  background-image: url(/src/image/1.2-brinco-coracao.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-brinco-coracao{
+  width: 847px;
+  height: 800px;
+  background-image: url(/src/image/Acessorios1-brinco.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.descricao-escrita-brinco-coracao{
+  width: 820px;
+  height: 1600px;
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.titulo-brinco-coracao{
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin: 20px 0px 0px  40px;
+}
+.ref-brinco-coracao{
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin: 20px 2px 0px  40px;
+  color: #a0a0a0;
+}
+.div-avaliacao-brinco-coracao{
+  width: 800px;
+  height: 40px;
+  margin: 10px 0px 0px 40px;
+  display: flex;
+  gap: 10px;
+
+}
+.avaliacao-brinco-coracao{
+  width: 160px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.estrela-brinco-coracao{
+  width: 20px;
+  height: 20px;
+}
+.avaliacao2-brinco-coracao{
+  width: 280px;
+  height: 40px;
+  margin-top: 2px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+}
+
+
+
+/*PÁGINA DE PRODUTOS */
+
 .logo-header{
   width: 400px;
   height: 120px;
@@ -1687,7 +1778,6 @@ form {
   opacity: 1; /* Torna visível */
   visibility: visible; /* Permite interação */
 }
-
 
 
 /*CONTEÚDO DA PÁGINA PRODUTOS*/
