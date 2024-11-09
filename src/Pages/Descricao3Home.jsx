@@ -1,17 +1,17 @@
 import { useEffect } from "react";
-import Descricao1Home from "../Components/Descricao1Home";
+import Descricao3Home from "../Components/Descricao3Home";
 import HeaderProdutos from "../Components/HeaderProdutos";
 import Footer from "../Components/Footer"
 
-const BrincoCoracao = () => {
+const ColarCirculoVerde = () => {
     useEffect(() =>{
         window.scrollTo(0, 0)
     }, [])
     return ( <>
     <HeaderProdutos/>
-    <Descricao1Home/>
+    <Descricao3Home/>
     <Footer/>
     </> );
 }
  
-export default BrincoCoracao;
+export default ColarCirculoVerde;

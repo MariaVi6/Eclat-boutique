@@ -14,8 +14,8 @@ const ProdutosHome = () => {
 
         <div className="linha1-produtos">
         <Link to={"/descricao1"}><div className="produto1"></div></Link>
-        <div className="produto2"></div>
-        <div className="produto3"></div>
+        <Link to={"/descricao2"}><div className="produto2"></div></Link>
+        <Link to={"/descricao3"}><div className="produto3"></div></Link>
         <div className="produto4"></div>
         </div>
 

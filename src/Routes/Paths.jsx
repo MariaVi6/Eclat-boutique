@@ -4,6 +4,10 @@ import Login from "../Pages/Login";
 import Produtos from "../Pages/Produtos";
 import Produtos2 from"../Pages/Produtos2"
 import Descricao1Home from "../Pages/Descricao1Home"
+import Descricao2Home from "../Pages/Descricao2Home"
+import Descricao3Home from "../Pages/Descricao3Home"
+
+
 
 const Paths = () => {
     return ( 
@@ -15,6 +19,8 @@ const Paths = () => {
         <Route path="/produtos" element={<Produtos/>}/>
         <Route path="/produtos2" element={<Produtos2/>}/>
         <Route path="/descricao1" element={<Descricao1Home/>}/>
+        <Route path="/descricao2" element={<Descricao2Home/>}/>
+        <Route path="/descricao3" element={<Descricao3Home/>}/>
 
     </Routes>
     </BrowserRouter>
