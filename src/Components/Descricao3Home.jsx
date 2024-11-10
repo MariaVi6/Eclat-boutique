@@ -1,5 +1,7 @@
 const Descricao3Home = () => {
+
     return ( <>
+    
     <div className="descricao-2">
         <div className="imgs-2-produto">
             <div className="img-1-produto">
@@ -32,14 +34,14 @@ const Descricao3Home = () => {
             Conjunto de anéis em prata 925 com design delicado e sofisticado. A peça combina a qualidade da prata de alta durabilidade com um design moderno e atemporal, perfeito para quem busca elegância discreta. Cada anel pode ser usado individualmente ou em conjunto.
             <br />
             Com tamanhos ajustáveis, os anéis garantem conforto e praticidade, oferecendo um ajuste perfeito e adaptável a diferentes dedos. Ideal para quem deseja uma joia versátil e sofisticada, que adiciona um toque de classe e estilo a qualquer visual.
-       
+
             </div>
 
             <div className="titulos-descricao2">
 
             <h1 className="titulo-cor-descricao2">Cor</h1>
 
-            <label className="titulo-cor-descricao2" for="quantidade">Quantidade</label>
+            <label className="titulo-cor-descricao2" htmlFor="quantidade">Quantidade</label>
 
             </div>
 

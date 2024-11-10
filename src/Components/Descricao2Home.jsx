@@ -1,5 +1,7 @@
 const Descricao2Home = () => {
+
     return ( <>
+    
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">

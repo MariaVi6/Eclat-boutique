@@ -1,19 +1,19 @@
-const Descricao1Home = () => {
+const Descricao4Home = () => {
 
     return ( <>
-    
+
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
-                <div className="img-1-1"></div>
-                <div className="img-1-2"></div>
+                <div className="img-1-7"></div>
+                <div className="img-1-8"></div>
             </div>
 
-            <div className="img2-produto"></div>
+            <div className="img2-2-produto"></div>
         </div>
         <div className="descricao-escrita-produto">
-            <h1 className="titulo-produto">Brinco Coração</h1>
-            <h1 className="ref-produto">Acessorios | Brincos | Ref: 20239I329</h1>
+            <h1 className="titulo-produto">Brinco Circular Verde</h1>
+            <h1 className="ref-produto">Acessorios | Brincos | Ref: 204391229</h1>
             <div className="div-avaliacao-produto">
                 <div className="avaliacao-produto" >
                 <img className="estrela-produto" src="/src/image/estrela.png" alt="" />
@@ -26,7 +26,7 @@ const Descricao1Home = () => {
                 <div className="avaliacao2-produto">4,9 (1.000 Avaliações)</div>
             </div>
             <div className="precos-produto">
-                <h1 className="preco-produto">R$80,00</h1>
+                <h1 className="preco-produto">R$40,00</h1>
                 <h1 className="preco2-produto">R$100,00</h1>
             </div>
 
@@ -45,7 +45,7 @@ const Descricao1Home = () => {
 
             <div className="cor-quantidade-produto">
 
-            <div className="div-cor-produto"></div>
+            <div className="div4-cor-produto"></div>
                 
             <select className="quantidade-produto" id="quantidade" name="quantidade">
                     <option value="1">1</option>
@@ -62,4 +62,4 @@ const Descricao1Home = () => {
     </> );
 }
  
-export default Descricao1Home;
+export default Descricao4Home;
