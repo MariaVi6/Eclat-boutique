@@ -33,12 +33,25 @@ const Descricao1Home = () => {
             <div className="descricao2-produto">Brinco em prata 925 com pingente em formato de coração na cor azul. A peça combina a sofisticação da prata de alta qualidade com o charme vibrante do coração azul, criando um design elegante e atemporal. O pingente confere um toque de cor e brilho sutil, tornando o brinco perfeito tanto para ocasiões especiais quanto para uso diário.
             <br />
             Com 3 cm de comprimento, o brinco é discreto, mas de presença marcante, proporcionando conforto e elegância ao mesmo tempo. Ideal para quem busca uma peça clássica, com um toque de modernidade e cor.</div>
+            
+            <div className="titulos-descricao2">
 
             <h1 className="titulo-cor-descricao2">Cor</h1>
 
+            <label className="titulo-cor-descricao2" for="quantidade">Quantidade</label>
+            </div>
+
             <div className="cor-quantidade-produto">
-                <div className="div-cor-produto"></div>
-                <div></div>
+
+            <div className="div-cor-produto"></div>
+                
+            <select className="quantidade-produto" id="quantidade" name="quantidade">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+            </select>
+
             </div>
 
             <button className="button">Adicione ao Carrinho</button>

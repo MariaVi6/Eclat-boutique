@@ -35,11 +35,23 @@ const Descricao2Home = () => {
             Com 2,5 cm de diâmetro, o pingente é de presença marcante, enquanto a corrente fina e delicada proporciona conforto e ajuste seguro. Ideal para quem busca uma joia clássica, com um toque de frescor e modernidade.
             </div>
 
+            <div className="titulos-descricao2">
+
             <h1 className="titulo-cor-descricao2">Cor</h1>
+
+            <label className="titulo-cor-descricao2" for="quantidade">Quantidade</label>
+            </div>
 
             <div className="cor-quantidade-produto">
                 <div className="div2-cor-produto"></div>
-                <div></div>
+
+                <select className="quantidade-produto" id="quantidade" name="quantidade">
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+            </select>
+    
             </div>
 
             <button className="button">Adicione ao Carrinho</button>

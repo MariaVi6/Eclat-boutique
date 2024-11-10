@@ -35,12 +35,26 @@ const Descricao3Home = () => {
        
             </div>
 
+            <div className="titulos-descricao2">
+
             <h1 className="titulo-cor-descricao2">Cor</h1>
 
-            <div className="cor-quantidade-produto">
-                <div className="div3-cor-produto"></div>
-                <div></div>
+            <label className="titulo-cor-descricao2" for="quantidade">Quantidade</label>
+
             </div>
+
+            <div className="cor-quantidade-produto">
+
+            <div className="div3-cor-produto"></div>
+    
+            <select className="quantidade-produto" id="quantidade" name="quantidade">
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+
+</div>
 
             <button className="button">Adicione ao Carrinho</button>
         </div>
