@@ -40,7 +40,7 @@ const Descricao1Home = () => {
 
             <h1 className="titulo-cor-descricao2">Cor</h1>
 
-            <label className="titulo-cor-descricao2" for="quantidade">Quantidade</label>
+            <label className="titulo-cor-descricao2" htmlFor="quantidade">Quantidade</label>
             </div>
 
             <div className="cor-quantidade-produto">
