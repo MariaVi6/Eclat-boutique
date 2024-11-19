@@ -1728,9 +1728,6 @@ form {
   border-radius: 100px;
   cursor: pointer;
 }
-.div-cor-produto:hover{
-  border: 3px solid #000000;
-}
 .quantidade-produto{
   appearance: none;
   width: 100px;
@@ -1777,9 +1774,6 @@ form {
   border-radius: 100px;
   cursor: pointer;
 }
-.div2-cor-produto:hover{
-  border: 3px solid #000000;
-}
 
 /* DESCRICAO - 3 - HOME*/
 
@@ -1810,9 +1804,6 @@ form {
   background-color: #2d2d2db4;
   border-radius: 100px;
   cursor: pointer;
-}
-.div3-cor-produto:hover{
-  border: 3px solid #000000;
 }
 
 /* DESCRICAO - 4 - HOME*/
@@ -1845,12 +1836,6 @@ form {
   border-radius: 100px;
   cursor: pointer;
 }
-.div4-cor-produto:hover{
-  border: 3px solid #000000;
-}
-
-
-
 
 
 /*PÁGINA DE PRODUTOS */
