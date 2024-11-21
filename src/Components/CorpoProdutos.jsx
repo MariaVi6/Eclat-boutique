@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const CorpoProdutos = () => {
     return ( 
     <>
@@ -9,10 +10,10 @@ const CorpoProdutos = () => {
         {/*LINHA 1 - PAGINA PRODUTOS*/}
 
         <div className="linha1-pag-produtos">
-        <div className="produto1-pagina-produtos"></div>
-        <div className="produto2-pagina-produtos"></div>
-        <div className="produto3-pagina-produtos"></div>
-        <div className="produto4-pagina-produtos"></div>
+        <Link to={"/descricao13"}><div className="produto1-pagina-produtos"></div></Link>
+        <Link to={"/descricao14"}><div className="produto2-pagina-produtos"></div></Link>
+        <Link to={"/descricao15"}><div className="produto3-pagina-produtos"></div></Link>
+        <Link to={"/descricao16"}><div className="produto4-pagina-produtos"></div></Link>
         </div>
 
         <div className="tipo-de-produto1-pagina">
@@ -31,18 +32,18 @@ const CorpoProdutos = () => {
 
         <div className="valores1-produtos-pagina">
         <div className="valor1-produto-pagina">
-        <div className="valor1-1-pagina-produto">R$200</div>
-        <div className="valor1-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor1-1-pagina-produto">R$400</div>
+        <div className="valor1-2-pagina-produto"><b>R$110</b></div>
         </div>
 
         <div className="valor2-produto-pagina">
-        <div className="valor2-1-pagina-produto">R$200</div>
-        <div className="valor2-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor2-1-pagina-produto">R$300</div>
+        <div className="valor2-2-pagina-produto"><b>R$140</b></div>
         </div>
 
         <div className="valor3-produto-pagina">
         <div className="valor3-1-pagina-produto">R$200</div>
-        <div className="valor3-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor3-2-pagina-produto"><b>R$120</b></div>
         </div>
 
         <div className="valor4-produto-pagina">
@@ -372,8 +373,8 @@ const CorpoProdutos = () => {
 
 
         </div>
+        </div>
 
-    </div>
     </> );
 }
 

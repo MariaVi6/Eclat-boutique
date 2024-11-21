@@ -7,6 +7,10 @@ import Descricao1Home from "../Pages/Descricao1Home"
 import Descricao2Home from "../Pages/Descricao2Home"
 import Descricao3Home from "../Pages/Descricao3Home"
 import Descricao4Home from "../Pages/Descricao4Home"
+import Descricao13Home from "../Pages/Descricao13Home";
+import Descricao14Home from "../Pages/Descricao14Home";
+import Descricao15Home from "../Pages/Descricao15Home";
+import Descricao16Home from "../Pages/Descricao16Home";
 
 
 
@@ -23,6 +27,10 @@ const Paths = () => {
         <Route path="/descricao2" element={<Descricao2Home/>}/>
         <Route path="/descricao3" element={<Descricao3Home/>}/>
         <Route path="/descricao4" element={<Descricao4Home/>}/>
+        <Route path="/descricao13" element={<Descricao13Home/>}/>
+        <Route path="/descricao14" element={<Descricao14Home/>}/>
+        <Route path="/descricao15" element={<Descricao15Home/>}/>
+        <Route path="/descricao16" element={<Descricao16Home/>}/>
     </Routes>
     </BrowserRouter>
     </> );
