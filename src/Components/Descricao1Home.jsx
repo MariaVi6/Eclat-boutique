@@ -10,7 +10,7 @@ const Descricao1Home = () => {
                 <div className="img-1-1"></div>
                 <div className="img-1-2"></div>
             </div>
-
+\
             <div className="img2-produto"></div>
         </div>
         <div className="descricao-escrita-produto">

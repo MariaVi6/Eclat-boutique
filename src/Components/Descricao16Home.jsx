@@ -30,11 +30,22 @@ const Descricao16Home = () => {
 
             <h1 className="titulo-descricao2-produto">Descrição :</h1>
 
-            <div className="descricao2-produto">
+            <div className="descricao3-produto">
             Conjunto de anéis em prata 925 com design delicado e sofisticado. A peça combina a qualidade da prata de alta durabilidade com um design moderno e atemporal, perfeito para quem busca elegância discreta. Cada anel pode ser usado individualmente ou em conjunto.
-            <br />
-            Com tamanhos ajustáveis, os anéis garantem conforto e praticidade, oferecendo um ajuste perfeito e adaptável a diferentes dedos. Ideal para quem deseja uma joia versátil e sofisticada, que adiciona um toque de classe e estilo a qualquer visual.
+            </div>
 
+            <div className="titulo-tamanhos">Tamanhos:</div>
+
+            <div className="div-tamanhos">
+                <div className="tamanhos">PP</div>
+                <div className="tamanhos">P</div>
+                <div className="tamanhos">M</div>
+                <div className="tamanhos">G</div>
+                <div className="tamanhos">GG</div>
+                <div className="tamanhos">XG</div>
+                <div className="tamanhos">XGG</div>
+                <div className="tamanhos">EG</div>
+                <div className="tamanhos">EGG</div>
             </div>
 
             <div className="titulos-descricao2">
@@ -58,7 +69,7 @@ const Descricao16Home = () => {
 
 </div>
 
-            <button className="button">Adicione ao Carrinho</button>
+            <button className="button2">Adicione ao Carrinho</button>
         </div>
     </div>
     </> );

@@ -30,7 +30,7 @@ const  Header  = () => {
         
 
         <div className="entrar-login-home">
-        <img className="entrar-img-home" src="/src/image/adicionar-usuario.png" alt="" />
+        <Link to={"/login"}><img className="entrar-img-home" src="/src/image/adicionar-usuario.png" alt="" /></Link>
         <div className="entrar-home"><Link  className="link-login" to={"/login"}>Entrar</Link></div>
         </div>
     </div>

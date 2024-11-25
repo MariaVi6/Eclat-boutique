@@ -31,10 +31,23 @@ const Descricao14Home = () => {
 
             <h1 className="titulo-descricao2-produto">Descrição :</h1>
 
-            <div className="descricao2-produto">Brinco em prata 925 com pingente em formato de coração na cor azul. A peça combina a sofisticação da prata de alta qualidade com o charme vibrante do coração azul, criando um design elegante e atemporal. O pingente confere um toque de cor e brilho sutil, tornando o brinco perfeito tanto para ocasiões especiais quanto para uso diário.
-            <br />
-            Com 3 cm de comprimento, o brinco é discreto, mas de presença marcante, proporcionando conforto e elegância ao mesmo tempo. Ideal para quem busca uma peça clássica, com um toque de modernidade e cor.</div>
+            <div className="descricao3-produto">Brinco em prata 925 com pingente em formato de coração na cor azul. A peça combina a sofisticação da prata de alta qualidade com o charme vibrante do coração azul, criando um design elegante e atemporal. O pingente confere um toque de cor e brilho sutil, tornando o brinco perfeito tanto para ocasiões
+            </div>
             
+            <div className="titulo-tamanhos">Tamanhos:</div>
+
+            <div className="div-tamanhos">
+                <div className="tamanhos">PP</div>
+                <div className="tamanhos">P</div>
+                <div className="tamanhos">M</div>
+                <div className="tamanhos">G</div>
+                <div className="tamanhos">GG</div>
+                <div className="tamanhos">XG</div>
+                <div className="tamanhos">XGG</div>
+                <div className="tamanhos">EG</div>
+                <div className="tamanhos">EGG</div>
+            </div>
+
             <div className="titulos-descricao2">
 
             <h1 className="titulo-cor-descricao2">Cor</h1>
@@ -55,7 +68,7 @@ const Descricao14Home = () => {
 
             </div>
 
-            <button className="button">Adicione ao Carrinho</button>
+            <button className="button2">Adicione ao Carrinho</button>
         </div>
     </div>
     </> );

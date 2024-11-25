@@ -1,4 +1,4 @@
-/* ta uma bagunça */
+
 *{
   margin: 0;
   list-style: none;
@@ -217,15 +217,16 @@
   box-shadow: 0px 3px 0px  #000;
 }
 
-/*Carrosel - HOME*/
+/* CARROSEL  - HOME */
+
 #carouselExampleIndicators{
   width: 100vw;
-  height: 760px;
-  margin-top: 22px;
+  height: 800px;
+  margin-top: 20px;
   display: flex;
 }
 
-/*Produtos - HOME*/
+/* PRODUTOS  - HOME */
 
 .div-titulo-home{
   width: 100vw;
@@ -405,7 +406,6 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  
 }
 .valor3-1{
   color: #8F8F8F;
@@ -956,7 +956,7 @@
   cursor: pointer;
 }
 
-/* FORMAS DE PAGAMENTOS*/
+/* FORMAS DE PAGAMENTOS - HOME */
 
 .forma-pagamentos-home{
   width: 100vw;
@@ -974,41 +974,41 @@
   width: 200px;
   height: 200px;
   text-align: center;
-  background-image: url(/src/image/Parcelamento.png);
+  background-image: url(/src/image/Parcelamento.svg);
   background-position: center;
   background-size: cover;
 }
 .div-descricao2-eclac{
   width: 200px;
   height: 200px;
-  background-image: url(/src/image/Frete-Grátis.png);
+  background-image: url(/src/image/Frete-gratis.svg);
   background-position: center;
   background-size: cover;
 }
 .div-descricao3-eclac{
   width: 200px;
   height: 200px;
-  background-image: url(/src/image/Devolucao.png);
+  background-image: url(/src/image/Devolucao.svg);
   background-position: center;
   background-size: cover;
 }
 .div-descricao4-eclac{
   width: 200px;
   height: 200px;
-  background-image: url(/src/image/Cupom.png);
+  background-image: url(/src/image/Cupom.svg);
   background-position: center;
   background-size: cover;
 }
 .div-descricao5-eclac{
   width: 200px;
   height: 200px;
-  background-image: url(/src/image/Entrega-rapida.png);
+  background-image: url(/src/image/Entrega-rapida.svg);
   background-position: center;
   background-size: cover;
 }.div-descricao6-eclac{
   width: 200px;
   height: 200px;
-  background-image: url(/src/image/Cupom-de-aniversario.png);
+  background-image: url(/src/image/Cupom-de-aniversario.svg);
   background-position: center;
   background-size: cover;
 }
@@ -1137,9 +1137,7 @@
   font-style: normal;
 }
 
-
 /*PÁGINA LOGIN*/
-
 
 .container {
   width: 768px;
@@ -1512,8 +1510,7 @@ form {
   left: 70px;
 }
 
-/*REGISTER*/
-
+/* REGISTER */
 
 .titulo-register{
   margin-top: 30px;
@@ -1574,7 +1571,7 @@ form {
 }
 .imgs-produto{
   width: 836px;
-  height: 1600px;
+  height: 770px;
   display: flex;
   flex-direction: column;
   gap: 20px;
@@ -1608,7 +1605,7 @@ form {
 }
 .descricao-escrita-produto{
   width: 836px;
-  height: 800px;
+  height: 820px;
   display: flex;
   flex-direction: column;
 }
@@ -1705,14 +1702,14 @@ form {
   width: 110px;
   height: 20px;
   font-size: 14px;
-  margin: 10px 0px 0px 46px;
+  margin: 26px 0px 0px 46px;
   color: #a0a0a0; 
   letter-spacing: 4px;
 }
 .cor-quantidade-produto{
   width: 780px;
   height: 48px;
-  margin: 18px 0px 0px 46px;
+  margin: 26px 0px 0px 46px;
   display: flex;
   align-items: center;
   gap: 120px;
@@ -1729,11 +1726,12 @@ form {
   width: 100px;
   height: 40px;
   border: none;
+  margin-top: 20px;
 }
 .button{
   width: 776px;
   height: 48px;
-  margin: 38px 0px 0px 46px;
+  margin: 31px 0px 0px 46px;
   border: none;
   color: white;
   background-color: #000;
@@ -1758,7 +1756,7 @@ form {
 }
 .img2-1-produto{
   width: 1672px;
-  height: 800px;
+  height: 770px;
   background-image: url(/src/image/1-3-colar-curculo-verde.jpg);
   background-position: center;
   background-size: cover;
@@ -1851,12 +1849,75 @@ form {
   background-position: center;
   background-size: cover;
 }
+.descricao3-produto{
+  width: 740px;
+  height: 160px;
+  margin: 10px 0px 0px 46px;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 38px;
+}
+.titulo-tamanhos{
+  width: 780px;
+  height: 30px;
+  font-size: 14px;
+  color: #a0a0a0; 
+  margin: 26px 0px 0px 46px;
+  letter-spacing: 4px;
+  display: flex;
+  align-items: center;
+}
+.div-tamanhos{
+  width: 780px;
+  height: 80px;
+  margin: 10px 0px 0px 46px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.tamanhos{
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  letter-spacing: 0.80px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid #a0a0a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
 .div13-cor-produto{
   width: 40px;
   height: 40px;
+  margin-top: 20px;
   background-color: #5f97e2b4;
   border-radius: 100px;
   cursor: pointer;
+}
+.button2{
+  width: 776px;
+  height: 48px;
+  margin: 45px 0px 0px 46px;
+  border: none;
+  color: white;
+  background-color: #000;
+  letter-spacing: 4px;
+}
+.descricao-detalhada-produto{
+  width: 100vw;
+  height: 800px;
+  margin-top: 20px;
+  background-color: #2691d9;
+}
+.teste{
+  width: 100vw;
+  height: 400px;
+  margin-top: 20px;
+  background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-2.svg);
+  background-position: center;
+  background-repeat: no-repeat;
 }
 
 /* LINHA 1 - PAGINA PRODUTOS - 1 - PRODUTO - 2 */
@@ -1877,6 +1938,7 @@ form {
 }
 
 /* LINHA 1 - PAGINA PRODUTOS - 1 - PRODUTO - 3 */
+
 .img-1-29{
   width: 413px;
   height: 770px;
@@ -1893,22 +1955,21 @@ form {
 }
 
 /* LINHA 1 - PAGINA PRODUTOS - 1 - PRODUTO - 4 */
+
 .img-1-31{
   width: 413px;
-  height: 770px;
+  height: 700px;
   background-image: url(/src/image/Jaqueta\ Botões\ Jeans.jpg);
   background-position: center;
   background-size: cover;
 }
 .img-1-32{
   width: 413px;
-  height: 770px;
+  height: 700px;
   background-image: url(/src/image/1.1-jaqueta-botoes-jeans.jpg);
   background-position: bottom;
   background-size: cover;
 }
-
-
 
 /*PÁGINA DE PRODUTOS */
 

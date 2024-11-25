@@ -3,12 +3,13 @@ const Descricao13Home = () => {
     return ( <>
     
     <div className="descricao-2">
-        <div className="imgs-2-produto">
+        <div className="imgs-produto">
             <div className="img-1-produto">
                 <div className="img-1-25"></div>
                 <div className="img-1-26"></div>
             </div>
         </div>
+
         <div className="descricao-escrita-produto">
             <h1 className="titulo-produto">Calça Mom</h1>
             <h1 className="ref-produto">Calça | Mom | Ref: 204436291</h1>
@@ -30,11 +31,22 @@ const Descricao13Home = () => {
 
             <h1 className="titulo-descricao2-produto">Descrição :</h1>
 
-            <div className="descricao2-produto">
+            <div className="descricao3-produto">
             Conjunto de anéis em prata 925 com design delicado e sofisticado. A peça combina a qualidade da prata de alta durabilidade com um design moderno e atemporal, perfeito para quem busca elegância discreta. Cada anel pode ser usado individualmente ou em conjunto.
-            <br />
-            Com tamanhos ajustáveis, os anéis garantem conforto e praticidade, oferecendo um ajuste perfeito e adaptável a diferentes dedos. Ideal para quem deseja uma joia versátil e sofisticada, que adiciona um toque de classe e estilo a qualquer visual.
+            </div>
 
+            <div className="titulo-tamanhos">Tamanhos:</div>
+
+            <div className="div-tamanhos">
+                <div className="tamanhos">PP</div>
+                <div className="tamanhos">P</div>
+                <div className="tamanhos">M</div>
+                <div className="tamanhos">G</div>
+                <div className="tamanhos">GG</div>
+                <div className="tamanhos">XG</div>
+                <div className="tamanhos">XGG</div>
+                <div className="tamanhos">EG</div>
+                <div className="tamanhos">EGG</div>
             </div>
 
             <div className="titulos-descricao2">
@@ -55,12 +67,19 @@ const Descricao13Home = () => {
                 <option value="3">3</option>
                 <option value="4">4</option>
             </select>
+        </div>
 
-</div>
-
-            <button className="button">Adicione ao Carrinho</button>
+            <button className="button2">Adicione ao Carrinho</button>
         </div>
     </div>
+
+    <div className="descricao-detalhada-produto">
+                <div></div>
+                <div></div>
+            </div>
+            
+            <div className="teste"></div>
+            
     </> );
 }
  
