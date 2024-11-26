@@ -36,9 +36,9 @@
   gap: 80px;
 }
 .novidade-home{
-  width: 140px;
+  width: 148px;
   height: 30px;
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 20px;
   text-align: center;
   letter-spacing: 4.0px;
@@ -52,11 +52,12 @@
   box-shadow: 0px 3px 0px  #000;
 }
 .produtos-home-header{
-  width: 140px;
+  width: 148px;
   height: 30px;
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 20px;
-  text-align: center;
+  display: flex;
+  justify-content: center;
   letter-spacing: 4.0px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
@@ -69,7 +70,6 @@
 .link-produtos{
   text-decoration: none;
   color: #000;
-  letter-spacing: 2.0px;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
@@ -77,9 +77,9 @@
   cursor: pointer;
 }
 .sobre-nos-home{
-  width: 140px;
+  width: 148px;
   height: 30px;
-  font-size: 20px;
+  font-size: 19px;
   margin-top: 20px;
   text-align: center;
   letter-spacing: 4.0px;
@@ -179,6 +179,7 @@
 .entrar-img-home{
   width: 31px;
   height: 31px;
+  margin-top: 4px;
   cursor: pointer;
 }
 .entrar-login-home{
