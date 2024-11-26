@@ -8,6 +8,8 @@ const Descricao13Home = () => {
                 <div className="img-1-25"></div>
                 <div className="img-1-26"></div>
             </div>
+
+            <div className="imagem-frete-produtos"></div>
         </div>
 
         <div className="descricao-escrita-produto">
@@ -73,10 +75,12 @@ const Descricao13Home = () => {
         </div>
     </div>
 
-    <div className="descricao-detalhada-produto">
-                <div></div>
-                <div></div>
-            </div>
+        
+
+        <div className="imagem-frete-produtos">
+            <div className="img-2-12-produto"></div>
+            <div className="frete"></div>
+        </div>
             
             <div className="teste"></div>
             

@@ -1137,7 +1137,7 @@
   font-style: normal;
 }
 
-/*PÁGINA LOGIN*/
+/* PÁGINA LOGIN */
 
 .container {
   width: 768px;
@@ -1905,16 +1905,29 @@ form {
   background-color: #000;
   letter-spacing: 4px;
 }
-.descricao-detalhada-produto{
+.imagem-frete-produtos{
   width: 100vw;
-  height: 800px;
+  height: 900px;
   margin-top: 20px;
-  background-color: #2691d9;
+  display: flex;
+  justify-content: center;
+}
+.img-2-12-produto{
+  width: 836px;
+  height: 900px;
+  background-image: url(/src/image/1.2-calca-jeans.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.frete{
+  width: 836px;
+  height: 900px;
+  background-color: rgb(25, 25, 25);
 }
 .teste{
   width: 100vw;
   height: 400px;
-  margin-top: 20px;
+  margin-top: 10px;
   background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-2.svg);
   background-position: center;
   background-repeat: no-repeat;
