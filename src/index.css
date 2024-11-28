@@ -214,9 +214,6 @@
   font-style: normal;
   cursor: pointer;
 }
-.entrar-home:hover{
-  box-shadow: 0px 3px 0px  #000;
-}
 
 /* CARROSEL  - HOME */
 
@@ -240,11 +237,11 @@
   width: 480px;
   height: 60px;
   text-align: center;
-  font-size: 40px;
+  font-size: 36px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-  letter-spacing: 2px;
+  letter-spacing: 4px;
   font-weight: normal;
   cursor: pointer;
 }
@@ -1080,9 +1077,6 @@
   font-style: normal;
   cursor: pointer;
 }
-.ul1-footer:hover{
-  box-shadow: 0px 3px 0px  #000;
-}
 .ul2-footer{
   font-size: 20px;
   letter-spacing: 4px;
@@ -1091,9 +1085,6 @@
   font-style: normal;
   cursor: pointer;
 }
-.ul2-footer:hover{
-  box-shadow: 0px 3px 0px  #000;
-}
 .ul3-footer{
   font-size: 20px;
   letter-spacing: 4px;
@@ -1101,9 +1092,6 @@
   font-optical-sizing: auto;
   font-style: normal;
   cursor: pointer;
-}
-.ul3-footer:hover{
-  box-shadow: 0px 3px 0px  #000;
 }
 .redes-sociais-footer{
   width: 100vw;
@@ -1908,21 +1896,21 @@ form {
 }
 .imagem-frete-produtos{
   width: 100vw;
-  height: 900px;
+  height: 948px;
   margin-top: 20px;
   display: flex;
   justify-content: center;
 }
 .img-2-12-produto{
   width: 836px;
-  height: 900px;
+  height: 928px;
   background-image: url(/src/image/1.2-calca-jeans.jpg);
   background-size: cover;
   background-position: center;
 }
 .frete{
   width: 836px;
-  height: 900px;
+  height: 928px;
 }
 .titulo-frete{
   width: 780px;
@@ -1991,11 +1979,9 @@ form {
   width: 780px;
   margin: 20px 0px 0px 46px;
 }
-
 .teste{
   width: 100vw;
   height: 400px;
-  margin-top: 10px;
   background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-2.svg);
   background-position: center;
   background-repeat: no-repeat;
