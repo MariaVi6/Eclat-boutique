@@ -101,15 +101,15 @@ const  HeaderProdutos  = () => {
 
                 </div>
 
-                <div className="sub-menu-input2">
+                <div className="sub-menu-input">
                     <div className="div-input">
                     <input className="input-submenu" type="text" placeholder="Pesquise mais produtos" />
                 </div>
                 </div>
 
-                <div className="sub-menu-carrinho3">
-                    <div className="div-carrinho3">
-                    <div className="carrinho-submenu3"></div>
+                <div className="sub-menu-carrinho">
+                    <div className="div-carrinho">
+                    <div className="carrinho-submenu"></div>
                 </div>
 
         </div>
