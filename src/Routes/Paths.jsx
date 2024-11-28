@@ -11,7 +11,7 @@ import Descricao13Home from "../Pages/Descricao13Home";
 import Descricao14Home from "../Pages/Descricao14Home";
 import Descricao15Home from "../Pages/Descricao15Home";
 import Descricao16Home from "../Pages/Descricao16Home";
-
+import Inventario from "../Components/inventario";
 
 
 const Paths = () => {
@@ -31,6 +31,7 @@ const Paths = () => {
         <Route path="/descricao14" element={<Descricao14Home/>}/>
         <Route path="/descricao15" element={<Descricao15Home/>}/>
         <Route path="/descricao16" element={<Descricao16Home/>}/>
+        <Route path="/inventario" element={<Inventario/>}/>
     </Routes>
     </BrowserRouter>
     </> );
