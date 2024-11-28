@@ -1923,8 +1923,75 @@ form {
 .frete{
   width: 836px;
   height: 900px;
-  background-color: rgb(25, 25, 25);
 }
+.titulo-frete{
+  width: 780px;
+  height: 40px;
+  font-size: 32px;
+  margin: 20px 0px 0px 46px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+}
+.subtitulo-frete{
+  width: 780px;
+  height: 20px;
+  margin: 10px 0px 0px 46px;
+  letter-spacing: 4px;
+  color: #a0a0a0;
+}
+.input-button-frete{
+  width: 780px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 0px 46px;
+  gap: 20px;
+}
+.input-frete{
+  width: 660px;
+  height: 60px;
+  font-size: 15px;
+  color: #000;
+  border: 2px solid #000;
+  letter-spacing: 4px;
+  padding-left: 10px;
+}
+.button-frete{
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #000;
+}
+.pesquisa-para-frete{
+  width: 780px;
+  height: 20px;
+  font-size: 16px;
+  margin: 20px 0px 0px 46px;
+  letter-spacing: 4px;
+  color: #000000;
+}
+.vendedor-frete{
+  width: 780px;
+  height: 40px;
+  margin: 40px 0px 0px 46px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 4px;
+}
+.linhas-frete{
+  width: 780px;
+  margin: 20px 0px 0px 46px;
+}
+
 .teste{
   width: 100vw;
   height: 400px;

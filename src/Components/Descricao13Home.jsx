@@ -79,7 +79,17 @@ const Descricao13Home = () => {
 
         <div className="imagem-frete-produtos">
             <div className="img-2-12-produto"></div>
-            <div className="frete"></div>
+            <div className="frete">
+                <div className="titulo-frete">Entrega</div>
+                <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>
+                <div className="input-button-frete">
+                <input className="input-frete" type="text" placeholder="Digite seu cep" />
+                <button className="button-frete">Consultar</button>
+                </div>
+                <div className="pesquisa-para-frete">Não sei meu CEP</div>
+                <div className="vendedor-frete">Produto vendido e entregue por Eclat Boutique</div>
+                <hr className="linhas-frete" />
+            </div>
         </div>
             
             <div className="teste"></div>
