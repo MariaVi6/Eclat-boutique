@@ -1,28 +1,34 @@
-import { useEffect, useState } from 'react';
+import React, { useEffect, useState } from 'react';
+import fetchImages from '../../js/fetchApis';
 
-function Inventario() {
-  const [roupas, setRoupas] = useState([]);
+const Inventario = () => {
+  const [items, setItems] = useState([]);
 
   useEffect(() => {
-    // Substitua pela URL da sua API
-    fetch('http://localhost:3000/inventario')
-      .then(response => response.json())
-      .then(data => setRoupas(data))
-      .catch(error => console.error('Erro ao buscar as roupas:', error));
-  }, []); 
+    const dados = async () => {
+      const data = await fetchImages();
+      setItems(data || []);
+    };
+    dados();
+  }, []);
 
   return (
-    <div>
-      <h1>Inventário de Roupas</h1>
-      <ul>
-        {roupas.map(roupa => (
-          <li key={roupa.id}>
-            <img src={roupa.urlImg} alt={roupa.nome} style={{ width: '100px', height: 'auto' }} />
-            <p>Preço: R${roupa.preco}</p>
-            <p>Nota: {roupa.nota}</p>
-          </li>
-        ))}
-      </ul>
+    <div className="grid-images">
+      {items.length > 0 ? (
+        items.map(item => (
+          <div key={item._id} className="item">
+            <img className="itemImg" src={item.urlImg} alt={item.descricao} />
+            <p className="descricao">{item.descricao}</p>
+            <p className="nota">{item.nota}</p>
+            <p className="preco">{item.preco}</p>
+          </div>
+        ))
+      ) : (
+
+        <div className="spinner-border text-danger" role="status">
+            <span className="sr-only">Loading...</span>
+        </div>
+        )}
     </div>
   );
 }
