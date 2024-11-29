@@ -132,7 +132,7 @@ const Login = () => {
                 
         <div className="form-container register-container">
             <form onSubmit={validateRegisterForm}>
-            <h1>Registre-se aqui</h1>
+            <h1 className='titulo-login'>Registre-se aqui</h1>
 
         <div className="form-control">
             <input type="text" placeholder="Nome" ref={usernameRef} />
@@ -163,7 +163,7 @@ const Login = () => {
                 {/* LOGIN */}
                 <div className="form-container login-container">
                     <form onSubmit={validateLoginForm}>
-                        <h1>Faça login aqui</h1>
+                        <h1 className='titulo-login'>Faça login aqui</h1>
                         <div className="form-control">
                             <input type="email" placeholder="Email" ref={lgEmailRef} />
                             <small></small>
@@ -187,11 +187,11 @@ const Login = () => {
                 <div className="overlay-container">
                     <div className="overlay">
                         <div className="overlay-panel overlay-left">
-                            <h1>Já tem conta?</h1>
+                            <h1 className='titulo-login'>Já tem conta?</h1>
                             <button className="ghost" id="login">Fazer login</button>
                         </div>
                         <div className="overlay-panel overlay-right">
-                            <h1>Ainda não tem conta?</h1>
+                            <h1 className='titulo-login'>Ainda não tem conta?</h1>
                             <button className="ghost" id="register">Registra-se</button>
                         </div>
                     </div>

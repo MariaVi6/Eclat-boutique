@@ -7,7 +7,7 @@
   font-style: normal;
 }
 
-/* PÁGINA - HOME*/
+/* PÁGINA - HOME ----- HEADER ------------------------------------------------------------------------------------------------*/
 
 .header-home{
   width: 100vw;
@@ -21,25 +21,23 @@
   height: 120px;
   margin-top: 22px;
   margin-left: 40px;
-  margin-right: 100px;
   background-image: url(/src/image/Logo-home-1.2.svg);
   background-position: center;
   background-size: cover;
 }
 .indice-header{
-  width: 600px;
+  width: 800px;
   height: 160px;
-  margin-right: 140px;
   display: flex;
+  margin-right: 68px;
   justify-content: center;
-  align-items: center;
   gap: 80px;
 }
 .novidade-home{
   width: 148px;
   height: 30px;
   font-size: 19px;
-  margin-top: 20px;
+  margin-top: 80px;
   text-align: center;
   letter-spacing: 4.0px;
   cursor: pointer;
@@ -48,14 +46,11 @@
   font-style: normal;
   cursor: pointer;
 }
-.novidade-home:hover{
-  box-shadow: 0px 3px 0px  #000;
-}
 .produtos-home-header{
   width: 148px;
   height: 30px;
   font-size: 19px;
-  margin-top: 20px;
+  margin-top: 80px;
   display: flex;
   justify-content: center;
   letter-spacing: 4.0px;
@@ -63,9 +58,6 @@
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
-}
-.produtos-home-header:hover{
-  box-shadow: 0px 3px 0px  #000;
 }
 .link-produtos{
   text-decoration: none;
@@ -80,7 +72,7 @@
   width: 148px;
   height: 30px;
   font-size: 19px;
-  margin-top: 20px;
+  margin-top: 80px;
   text-align: center;
   letter-spacing: 4.0px;
   cursor: pointer;
@@ -88,15 +80,24 @@
   font-optical-sizing: auto;
   font-style: normal;
 }
-.sobre-nos-home:hover{
-  box-shadow: 0px 3px 0px  #000;
+.promocoes-home{
+  width: 148px;
+  height: 30px;
+  font-size: 19px;
+  margin-top: 80px;
+  text-align: center;
+  letter-spacing: 4.0px;
+  cursor: pointer;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 .sub-menu-input{
   display: block;
   width: 36px;
   height: 36px;
-  margin-top: 72px;
-  margin-right: 46px;
+  margin-top: 76px;
+  margin-right: 34px;
   background-image: url(/src/image/lupa.png);
   background-position: center;
   background-size: cover;
@@ -134,15 +135,14 @@
   width: 34px;
   height: 34px;
   margin-top: 70px;
-  margin-right: 46px;
   cursor: pointer;
 }
 .sub-menu-carrinho{
   display: block;
-  width: 38px;
-  height: 38px;
-  margin-top: 67px;
-  margin-right: 44px;
+  width: 36px;
+  height: 36px;
+  margin-top: 73px;
+  margin-right: 34px;
   background-image: url(/src/image/carrinho-de-compras.png);
   background-position: center;
   background-size: cover;
@@ -176,25 +176,11 @@
   opacity: 1; /* Torna visível */
   visibility: visible; /* Permite interação */
 }
-.entrar-img-home{
-  width: 31px;
-  height: 31px;
-  margin-top: 4px;
-  cursor: pointer;
-}
-.entrar-login-home{
-  width: 130px;
-  height: 80px;
-  margin-top: 46px;
-  margin-right: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 .entrar-home{
-  width: 130px;
+  width: 80px;
   height: 30px;
   font-size: 20px;
+  margin-top: 80px;
   text-align: center;
   letter-spacing: 4.0px;
   cursor: pointer;
@@ -215,7 +201,423 @@
   cursor: pointer;
 }
 
-/* CARROSEL  - HOME */
+/* PÁGINA LOGIN ------------------------------------------------------------------------------------------------------------- */
+
+.container {
+  width: 100vw;
+  height: 100vw;
+  overflow: hidden;
+}
+.form-container {
+  position: absolute;
+  height: 100%;
+  transition: all 0.6s ease-in-out;
+}
+.form-control {
+  width: 100%;
+  position: relative;
+}
+.form-control2 {
+  width: 100%;
+  position: relative;
+}
+.form-control2 span {
+  position: absolute;
+  border-bottom: 3px solid #2691d9;
+  left: 0;
+  width: 0%;
+  transition: all 0.3s ease;
+}
+.form-control2 input:focus ~ span {
+  width: 100%;
+}
+.form-control small {
+  color: red;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: 12px;
+  z-index: 100;
+}
+.form-control span {
+  position: absolute;
+  border-bottom: 3px solid #2691d9;
+  left: 0;
+  bottom: 8px;
+  width: 0%;
+  transition: all 0.3s ease;
+}
+.form-control input:focus ~ span {
+  width: 100%;
+}
+.form-control2 small {
+  color: red;
+  position: absolute;
+  top: 50px;
+  left: 0;
+  font-size: 12px;
+  z-index: 100;
+}
+.form-control2 span {
+  position: absolute;
+  border-bottom: 3px solid #2691d9;
+  left: 0;
+  bottom: 8px;
+  width: 0%;
+  transition: all 0.3s ease;
+}
+.form-control2 input:focus ~ span {
+  width: 100%;
+}
+.login-container {
+  left: 0;
+  width: 50%;
+  z-index: 2;
+}
+.container.right-panel-active .login-container {
+  transform: translateX(100%);
+}
+.register-container {
+  left: 0;
+  width: 50%;
+  opacity: 0;
+  z-index: 1;
+}
+.container.right-panel-active .register-container {
+  transform: translateX(100%);
+  opacity: 1;
+  z-index: 5;
+  animation: show 0.6s;
+}
+.body {
+  margin: 0;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  height: 100vh;
+}
+.titulo-login{
+  margin-top: 28px;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 4px;
+}
+input {
+  width: 100%;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  letter-spacing: 4px;
+  border-bottom: 2px solid #adadad;
+  padding: 12px 0px;
+}
+form {
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 50px;
+  height: 100%;
+  text-align: center;
+}
+.email-2{
+  margin-top: 14px;
+  letter-spacing: 2px;
+}
+.password-2{
+  margin-top: 14px;
+  letter-spacing: 2px;
+}
+.content {
+  display: flex;
+  width: 100%;
+  height: 50px;
+  margin-top: 50px;
+  align-items: center;
+  justify-content: space-around;
+}
+.content .checkbox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.checkbox {
+  width: 10px;
+  height: 10px;
+}
+.content  {
+  accent-color: #333;
+  min-width: 20px;
+  min-height:20px;
+}
+.content label{
+  width: 140px;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+.esquecer-senha{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.a-esquecer-senha {
+  color: #333;
+  font-size: 18px;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: 0.3s ease-in-out;
+}
+.a-esquecer-senha:hover {
+  color: #717171;
+}
+.botao-login{
+  width: 160px;
+  height: 48px;
+  margin-top: 40px;
+  padding: 0;
+  border: none;
+  color: #fff;
+  letter-spacing: 4px;
+  background-color: #000;
+}
+.subtitulo-botao-login{
+  width: 160px;
+  font-size: 14px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.social-container {
+  margin: 40px ;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  gap: 40px;
+}
+.facebook-login{
+  width: 50px;
+  height: 50px;
+  background-image: url(/src/image/facebook.png);
+  background-position: center;
+  background-size: cover;
+  border-radius: 50%;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.google-login{
+  width: 50px;
+  height: 50px;
+  background-image: url(/src/image/google.png);
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.email-login{
+  width: 50px;
+  height: 50px;
+  background-image: url(/src/image/o-email.png);
+  background-position: center;
+  background-size: cover;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+@keyframes show {
+  0%,
+  49.99% {
+    opacity: 0;
+    z-index: 1;
+  }
+  50%,
+  100% {
+    opacity: 1;
+    z-index: 5;
+  }
+}
+.overlay-container {
+  background-image: url("/src/image/teste-login.jpg");
+  background-position: bottom;
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  width: 50%;
+  height: 100%;
+  overflow: hidden;
+  transition: transform 0.6s ease-in-out;
+  z-index: 100;
+}
+.titulo-overlay{
+  margin-top: 60px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.container.right-panel-active .overlay-container {
+  transform: translate(-100%);
+}
+.overlay {
+  color: #fff;
+  position: relative;
+  left: -100%;
+  height: 100%;
+  width: 200%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+.overlay::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+.container.right-panel-active .overlay {
+  transform: translateX(50%);
+}
+.overlay-panel {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 0 40px;
+  text-align: center;
+  top: 0;
+  height: 100%;
+  width: 50%;
+  transform: translateX(0);
+  transition: transform 0.6s ease-in-out;
+}
+.overlay-left {
+  transform: translateX(-20%);
+}
+.container.right-panel-active .overlay-left {
+  transform: translateX(0);
+}
+.overlay-right {
+  right: 0;
+  transform: translateX(0);
+}
+.container.right-panel-active .overlay-right {
+  transform: translateX(20%);
+}
+.ghost{
+  position: relative;
+  border-radius: 20px;
+  border: 1px solid #686c78;
+  background-color: #686c78;
+  color: #fff;
+  font-size: 18px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+  margin: 20px;
+  padding: 12px 80px;
+  letter-spacing: 4px;
+  text-transform: capitalize;
+  transition: 0.3s ease-in-out;
+  cursor: pointer;
+}
+.ghost:hover {
+  letter-spacing: 6px;
+}
+.ghost:active {
+  transform: scale(0.95);
+}
+.ghost:focus {
+  outline: none;
+}
+.ghost {
+  background-color: rgba(255, 255, 255, 0.2);
+  border: 2px solid #fff;
+  color: #fff;
+}
+#login i {
+  position: absolute;
+  left: 50px;
+}
+#register i {
+  position: absolute;
+  right: 50px;
+}
+.ghost i {
+  position: absolute;
+  opacity: 1;
+  transition: 0.3s ease-in-out;
+  z-index: 6;
+}
+.ghost i.register {
+  right: 70px;
+}
+.ghost i.login {
+  left: 70px;
+}
+
+/* REGISTER  - LOGIN ----------------------------------------------------------------------------------------------------------*/
+
+.titulo-register{
+  margin-top: 30px;
+  font-size: 38px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+  letter-spacing: 2px;
+}
+.form-control{
+  margin-top: 46px;
+  letter-spacing: 2px;
+}
+.nome-register{
+  margin-top: 14px;
+  letter-spacing: 2px;
+}
+.email-register{
+  margin-top: 14px;
+  letter-spacing: 2px;
+}
+.passaword-register{
+  margin-top: 14px;
+  letter-spacing: 2px;
+}
+.botao-register{
+  width: 160px;
+  height: 48px;
+  margin-top: 40px;
+  padding: 0;
+  border: none;
+  color: #fff;
+  letter-spacing: 4px;
+  background-color: #000;
+}
+.subtitulo-botao-register{
+  width: 160px;
+  font-size: 14px;
+  margin-top: 40px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+
+/* CARROSEL  - HOME -----------------------------------------------------------------------------------------------------------*/
 
 #carouselExampleIndicators{
   width: 100vw;
@@ -224,17 +626,14 @@
   display: flex;
 }
 
-/* PRODUTOS  - HOME */
+/* PÁGINA - HOME - PRODUTOS -------------------------------------------------------------------------------------------------XE */
 
 .div-titulo-home{
   width: 100vw;
-  height: 100px;
-  margin-top: 80px;
+  height: 60px;
   display: flex;
   justify-content: center;
-}
-.titulo-produtos{
-  width: 480px;
+  width: 100vw;
   height: 60px;
   text-align: center;
   font-size: 36px;
@@ -244,9 +643,10 @@
   letter-spacing: 4px;
   font-weight: normal;
   cursor: pointer;
+  background-color: #000000;
 }
 
-/* LINHA 1 - PRODUTOS - HOME */
+/* LINHA 1 - PRODUTOS - HOME ------------------------------------------------------------------------------------------------- */
 
 .section-l1{
   width: 100vw;
@@ -475,7 +875,280 @@
   cursor: pointer;
 }
 
-/* LINHA 2 - PRODUTOS - HOME */
+/* DESCRICAO - DETALHADA DOS PRODUTOS DA PÁGINA -  HOME -----------------------------------------------------------------------*/
+
+/* 1 - LINHA - PRODUTO - 1 ----------------------------------------------------------------------------------------------------*/
+
+.descricao{
+  width: 100vw;
+  height: 1600px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.imgs-produto{
+  width: 836px;
+  height: 770px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.img-1-produto{
+  width: 836px;
+  height: 770px;
+  display: flex;
+  gap: 10px;
+}
+.img-1-1{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-brinco-coracao.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-2{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-brinco-coracao.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img2-produto{
+  width: 1672px;
+  height: 800px;
+  background-image: url(/src/image/Acessorios1-brinco.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.descricao-escrita-produto{
+  width: 836px;
+  height: 820px;
+  display: flex;
+  flex-direction: column;
+}
+.titulo-produto{
+  width: 780px;
+  height: 40px;
+  font-size: 38px;
+  letter-spacing: 4px;
+  margin: 20px 0px 0px  46px;
+}
+.ref-produto{
+  width: 780px;
+  height: 20px;
+  font-size: 14px;
+  letter-spacing: 4px;
+  margin: 20px 2px 0px  46px;
+  color: #a0a0a0;
+}
+.div-avaliacao-produto{
+  width: 780px;
+  height: 40px;
+  margin: 10px 0px 0px 46px;
+  display: flex;
+  gap: 10px;
+}
+.avaliacao-produto{
+  width: 160px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.estrela-produto{
+  width: 20px;
+  height: 20px;
+}
+.avaliacao2-produto{
+  width: 280px;
+  height: 40px;
+  margin-top: 2px;
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+  cursor: pointer;
+}
+.precos-produto{
+  width: 780px;
+  height: 40px;
+  display: flex;
+  margin: 20px 0px 0px 46px;
+}
+.preco-produto{
+  width: 160px;
+  height: 40px;
+  font-size: 30px;
+  letter-spacing: 4px;
+  display: flex;
+  align-items: center;
+}
+.preco2-produto{
+  width: 170px;
+  height: 40px;
+  display: flex;
+  margin-left: 10px;
+  align-items: center;
+  color: #686c78;
+  font-size: 20px;
+  letter-spacing: 4px;
+  text-decoration-line: line-through;
+}
+.titulo-descricao2-produto{
+  width: 780px;
+  height: 30px;
+  font-size: 14px;
+  color: #a0a0a0; 
+  margin: 26px 0px 0px 46px;
+  letter-spacing: 4px;
+}
+.descricao2-produto{
+  width: 740px;
+  height: 320px;
+  margin: 10px 0px 0px 46px;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 38px;
+}
+.titulos-descricao2{
+  width: 780px;
+  height: 20px;
+  display: flex;
+}
+.titulo-cor-descricao2{
+  width: 110px;
+  height: 20px;
+  font-size: 14px;
+  margin: 26px 0px 0px 46px;
+  color: #a0a0a0; 
+  letter-spacing: 4px;
+}
+.cor-quantidade-produto{
+  width: 780px;
+  height: 48px;
+  margin: 26px 0px 0px 46px;
+  display: flex;
+  align-items: center;
+  gap: 120px;
+}
+.div-cor-produto{
+  width: 40px;
+  height: 40px;
+  background-color: #002a72b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.quantidade-produto{
+  appearance: none;
+  width: 100px;
+  height: 40px;
+  border: none;
+  margin-top: 20px;
+}
+.button{
+  width: 776px;
+  height: 48px;
+  margin: 31px 0px 0px 46px;
+  border: none;
+  color: white;
+  background-color: #000;
+  letter-spacing: 4px;
+}
+
+/* 1 - LINHA - PRDUTO - 2 -----------------------------------------------------------------------------------------------------*/
+
+.img-1-3{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1-2-colar-circulo-verde.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-4{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Acessorios2-colar.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img2-1-produto{
+  width: 1672px;
+  height: 770px;
+  background-image: url(/src/image/1-3-colar-curculo-verde.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div2-cor-produto{
+  width: 40px;
+  height: 40px;
+  background-color: #1de06bb4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* 1 - LINHA - PRODUTO - 3 ----------------------------------------------------------------------------------------------------*/
+
+.descricao-2{
+  width: 100vw;
+  height: 770px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.img-1-5{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-conjunto-de-aneis.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-6{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-conjunto-de-aneis.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div3-cor-produto{
+  width: 40px;
+  height: 40px;
+  background-color: #2d2d2db4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* 1 - LINHA - PRODUTO - 4 ----------------------------------------------------------------------------------------------------*/
+
+.img-1-7{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-brinco-circulo-verde.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-8{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Acessorios4-brincos2.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img2-2-produto{
+  width: 1672px;
+  height: 800px;
+  background-image: url(/src/image/1-2-brinco-circulo-verde.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.div4-cor-produto{
+  width: 40px;
+  height: 40px;
+  background-color: #1de06bb4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* LINHA 2 - PRODUTOS - HOME -------------------------------------------------------------------------------------------------*/
 
 .section-l2{
   margin: 0;
@@ -705,7 +1378,7 @@
   cursor: pointer;
 }
 
-/*LINHA 3 - PRODUTOS - HOME*/
+/*LINHA 3 - PRODUTOS - HOME ---------------------------------------------------------------------------------------------------*/
 
 .section-l3{
   margin: 0;
@@ -954,7 +1627,7 @@
   cursor: pointer;
 }
 
-/* FORMAS DE PAGAMENTOS - HOME */
+/* FORMAS DE PAGAMENTOS - HOME -------------------------------------------------------------------------------------------------*/
 
 .forma-pagamentos-home{
   width: 100vw;
@@ -1044,7 +1717,7 @@
   font-style: normal;
 }
 
-/* FOOTER */
+/* FOOTER ---------------------------------------------------------------------------------------------------------------------*/
 
 .footer{
   width: 100vw;
@@ -1126,913 +1799,7 @@
   font-style: normal;
 }
 
-/* PÁGINA LOGIN */
-
-.container {
-  width: 100vw;
-  height: 100vw;
-  overflow: hidden;
-}
-.form-container {
-  position: absolute;
-  height: 100%;
-  transition: all 0.6s ease-in-out;
-}
-.form-control {
-  width: 100%;
-  position: relative;
-}
-.form-control2 {
-  width: 100%;
-  position: relative;
-}
-.form-control2 span {
-  position: absolute;
-  border-bottom: 3px solid #2691d9;
-  left: 0;
-  width: 0%;
-  transition: all 0.3s ease;
-}
-.form-control2 input:focus ~ span {
-  width: 100%;
-}
-.form-control small {
-  color: red;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  font-size: 12px;
-  z-index: 100;
-}
-.form-control span {
-  position: absolute;
-  border-bottom: 3px solid #2691d9;
-  left: 0;
-  bottom: 8px;
-  width: 0%;
-  transition: all 0.3s ease;
-}
-.form-control input:focus ~ span {
-  width: 100%;
-}
-.form-control2 small {
-  color: red;
-  position: absolute;
-  top: 50px;
-  left: 0;
-  font-size: 12px;
-  z-index: 100;
-}
-.form-control2 span {
-  position: absolute;
-  border-bottom: 3px solid #2691d9;
-  left: 0;
-  bottom: 8px;
-  width: 0%;
-  transition: all 0.3s ease;
-}
-.form-control2 input:focus ~ span {
-  width: 100%;
-}
-.login-container {
-  left: 0;
-  width: 50%;
-  z-index: 2;
-}
-.container.right-panel-active .login-container {
-  transform: translateX(100%);
-}
-.register-container {
-  left: 0;
-  width: 50%;
-  opacity: 0;
-  z-index: 1;
-}
-.container.right-panel-active .register-container {
-  transform: translateX(100%);
-  opacity: 1;
-  z-index: 5;
-  animation: show 0.6s;
-}
-.body {
-  margin: 0;
-  background-color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  height: 100vh;
-}
-.titulo-login{
-  margin-top: 28px;
-  font-size: 38px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: 2px;
-}
-input {
-  width: 100%;
-  background-color: #fff;
-  outline: none;
-  border: none;
-  border-bottom: 2px solid #adadad;
-  padding: 12px 0px;
-}
-form {
-  background-color: #fff;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 50px;
-  height: 100%;
-  text-align: center;
-}
-.email-2{
-  margin-top: 14px;
-  letter-spacing: 2px;
-}
-.password-2{
-  margin-top: 14px;
-  letter-spacing: 2px;
-}
-.content {
-  display: flex;
-  width: 100%;
-  height: 50px;
-  margin-top: 50px;
-  align-items: center;
-  justify-content: space-around;
-}
-.content .checkbox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-.checkbox {
-  width: 10px;
-  height: 10px;
-}
-.content  {
-  accent-color: #333;
-  min-width: 20px;
-  min-height:20px;
-}
-.content label{
-  width: 140px;
-  letter-spacing: 2px;
-  cursor: pointer;
-}
-.esquecer-senha{
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-}
-.a-esquecer-senha {
-  color: #333;
-  font-size: 18px;
-  text-decoration: none;
-  margin: 15px 0;
-  transition: 0.3s ease-in-out;
-}
-.a-esquecer-senha:hover {
-  color: #717171;
-}
-.botao-login{
-  width: 160px;
-  height: 48px;
-  margin-top: 40px;
-  padding: 0;
-  border: none;
-  color: #fff;
-  letter-spacing: 4px;
-  background-color: #000;
-}
-.subtitulo-botao-login{
-  width: 160px;
-  font-size: 14px;
-  margin-top: 40px;
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-}
-.social-container {
-  margin: 40px ;
-  display: inline-flex;
-  justify-content: center;
-  align-items: center;
-  gap: 40px;
-}
-.facebook-login{
-  width: 44px;
-  height: 44px;
-  background-image: url(/src/image/facebook.png);
-  background-position: center;
-  background-size: cover;
-  border-radius: 50%;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-.google-login{
-  width: 46px;
-  height: 46px;
-  background-image: url(/src/image/google.png);
-  background-position: center;
-  background-size: cover;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-.email-login{
-  width: 46px;
-  height: 46px;
-  background-image: url(/src/image/o-email.png);
-  background-position: center;
-  background-size: cover;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-@keyframes show {
-  0%,
-  49.99% {
-    opacity: 0;
-    z-index: 1;
-  }
-  50%,
-  100% {
-    opacity: 1;
-    z-index: 5;
-  }
-}
-.overlay-container {
-  background-image: url("/src/image/pexels-cottonbro-10176433.jpg");
-  background-position: center;
-  background-size: cover;
-  position: absolute;
-  top: 0;
-  left: 50%;
-  width: 50%;
-  height: 100%;
-  overflow: hidden;
-  transition: transform 0.6s ease-in-out;
-  z-index: 100;
-}
-.titulo-overlay{
-  margin-top: 60px;
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-}
-.container.right-panel-active .overlay-container {
-  transform: translate(-100%);
-}
-.overlay {
-  color: #fff;
-  position: relative;
-  left: -100%;
-  height: 100%;
-  width: 200%;
-  transform: translateX(0);
-  transition: transform 0.6s ease-in-out;
-}
-.overlay::before {
-  content: "";
-  position: absolute;
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-}
-.container.right-panel-active .overlay {
-  transform: translateX(50%);
-}
-.overlay-panel {
-  position: absolute;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  padding: 0 40px;
-  text-align: center;
-  top: 0;
-  height: 100%;
-  width: 50%;
-  transform: translateX(0);
-  transition: transform 0.6s ease-in-out;
-}
-.overlay-left {
-  transform: translateX(-20%);
-}
-.container.right-panel-active .overlay-left {
-  transform: translateX(0);
-}
-.overlay-right {
-  right: 0;
-  transform: translateX(0);
-}
-.container.right-panel-active .overlay-right {
-  transform: translateX(20%);
-}
-.ghost{
-  position: relative;
-  border-radius: 20px;
-  border: 1px solid #686c78;
-  background-color: #686c78;
-  color: #fff;
-  font-size: 18px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-  margin: 20px;
-  padding: 12px 80px;
-  letter-spacing: 4px;
-  text-transform: capitalize;
-  transition: 0.3s ease-in-out;
-  cursor: pointer;
-}
-.ghost:hover {
-  letter-spacing: 6px;
-}
-.ghost:active {
-  transform: scale(0.95);
-}
-.ghost:focus {
-  outline: none;
-}
-.ghost {
-  background-color: rgba(255, 255, 255, 0.2);
-  border: 2px solid #fff;
-  color: #fff;
-}
-#login i {
-  position: absolute;
-  left: 50px;
-}
-#register i {
-  position: absolute;
-  right: 50px;
-}
-.ghost i {
-  position: absolute;
-  opacity: 1;
-  transition: 0.3s ease-in-out;
-  z-index: 6;
-}
-.ghost i.register {
-  right: 70px;
-}
-.ghost i.login {
-  left: 70px;
-}
-
-/* REGISTER */
-
-.titulo-register{
-  margin-top: 30px;
-  font-size: 38px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-  letter-spacing: 2px;
-}
-.form-control{
-  margin-top: 46px;
-  letter-spacing: 2px;
-}
-.nome-register{
-  margin-top: 14px;
-  letter-spacing: 2px;
-}
-.email-register{
-  margin-top: 14px;
-  letter-spacing: 2px;
-}
-.passaword-register{
-  margin-top: 14px;
-  letter-spacing: 2px;
-}
-.botao-register{
-  width: 160px;
-  height: 48px;
-  margin-top: 40px;
-  padding: 0;
-  border: none;
-  color: #fff;
-  letter-spacing: 4px;
-  background-color: #000;
-}
-.subtitulo-botao-register{
-  width: 160px;
-  font-size: 14px;
-  margin-top: 40px;
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-}
-
-/* DESCRICAO - DETALHADA DOS PRODUTOS DA PAGINA -  HOME */
-
-/* 1 - LINHA - PRODUTO - 1 */
-
-.descricao{
-  width: 100vw;
-  height: 1600px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-.imgs-produto{
-  width: 836px;
-  height: 770px;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-.img-1-produto{
-  width: 836px;
-  height: 770px;
-  display: flex;
-  gap: 10px;
-}
-.img-1-1{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.1-brinco-coracao.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.img-1-2{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.2-brinco-coracao.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.img2-produto{
-  width: 1672px;
-  height: 800px;
-  background-image: url(/src/image/Acessorios1-brinco.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.descricao-escrita-produto{
-  width: 836px;
-  height: 820px;
-  display: flex;
-  flex-direction: column;
-}
-.titulo-produto{
-  width: 780px;
-  height: 40px;
-  font-size: 38px;
-  letter-spacing: 4px;
-  margin: 20px 0px 0px  46px;
-}
-.ref-produto{
-  width: 780px;
-  height: 20px;
-  font-size: 14px;
-  letter-spacing: 4px;
-  margin: 20px 2px 0px  46px;
-  color: #a0a0a0;
-}
-.div-avaliacao-produto{
-  width: 780px;
-  height: 40px;
-  margin: 10px 0px 0px 46px;
-  display: flex;
-  gap: 10px;
-}
-.avaliacao-produto{
-  width: 160px;
-  height: 40px;
-  display: flex;
-  align-items: center;
-  gap: 10px;
-}
-.estrela-produto{
-  width: 20px;
-  height: 20px;
-}
-.avaliacao2-produto{
-  width: 280px;
-  height: 40px;
-  margin-top: 2px;
-  font-size: 18px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 4px;
-  cursor: pointer;
-}
-.precos-produto{
-  width: 780px;
-  height: 40px;
-  display: flex;
-  margin: 20px 0px 0px 46px;
-}
-.preco-produto{
-  width: 160px;
-  height: 40px;
-  font-size: 30px;
-  letter-spacing: 4px;
-  display: flex;
-  align-items: center;
-}
-.preco2-produto{
-  width: 170px;
-  height: 40px;
-  display: flex;
-  margin-left: 10px;
-  align-items: center;
-  color: #686c78;
-  font-size: 20px;
-  letter-spacing: 4px;
-  text-decoration-line: line-through;
-}
-.titulo-descricao2-produto{
-  width: 780px;
-  height: 30px;
-  font-size: 14px;
-  color: #a0a0a0; 
-  margin: 26px 0px 0px 46px;
-  letter-spacing: 4px;
-}
-.descricao2-produto{
-  width: 740px;
-  height: 320px;
-  margin: 10px 0px 0px 46px;
-  text-align: justify;
-  letter-spacing: 2px;
-  line-height: 38px;
-}
-.titulos-descricao2{
-  width: 780px;
-  height: 20px;
-  display: flex;
-}
-.titulo-cor-descricao2{
-  width: 110px;
-  height: 20px;
-  font-size: 14px;
-  margin: 26px 0px 0px 46px;
-  color: #a0a0a0; 
-  letter-spacing: 4px;
-}
-.cor-quantidade-produto{
-  width: 780px;
-  height: 48px;
-  margin: 26px 0px 0px 46px;
-  display: flex;
-  align-items: center;
-  gap: 120px;
-}
-.div-cor-produto{
-  width: 40px;
-  height: 40px;
-  background-color: #002a72b4;
-  border-radius: 100px;
-  cursor: pointer;
-}
-.quantidade-produto{
-  appearance: none;
-  width: 100px;
-  height: 40px;
-  border: none;
-  margin-top: 20px;
-}
-.button{
-  width: 776px;
-  height: 48px;
-  margin: 31px 0px 0px 46px;
-  border: none;
-  color: white;
-  background-color: #000;
-  letter-spacing: 4px;
-}
-
-/* 1 - LINHA - PRDUTO - 2 */
-
-.img-1-3{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1-2-colar-circulo-verde.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-.img-1-4{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/Acessorios2-colar.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.img2-1-produto{
-  width: 1672px;
-  height: 770px;
-  background-image: url(/src/image/1-3-colar-curculo-verde.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.div2-cor-produto{
-  width: 40px;
-  height: 40px;
-  background-color: #1de06bb4;
-  border-radius: 100px;
-  cursor: pointer;
-}
-
-/* 1 - LINHA - PRODUTO - 3*/
-
-.descricao-2{
-  width: 100vw;
-  height: 770px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-.img-1-5{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.1-conjunto-de-aneis.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-.img-1-6{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.2-conjunto-de-aneis.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.div3-cor-produto{
-  width: 40px;
-  height: 40px;
-  background-color: #2d2d2db4;
-  border-radius: 100px;
-  cursor: pointer;
-}
-
-/* 1 - LINHA - PRODUTO - 4 */
-
-.img-1-7{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.1-brinco-circulo-verde.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-.img-1-8{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/Acessorios4-brincos2.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.img2-2-produto{
-  width: 1672px;
-  height: 800px;
-  background-image: url(/src/image/1-2-brinco-circulo-verde.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.div4-cor-produto{
-  width: 40px;
-  height: 40px;
-  background-color: #1de06bb4;
-  border-radius: 100px;
-  cursor: pointer;
-}
-
-/* DESCRICAO - DETALHADA DOS PRODUTOS DA PAGINA -  PRODUTOS 1  */
-
-/* LINHA 1 - PAGINA PRODUTOS - 1 - PRODUTO - 1 */
-
-.img-1-25{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/Calca\ Jeans.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-.img-1-26{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.1-calca-jeans.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.descricao3-produto{
-  width: 740px;
-  height: 160px;
-  margin: 10px 0px 0px 46px;
-  text-align: justify;
-  letter-spacing: 2px;
-  line-height: 38px;
-}
-.titulo-tamanhos{
-  width: 780px;
-  height: 30px;
-  font-size: 14px;
-  color: #a0a0a0; 
-  margin: 26px 0px 0px 46px;
-  letter-spacing: 4px;
-  display: flex;
-  align-items: center;
-}
-.div-tamanhos{
-  width: 780px;
-  height: 80px;
-  margin: 10px 0px 0px 46px;
-  display: flex;
-  align-items: center;
-  gap: 26px;
-}
-.tamanhos{
-  width: 60px;
-  height: 60px;
-  font-size: 16px;
-  letter-spacing: 0.80px;
-  background-color: transparent;
-  color: black;
-  border: 2px solid #a0a0a0;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-}
-.div13-cor-produto{
-  width: 40px;
-  height: 40px;
-  margin-top: 20px;
-  background-color: #5f97e2b4;
-  border-radius: 100px;
-  cursor: pointer;
-}
-.button2{
-  width: 776px;
-  height: 48px;
-  margin: 45px 0px 0px 46px;
-  border: none;
-  color: white;
-  background-color: #000;
-  letter-spacing: 4px;
-}
-.imagem-frete-produtos{
-  width: 100vw;
-  height: 948px;
-  margin-top: 20px;
-  display: flex;
-  justify-content: center;
-}
-.img-2-12-produto{
-  width: 836px;
-  height: 928px;
-  background-image: url(/src/image/1.2-calca-jeans.jpg);
-  background-size: cover;
-  background-position: center;
-}
-.frete{
-  width: 836px;
-  height: 928px;
-}
-.titulo-frete{
-  width: 780px;
-  height: 40px;
-  font-size: 32px;
-  margin: 20px 0px 0px 46px;
-  display: flex;
-  align-items: center;
-  letter-spacing: 4px;
-}
-.subtitulo-frete{
-  width: 780px;
-  height: 20px;
-  margin: 10px 0px 0px 46px;
-  letter-spacing: 4px;
-  color: #a0a0a0;
-}
-.input-button-frete{
-  width: 780px;
-  height: 60px;
-  display: flex;
-  align-items: center;
-  margin: 20px 0px 0px 46px;
-  gap: 20px;
-}
-.input-frete{
-  width: 660px;
-  height: 60px;
-  font-size: 15px;
-  color: #000;
-  border: 2px solid #000;
-  letter-spacing: 4px;
-  padding-left: 10px;
-}
-.button-frete{
-  width: 100px;
-  height: 40px;
-  font-size: 14px;
-  letter-spacing: 3px;
-  color: #ffffff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  border: none;
-  background-color: #000;
-}
-.pesquisa-para-frete{
-  width: 780px;
-  height: 20px;
-  font-size: 16px;
-  margin: 20px 0px 0px 46px;
-  letter-spacing: 4px;
-  color: #000000;
-}
-.vendedor-frete{
-  width: 780px;
-  height: 40px;
-  margin: 40px 0px 0px 46px;
-  background-color: #eaeaea;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  letter-spacing: 4px;
-}
-.linhas-frete{
-  width: 780px;
-  margin: 20px 0px 0px 46px;
-}
-.teste{
-  width: 100vw;
-  height: 400px;
-  background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-2.svg);
-  background-position: center;
-  background-repeat: no-repeat;
-}
-
-/* LINHA 1 - PAGINA PRODUTOS - 1 - PRODUTO - 2 */
-
-.img-1-27{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/Moletom\ Jeans.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-.img-1-28{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.1-moletom-jeans.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-
-/* LINHA 1 - PAGINA PRODUTOS - 1 - PRODUTO - 3 */
-
-.img-1-29{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.2-jaqueta-jeans.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.img-1-30{
-  width: 413px;
-  height: 770px;
-  background-image: url(/src/image/1.1-jaqueta-jeans.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-
-/* LINHA 1 - PAGINA PRODUTOS - 1 - PRODUTO - 4 */
-
-.img-1-31{
-  width: 413px;
-  height: 700px;
-  background-image: url(/src/image/Jaqueta\ Botões\ Jeans.jpg);
-  background-position: center;
-  background-size: cover;
-}
-.img-1-32{
-  width: 413px;
-  height: 700px;
-  background-image: url(/src/image/1.1-jaqueta-botoes-jeans.jpg);
-  background-position: bottom;
-  background-size: cover;
-}
-
-/*PÁGINA DE PRODUTOS */
+/* PÁGINA DE PRODUTOS - 1------------------------------------------------------------------------------------------------------*/
 
 .header-produtos {
   width: 100vw;
@@ -2118,8 +1885,7 @@ form {
   margin-top: 74px;
 }
 
-
-/*CONTEÚDO DA PÁGINA PRODUTOS*/
+/*CONTEÚDO DA 1 PÁGINA PRODUTOS -----------------------------------------------------------------------------------------------*/
 
 .corpo-produtos{
   width: 100vw;
@@ -2132,8 +1898,6 @@ form {
   width: 100vw;
   height: 4800px;
 }
-
-/*CONTEÚDO DA PÁGINA PRODUTOS - PAGINA - 1*/
 
 /*LINHA 1 - PAGINA DE PRODUTOS*/
 
@@ -2314,7 +2078,245 @@ form {
   letter-spacing: 0.75px;
 }
 
-/* LINHA 2 - PÁGINA - PRODUTOS */
+/* DESCRICAO - DETALHADA DOS PRODUTOS DA PAGINA - 1  --------------------------------------------------------------------------*/
+
+/* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+
+.img-1-25{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Calca\ Jeans.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-26{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-calca-jeans.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.descricao3-produto{
+  width: 740px;
+  height: 160px;
+  margin: 10px 0px 0px 46px;
+  text-align: justify;
+  letter-spacing: 2px;
+  line-height: 38px;
+}
+.titulo-tamanhos{
+  width: 780px;
+  height: 30px;
+  font-size: 14px;
+  color: #a0a0a0; 
+  margin: 26px 0px 0px 46px;
+  letter-spacing: 4px;
+  display: flex;
+  align-items: center;
+}
+.div-tamanhos{
+  width: 780px;
+  height: 80px;
+  margin: 10px 0px 0px 46px;
+  display: flex;
+  align-items: center;
+  gap: 26px;
+}
+.tamanhos{
+  width: 60px;
+  height: 60px;
+  font-size: 16px;
+  letter-spacing: 0.80px;
+  background-color: transparent;
+  color: black;
+  border: 2px solid #a0a0a0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+.div13-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #5f97e2b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+.button2{
+  width: 776px;
+  height: 48px;
+  margin: 45px 0px 0px 46px;
+  border: none;
+  color: white;
+  background-color: #000;
+  letter-spacing: 4px;
+}
+.imagem-frete-produtos{
+  width: 100vw;
+  height: 948px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+.img-2-12-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-calca-jeans.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.frete{
+  width: 836px;
+  height: 928px;
+}
+.titulo-frete{
+  width: 780px;
+  height: 40px;
+  font-size: 32px;
+  margin: 20px 0px 0px 46px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+}
+.subtitulo-frete{
+  width: 780px;
+  height: 20px;
+  margin: 10px 0px 0px 46px;
+  letter-spacing: 4px;
+  color: #a0a0a0;
+}
+.input-button-frete{
+  width: 780px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  margin: 20px 0px 0px 46px;
+  gap: 20px;
+}
+.input-frete{
+  width: 660px;
+  height: 60px;
+  font-size: 15px;
+  color: #000;
+  border: 2px solid #000;
+  letter-spacing: 4px;
+  padding-left: 10px;
+}
+.button-frete{
+  width: 100px;
+  height: 40px;
+  font-size: 14px;
+  letter-spacing: 3px;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: #000;
+}
+.pesquisa-para-frete{
+  width: 780px;
+  height: 20px;
+  font-size: 16px;
+  margin: 20px 0px 0px 46px;
+  letter-spacing: 4px;
+  color: #000000;
+}
+.vendedor-frete{
+  width: 780px;
+  height: 40px;
+  margin: 40px 0px 0px 46px;
+  background-color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: 4px;
+}
+.linhas-frete{
+  width: 780px;
+  margin: 20px 0px 0px 46px;
+}
+.titulos-descricao-frete{
+  width: 780px;
+  height: 40px;
+  font-size: 20px;
+  color: #a0a0a0;
+  margin: 20px 0px 0px 46px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 4px;
+}
+.textos-frete{
+  width: 780px;
+  height: 60px;
+  font-size: 18px;
+  color: #000000;
+  text-align: justify;
+  letter-spacing: 4px;
+  margin: 20px 0px 0px 46px;
+}
+.tabela-tamanhos{
+  width: 100vw;
+  height: 400px;
+  background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-3.svg);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+/* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+.img-1-27{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Moletom\ Jeans.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-28{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-moletom-jeans.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+/* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+.img-1-29{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-jaqueta-jeans.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-30{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-jaqueta-jeans.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+/* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+
+.img-1-31{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Jaqueta\ Botões\ Jeans.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-32{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-jaqueta-botoes-jeans.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+
+/* LINHA 2 - PÁGINA 1 PRODUTOS ------------------------------------------------------------------------------------------------*/
 
 .linha2-pag-produtos{
   display: flex;
@@ -2493,7 +2495,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 3 - PAGINA PRODUTOS*/
+/*LINHA 3 - PAGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
 
 .linha3-pag-produtos{
   display: flex;
@@ -2673,7 +2675,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 4 - PÁGINA PRODUTOS*/
+/*LINHA 4 - PÁGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
 
 .linha4-pag-produtos{
   display: flex;
@@ -2774,7 +2776,6 @@ form {
   font-size: 24px;
   letter-spacing: .80px;
 }
-
 .valores4-produtos-pagina{
   display: flex;
   justify-content: center;
@@ -2853,7 +2854,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 5 - PÁGINA PRODUTOS*/
+/*LINHA 5 - PÁGINA 1 PRODUTOS --------------------------------------------------------------------------------------------------*/
 
 .linha5-pag-produtos{
   display: flex;
@@ -3032,7 +3033,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 6 - PÁGINA PRODUTOS*/
+/*LINHA 6 - PÁGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
 
 .linha6-pag-produtos{
   display: flex;
@@ -3211,7 +3212,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 7 - PÁGINA PRODUTOS*/
+/*LINHA 7 - PÁGINA 1 PRODUTOS --------------------------------------------------------------------------------------------------*/
 
 .linha7-pag-produtos{
   display: flex;
@@ -3252,7 +3253,6 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-
 .tipo-de-produto7-pagina{
   display: flex;
   justify-content: center;
@@ -3391,7 +3391,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 8 - PÁGINA PRODUTOS*/
+/*LINHA 8 - PÁGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
 
 .linha8-pag-produtos{
   display: flex;
@@ -3570,7 +3570,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/* PÁGINAÇÃO */
+/* PÁGINAÇÃO -----------------------------------------------------------------------------------------------------------------*/
 
 .pagination-produtos{
   width: 100vw;
@@ -3630,9 +3630,9 @@ form {
     cursor: pointer;
 }
 
-/*PÁGINA - 2 - PRODUTOS */
+/*PÁGINA - 2 - PRODUTOS ------------------------------------------------------------------------------------------------------*/
 
-/*LINHA 1 - PAGINA DE PRODUTOS*/
+/*LINHA 1 - PAGINA 2 PRODUTOS ------------------------------------------------------------------------------------------------*/
 
 .produto33-pagina-produtos{
   width: 360px;
@@ -3788,7 +3788,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/* LINHA 2 - PÁGINA - PRODUTOS */
+/* LINHA 2 - PÁGINA 2 PRODUTOS */
 
 .produto37-pagina-produtos{
   width: 360px;
@@ -3944,8 +3944,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 3 - PAGINA PRODUTOS*/
-
+/*LINHA 3 - PAGINA 2 PRODUTOS*/
 
 .produto41-pagina-produtos{
   width: 360px;
@@ -4101,7 +4100,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 4 - PÁGINA PRODUTOS*/
+/*LINHA 4 - PÁGINA 2 PRODUTOS*/
 
 .produto45-pagina-produtos{
   width: 360px;
@@ -4257,8 +4256,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 5 - PÁGINA PRODUTOS*/
-
+/*LINHA 5 - PÁGINA 2 PRODUTOS*/
 
 .produto49-pagina-produtos{
   width: 360px;
@@ -4414,7 +4412,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 6 - PÁGINA PRODUTOS*/
+/*LINHA 6 - PÁGINA 2 PRODUTOS*/
 
 .produto53-pagina-produtos{
   width: 360px;
@@ -4570,8 +4568,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 7 - PÁGINA PRODUTOS*/
-
+/*LINHA 7 - PÁGINA 2 PRODUTOS*/
 
 .produto57-pagina-produtos{
   width: 360px;
@@ -4727,7 +4724,7 @@ form {
   letter-spacing: 0.75px;
 }
 
-/*LINHA 8 - PÁGINA PRODUTOS*/
+/*LINHA 8 - PÁGINA 2 PRODUTOS*/
 
 .produto61-pagina-produtos{
   width: 360px;
@@ -4882,6 +4879,3 @@ form {
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
-
-
-

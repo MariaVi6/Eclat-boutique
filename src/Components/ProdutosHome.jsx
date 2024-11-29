@@ -8,8 +8,6 @@ const ProdutosHome = () => {
 
         {/* LINHA 1 - PRODUTOS - HOME */}
 
-        <div className="div-titulo-home"><h1 className="titulo-produtos">Mais Vendidos</h1></div>
-
         <section className="section-l1">
 
         <div className="linha1-produtos">
