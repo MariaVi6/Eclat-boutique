@@ -2,7 +2,7 @@ const Descricao13Home = () => {
 
     return ( <>
     
-    <div className="descricao-2">
+    <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
                 <div className="img-1-25"></div>
