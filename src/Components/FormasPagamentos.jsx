@@ -27,7 +27,7 @@ const FormasPagamentos = () => {
         <div className="container-descricao2-eclac">
         
         <div className="descricao2-eclac"> à partir de RS400</div>
-        <div className="descricao2-eclac">à partir de R$600</div>
+        <div className="descricao2-eclac">à partir de R$400</div>
         <div className="descricao2-eclac">em até 20 dias <br />após a compra</div>
         <div className="descricao2-eclac">na primeira compra</div>
         <div className="descricao2-eclac">para todo o brasil</div>

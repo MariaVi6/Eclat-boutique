@@ -1999,7 +1999,6 @@ form {
   font-size: 24px;
   letter-spacing: .80px;
 }
-
 .valores1-produtos-pagina{
   display: flex;
   justify-content: center;
@@ -2250,7 +2249,7 @@ form {
 .textos-frete{
   width: 780px;
   height: 60px;
-  font-size: 18px;
+  font-size: 16px;
   color: #000000;
   text-align: justify;
   letter-spacing: 4px;
@@ -2263,8 +2262,6 @@ form {
   background-position: center;
   background-repeat: no-repeat;
 }
-
-
 /* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
 
 .img-1-27{
@@ -2280,6 +2277,13 @@ form {
   background-image: url(/src/image/1.1-moletom-jeans.jpg);
   background-position: bottom;
   background-size: cover;
+}
+.img-2-13-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-moletom-jeans.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
@@ -2298,6 +2302,13 @@ form {
   background-position: bottom;
   background-size: cover;
 }
+.img-2-14-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/Jaqueta\ Jeans.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 /* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
 
@@ -2314,6 +2325,13 @@ form {
   background-image: url(/src/image/1.1-jaqueta-botoes-jeans.jpg);
   background-position: bottom;
   background-size: cover;
+}
+.img-2-15-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-jaqueta-botoes-jeans.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /* LINHA 2 - PÁGINA 1 PRODUTOS ------------------------------------------------------------------------------------------------*/

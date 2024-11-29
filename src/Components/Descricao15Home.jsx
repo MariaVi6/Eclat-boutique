@@ -72,6 +72,35 @@ const Descricao15Home = () => {
             <button className="button2">Adicione ao Carrinho</button>
         </div>
     </div>
+
+    <div className="imagem-frete-produtos">
+            <div className="img-2-14-produto"></div>
+            <div className="frete">
+                <div className="titulo-frete">Entrega</div>
+                <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>
+                <div className="input-button-frete">
+                <input className="input-frete" type="text" placeholder="Digite seu cep" />
+                <button className="button-frete">Consultar</button>
+                </div>
+                
+                <div className="pesquisa-para-frete">Não sei meu CEP</div>
+                <div className="vendedor-frete">Produto vendido e entregue por Eclat Boutique</div>
+                <hr className="linhas-frete" />
+                <div className="titulos-descricao-frete">Entrega Rápida</div>
+                <div className="textos-frete">Receba seu pedido em até 48 horas, verifique o tempo estimado para o seu Cep.</div>
+                <hr className="linhas-frete" />
+                <div className="titulos-descricao-frete">Frete Grátis</div>
+                <div className="textos-frete">Em compras à partir de R$ 400,00.</div>
+                <hr className="linhas-frete" />
+                <div className="titulos-descricao-frete">Troca e Devolução</div>
+                <div className="textos-frete">Devolução é gratuita, assim que é solicitado a devolução é gerado um codigo do correio. </div>
+                <hr className="linhas-frete" />
+                <div className="titulos-descricao-frete">Composição</div>
+                <div className="textos-frete">90% algodão 10% elastano</div>
+            </div>
+        </div>
+            
+            <div className="tabela-tamanhos"></div>
     </> );
 }
  
