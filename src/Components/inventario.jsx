@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import fetchImages from '../../js/fetchApis';
-
+import "./styleInventario/"
 const Inventario = () => {
   const [items, setItems] = useState([]);
 
@@ -13,14 +13,14 @@ const Inventario = () => {
   }, []);
 
   return (
-    <div className="grid-images">
+    <div className="grid-images ">
       {items.length > 0 ? (
         items.map(item => (
-          <div key={item._id} className="item">
-            <img className="itemImg" src={item.urlImg} alt={item.descricao} />
-            <p className="descricao">{item.descricao}</p>
-            <p className="nota">{item.nota}</p>
-            <p className="preco">{item.preco}</p>
+          <div key={item._id} className="item ">
+            <img className="itemImg bg-rose-500" src={item.urlImg} alt={item.descricao} />
+            <p className="alt bg-gray-500">{item.descricao}</p>
+            <p className="rate bg-red-500">{item.nota}</p>
+            <p className="price">{item.preco}</p>
           </div>
         ))
       ) : (
