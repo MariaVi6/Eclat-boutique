@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import fetchImages from '../../js/fetchApis';
-import "./styleInventario/"
 const Inventario = () => {
   const [items, setItems] = useState([]);
 
