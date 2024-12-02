@@ -1,10 +1,14 @@
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
 import fetchImages from '../../js/fetchApis';
+
 const Procurar = () => {
     const [query, setQuery] = useState('');
     const [items, setItems] = useState([]);
     const [allItems, setAllItems] = useState([]);
+    const [filtro, setFiltro] = useState('');
+
+    // Carrega todas as imagens iniciais
     useEffect(() => {
         const dados = async () => {
             const data = await fetchImages();
@@ -12,6 +16,8 @@ const Procurar = () => {
         };
         dados();
     }, []);
+
+    // Busca as imagens de acordo com a query
     useEffect(() => {
         const PegarDados = async () => {
             if (query) {
@@ -27,9 +33,27 @@ const Procurar = () => {
         };
         PegarDados();
     }, [query]);
+
+    // Filtra os itens de acordo com o filtro
+    useEffect(() => {
+        if (filtro) {
+            const filteredItems = allItems.filter(item => 
+                item.categoria === filtro || item.preco <= filtro // Exemplo de filtro por categoria ou preço
+            );
+            setItems(filteredItems);
+        } else {
+            setItems(allItems);
+        }
+    }, [filtro, allItems]);
+
     const pegarTexto = (e) => {
         setQuery(e.target.value);
     };
+
+    const handleFilterChange = (e) => {
+        setFiltro(e.target.value);
+    };
+
     return (
         <>
             <div>
@@ -40,24 +64,29 @@ const Procurar = () => {
                     placeholder="Digite sua busca"
                 />
             </div>
+            <div>
+                <select onChange={handleFilterChange}>
+                    <option value="">Todos</option>
+                    <option value="categoria1">1</option>
+                    <option value="categoria2">2</option>
+                    <option value="300">3</option>
+                    <option value="2000">4</option>
+                </select>
+            </div>
             {query && (
                 <div className="grid-images flex">
                     {items.length > 0 ? (
                         items.map(item => (
                             <div key={item._id} className="item">
-                                <h1>resultado da busca: {query}</h1>
-                                <h1>resultados {items.length}</h1>
                                 <img className="itemImg bg-rose-500" src={item.urlImg} alt={item.descricao} />
                                 <p className="alt bg-gray-500">{item.descricao}</p>
                                 <p className="rate bg-red-500">{item.nota}</p>
                                 <p className="price">{item.preco}</p>
-                                <h1 className='bg-red-600 h-60 w-48'></h1>
-                                <hr />
                             </div>
                         ))
                     ) : (
                         <div className="spinner-border text-danger" role="status">
-                            <span className="sr-only">Loading...</span>
+                            <span className="sr-only"></span>
                         </div>
                     )}
                 </div>
@@ -65,4 +94,5 @@ const Procurar = () => {
         </>
     );
 };
+
 export default Procurar;
