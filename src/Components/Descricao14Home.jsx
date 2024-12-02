@@ -11,8 +11,8 @@ const Descricao14Home = () => {
 
         </div>
         <div className="descricao-escrita-produto">
-            <h1 className="titulo-produto">Brinco Circular Verde</h1>
-            <h1 className="ref-produto">Acessorios | Brincos | Ref: 204391229</h1>
+            <h1 className="titulo-produto">Moletom</h1>
+            <h1 className="ref-produto">Jeans | Moletom | Ref: 204391229</h1>
             <div className="div-avaliacao-produto">
                 <div className="avaliacao-produto" >
                 <img className="estrela-produto" src="/src/image/estrela.png" alt="" />
