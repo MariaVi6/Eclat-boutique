@@ -13,7 +13,7 @@ const CarroselHome = () => {
     </div>
     <div className="carousel-inner">
         <div className="carousel-item active">
-            <img src="/src/image/2.png" className="d-block w-100" alt="Slide1" />
+            <img src="/src/image/1-img-carrosel.svg" className="d-block w-100" alt="Slide1" />
         </div>
         <div className="carousel-item">
             <img src="/src/image/1.png" className="d-block w-100" alt="Slide2" />

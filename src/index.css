@@ -41,7 +41,6 @@
   margin-top: 80px;
   text-align: center;
   letter-spacing: 4.0px;
-  cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -621,6 +620,9 @@ form {
   width: 100vw;
   height: 800px;
   margin-top: 20px;
+  padding: 0;
+  background-position: center;
+  background-size: cover;
   display: flex;
 }
 
@@ -1824,7 +1826,7 @@ form {
   height: 160px;
   display: flex;
   justify-content: center;
-  margin-right: 60px;
+  margin-right: 68px;
 }
 .ul-filtros {
   display: flex;
@@ -2105,6 +2107,10 @@ form {
   height: 160px;
   margin: 10px 0px 0px 46px;
   text-align: justify;
+  font-size: 15px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   letter-spacing: 2px;
   line-height: 38px;
 }
@@ -2163,7 +2169,6 @@ form {
   display: flex;
   justify-content: center;
 }
-
 .frete{
   width: 836px;
   height: 928px;
@@ -2180,6 +2185,10 @@ form {
 .subtitulo-frete{
   width: 780px;
   height: 20px;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   margin: 10px 0px 0px 46px;
   letter-spacing: 4px;
   color: #a0a0a0;
@@ -2197,7 +2206,7 @@ form {
   height: 60px;
   font-size: 15px;
   color: #000;
-  border: 2px solid #000;
+  border: 2px solid #afafaf;
   letter-spacing: 4px;
   padding-left: 10px;
 }
@@ -2217,6 +2226,9 @@ form {
   width: 780px;
   height: 20px;
   font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   margin: 20px 0px 0px 46px;
   letter-spacing: 4px;
   color: #000000;
@@ -2225,7 +2237,11 @@ form {
   width: 780px;
   height: 40px;
   margin: 40px 0px 0px 46px;
+  font-size: 14px;
   background-color: #eaeaea;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2248,8 +2264,11 @@ form {
 .textos-frete{
   width: 780px;
   height: 60px;
-  font-size: 16px;
+  font-size: 14px;
   color: #000000;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
   text-align: justify;
   letter-spacing: 4px;
   margin: 20px 0px 0px 46px;
