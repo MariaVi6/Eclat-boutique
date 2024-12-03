@@ -16,7 +16,6 @@ const Pagination = () => {
             <li className="seta-para-direita"><span aria-hidden="true">&raquo;</span></li>
         </ul>
     </nav>
-
 </div>
 );
 
