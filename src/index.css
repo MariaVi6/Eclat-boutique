@@ -87,7 +87,7 @@
   margin-top: 80px;
   text-align: center;
   letter-spacing: 4.0px;
-  cursor: pointer;
+
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -1899,7 +1899,7 @@ form {
   height: 4800px;
 }
 
-/*LINHA 1 - PAGINA DE PRODUTOS*/
+/*LINHA 1 - PAGINA 1 PRODUTOS ------------------------------------------------------------------------------------------*/
 
 .linha1-pag-produtos{
   display: flex;
@@ -2280,6 +2280,7 @@ form {
   background-position: center;
   background-repeat: no-repeat;
 }
+
 /* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
 
 .img-1-27{
@@ -2529,6 +2530,124 @@ form {
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
+}
+/* LINHA 2- PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+
+.img-1-33{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Colar\ Verde.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-34{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-colar-verde.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-2-16-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-moletom-jeans.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div14-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #19eac4b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+.img-1-35{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Bolsa\ de\ Mão.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-36{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-bolsa-de-mao.jpg);
+  background-position: 62% center;
+  background-size: cover;
+}
+.img-2-17-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-bolsa-de-mao.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div15-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #146c02b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+.img-1-37{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Anel\ Azul.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-38{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-anel-azul.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-2-18-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-anel-azul.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* LINHA 1 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+
+.img-1-39{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Brinco\ Verde.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-40{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-brinco-verde.jpg);
+  background-position: center;
+  background-size: 150%;
+}
+.img-2-19-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.1-brinco-verde.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div16-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #1b9c62b4;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 /*LINHA 3 - PAGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/

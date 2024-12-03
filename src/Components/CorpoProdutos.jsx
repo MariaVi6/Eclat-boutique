@@ -56,10 +56,10 @@ const CorpoProdutos = () => {
         {/*LINHA 2 - PAGINA PRODUTOS*/}
 
         <div className="linha2-pag-produtos">
-        <div className="produto5-pagina-produtos"></div>
-        <div className="produto6-pagina-produtos"></div>
-        <div className="produto7-pagina-produtos"></div>
-        <div className="produto8-pagina-produtos"></div>
+        <Link to={"/descricao17"}><div className="produto5-pagina-produtos"></div></Link>
+        <Link to={"/descricao18"}><div className="produto6-pagina-produtos"></div></Link>
+        <Link to={"/descricao19"}><div className="produto7-pagina-produtos"></div></Link>
+        <Link to={"/descricao20"}><div className="produto8-pagina-produtos"></div></Link>
         </div>
 
         <div className="tipo-de-produto2-pagina">
