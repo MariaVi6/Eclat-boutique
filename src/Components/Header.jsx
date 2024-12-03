@@ -1,5 +1,7 @@
-import { Link } from "react-router-dom";
+import { Link, useNavigate } from "react-router-dom";
 const  Header  = () => {
+  
+
     return ( 
     <>
         <div className="header-home">
@@ -19,7 +21,12 @@ const  Header  = () => {
 
         <div className="div-input">
 
-            <input className="input-submenu" type="text" placeholder="Pesquise mais produtos" />
+            <input className="input-submenu"
+            type="text"
+            placeholder="Pesquise mais produtos"
+    
+            
+            />
 
             </div>
         </div>
