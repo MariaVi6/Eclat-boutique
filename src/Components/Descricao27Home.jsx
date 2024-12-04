@@ -5,16 +5,16 @@ const Descricao27Home = () => {
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
-                <div className="img-1-25"></div>
-                <div className="img-1-26"></div>
+                <div className="img-1-45"></div>
+                <div className="img-1-46"></div>
             </div>
 
             <div className="imagem-frete-produtos"></div>
         </div>
 
         <div className="descricao-escrita-produto">
-            <h1 className="titulo-produto">Calça Mom</h1>
-            <h1 className="ref-produto">Calça | Mom | Ref: 204436291</h1>
+            <h1 className="titulo-produto">Jaqueta Preta Listrada</h1>
+            <h1 className="ref-produto">Jaqueta | Listrada | Ref: 204436291</h1>
             <div className="div-avaliacao-produto">
                 <div className="avaliacao-produto" >
                 <img className="estrela-produto" src="/src/image/estrela.png" alt="" />
@@ -78,7 +78,7 @@ const Descricao27Home = () => {
         
 
         <div className="imagem-frete-produtos">
-            <div className="img-2-12-produto"></div>
+            <div className="img-2-26-produto"></div>
             <div className="frete">
                 <div className="titulo-frete">Entrega</div>
                 <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>

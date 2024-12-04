@@ -2829,6 +2829,98 @@ form {
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+
+.img-1-33{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Camisa\ Social\ Azul.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-34{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-camisa-social-azul.jpg);
+  background-position: 20% center;
+  background-size: cover;
+}
+.img-2-20-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1-1.camisa-social-azul.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+.img-1-35{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Camisa\ Masculina\ Social\ Azul.jpg);
+  background-position: 80% center;
+  background-size: cover;
+}
+.img-1-36{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-camisa-masculina-social-azul.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-21-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-camisa-masculina-social-azul.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+.img-1-37{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Saia\ Social\ Bege.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-38{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-saia-social-bege.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-2-22-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-saia-social-bege.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+
+.img-1-39{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Calça\ Social\ Preta.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-40{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-calca-social-preta.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-23-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.1-calca-social-preta.jpg);
+  background-size: cover;
+  background-position: center;
+}
 
 /*LINHA 4 - PÁGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
 
@@ -3007,6 +3099,99 @@ form {
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
+}
+/* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+
+.img-1-41{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Sobretudo\ Bege.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-42{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-sobretudo-bege.jpg);
+  background-position: 100% center;
+  background-size: cover;
+}
+.img-2-24-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-sobretudo-bege.jpg);
+  background-size: cover;
+  background-position:  100% center;
+}
+/* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+.img-1-43{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Jaqueta\ Off-White.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-44{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-jaqueta-off-white.jpg);
+  background-position: 80% center;
+  background-size: cover;
+}
+.img-2-25-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-jaqueta-off-withe.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+.img-1-45{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Jaqueta\ Preta\ Listrada.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-46{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-jaqueta-preta-listrada.jpg);
+  background-position: top;
+  background-size: cover;
+}
+.img-2-26-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-jaqueta-preta-listrada.jpg);
+  background-size: cover;
+  background-position: center;
+}
+/* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+
+.img-1-47{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Salto\ Alto\ Branco.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-48{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-salto-alto-branco.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-27-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-salto-alto-branco.jpg);
+  background-size: cover;
+  background-position: center;
 }
 
 /*LINHA 5 - PÁGINA 1 PRODUTOS --------------------------------------------------------------------------------------------------*/

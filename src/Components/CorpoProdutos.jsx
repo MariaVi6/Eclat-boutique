@@ -130,17 +130,17 @@ const CorpoProdutos = () => {
 
         <div className="valor10-produto-pagina">
         <div className="valor10-1-pagina-produto">R$200</div>
-        <div className="valor10-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor10-2-pagina-produto"><b>R$160</b></div>
         </div>
 
         <div className="valor11-produto-pagina">
-        <div className="valor11-1-pagina-produto">R$200</div>
-        <div className="valor11-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor11-1-pagina-produto">R$300</div>
+        <div className="valor11-2-pagina-produto"><b>R$120</b></div>
         </div>
 
         <div className="valor12-produto-pagina">
-        <div className="valor12-1-pagina-produto">R$200</div>
-        <div className="valor12-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor12-1-pagina-produto">R$400</div>
+        <div className="valor12-2-pagina-produto"><b>R$290</b></div>
         </div>
 
         </div>
@@ -170,23 +170,23 @@ const CorpoProdutos = () => {
 
         <div className="valores4-produtos-pagina">
         <div className="valor13-produto-pagina">
-        <div className="valor13-1-pagina-produto">R$200</div>
-        <div className="valor13-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor13-1-pagina-produto">R$600</div>
+        <div className="valor13-2-pagina-produto"><b>R$300</b></div>
         </div>
 
         <div className="valor14-produto-pagina">
         <div className="valor14-1-pagina-produto">R$200</div>
-        <div className="valor14-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor14-2-pagina-produto"><b>R$110</b></div>
         </div>
 
         <div className="valor15-produto-pagina">
-        <div className="valor15-1-pagina-produto">R$200</div>
-        <div className="valor15-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor15-1-pagina-produto">R$480</div>
+        <div className="valor15-2-pagina-produto"><b>R$200</b></div>
         </div>
 
         <div className="valor16-produto-pagina">
-        <div className="valor16-1-pagina-produto">R$200</div>
-        <div className="valor16-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor16-1-pagina-produto">R$400</div>
+        <div className="valor16-2-pagina-produto"><b>R$280</b></div>
         </div>
 
         </div>
