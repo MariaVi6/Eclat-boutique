@@ -217,12 +217,12 @@ const CorpoProdutos = () => {
         <div className="valores5-produtos-pagina">
         <div className="valor17-produto-pagina">
         <div className="valor17-1-pagina-produto">R$200</div>
-        <div className="valor18-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor18-2-pagina-produto"><b>R$140</b></div>
         </div>
 
         <div className="valor18-produto-pagina">
         <div className="valor18-1-pagina-produto">R$200</div>
-        <div className="valor18-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor18-2-pagina-produto"><b>R$110</b></div>
         </div>
 
         <div className="valor19-produto-pagina">

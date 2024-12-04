@@ -6,7 +6,6 @@ const Pagination = () => {
     return (
         <>
     <div className="pagination-produtos">
-    
     <nav className="pagination">
         <ul className="pagination-ul">
             <li className="seta-para-esquerda"><span aria-hidden="true">&laquo;</span></li>

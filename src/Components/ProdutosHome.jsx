@@ -71,10 +71,10 @@ const ProdutosHome = () => {
         
 
         <div className="linha2-produtos">
-        <div className="produto5"></div>
-        <div className="produto6"></div>
-        <div className="produto7"></div>
-        <div className="produto8"></div>
+        <Link to={"/descricao25"}><div className="produto5"></div></Link>
+        <Link to={"/descricao26"}><div className="produto6"></div></Link>
+        <Link to={"/descricao27"}><div className="produto7"></div></Link>
+        <Link to={"/descricao28"}><div className="produto8"></div></Link>
         </div>
 
         <div className="tipo-de-produto2">

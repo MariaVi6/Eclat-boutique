@@ -931,7 +931,7 @@ form {
   height: 40px;
   font-size: 38px;
   letter-spacing: 4px;
-  margin: 20px 0px 0px  46px;
+  margin: 20px 0px 0px  43px;
 }
 .ref-produto{
   width: 780px;
@@ -3117,6 +3117,7 @@ form {
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+
 /* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
 
 .img-1-41{
@@ -3414,6 +3415,118 @@ form {
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
+}
+
+/* LINHA 5 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+
+.img-1-49{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Camisa\ Sport\ Cinza.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-50{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-camisa-sport-cinza.jpg);
+  background-position: 100% center;
+  background-size: cover;
+}
+.img-2-28-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-camisa-sport-cinza.jpg);
+  background-size: cover;
+  background-position:  100% center;
+}
+.div21-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #3f6b7db4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* LINHA 5 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+.img-1-51{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Camisa\ Sport\ Branca.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-1-52{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-camisa-sport-cinza.jpg);
+  background-position: 80% center;
+  background-size: cover;
+}
+.img-2-29-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-camisa-sport-cinza.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* LINHA 5 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+.img-1-53{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Camisa\ Sport\ Branca.jpg);
+  background-position: bottom;
+  background-size: cover;
+}
+.img-1-54{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-camisa-sport-branca.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-30-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.1-camisa-sport-branca.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* LINHA 5 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+
+.img-1-47{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Salto\ Alto\ Branco.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-48{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-salto-alto-branco.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-27-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-salto-alto-branco.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div20-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #dfdfdfb4;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 /*LINHA 6 - PÁGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
