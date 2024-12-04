@@ -1,15 +1,13 @@
 import React, { useEffect, useRef, useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-
-// import { auth } from './FirebaseConfig'; 
-import {auth} from "../config/FirebaseConfig"
+import { auth } from '../../js/firebase/firebase';
 import { useCreateUserWithEmailAndPassword, useSignInWithEmailAndPassword } from 'react-firebase-hooks/auth';
 
 const Login = () => {
     const containerRef = useRef(null);
     const usernameRef = useRef(null);
     const emailRef = useRef(null);
-    const passwordRef = useRef(null);   
+    const passwordRef = useRef(null);
     const lgEmailRef = useRef(null);
     const lgPasswordRef = useRef(null);
     const navigate = useNavigate();
@@ -45,21 +43,21 @@ const Login = () => {
         let valid = true;
 
         if (username.length < 4) {
-            showError(usernameRef, "*Username must be at least 4 characters.");
+            showError(usernameRef, "*O nome de usuário deve ter pelo menos 4 caracteres.");
             valid = false;
         } else {
             showSuccess(usernameRef);
         }
 
         if (!checkEmail(email)) {
-            showError(emailRef, "*Email is not valid.");
+            showError(emailRef, "*O email não é válido.");
             valid = false;
         } else {
             showSuccess(emailRef);
         }
 
         if (password.length < 8) {
-            showError(passwordRef, "*Password must be at least 8 characters.");
+            showError(passwordRef, "*A senha deve ter pelo menos 8 caracteres.");
             valid = false;
         } else {
             showSuccess(passwordRef);
@@ -70,8 +68,8 @@ const Login = () => {
                 await createUserWithEmailAndPassword(email, password);
                 navigate('/');
             } catch (error) {
-                console.error("Error during registration:", error);
-                setGeneralError(registerError?.message || "Registration failed. Please try again.");
+                console.error("Erro durante o registro:", error);
+                setGeneralError(registerError?.message || "Falha no registro. Por favor, tente novamente.");
             }
         }
     };
@@ -83,14 +81,14 @@ const Login = () => {
         const password = lgPasswordRef.current.value.trim();
 
         if (!checkEmail(email)) {
-            showError(lgEmailRef, "*Email is not valid.");
+            showError(lgEmailRef, "*O email não é válido.");
             return;
         } else {
             showSuccess(lgEmailRef);
         }
 
         if (password.length < 8) {
-            showError(lgPasswordRef, "*Password must be at least 8 characters.");
+            showError(lgPasswordRef, "*A senha deve ter pelo menos 8 caracteres.");
             return;
         } else {
             showSuccess(lgPasswordRef);
@@ -99,8 +97,8 @@ const Login = () => {
             await signInWithEmailAndPassword(email, password);
             navigate('/');
         } catch (error) {
-            console.error("Error during login:", error);
-            setGeneralError(loginError?.message || "Login failed. Please check your credentials.");
+            console.error("Erro durante o login:", error);
+            setGeneralError(loginError?.message || "Falha no login. Verifique suas credenciais.");
         }
     };
 
@@ -124,21 +122,16 @@ const Login = () => {
     };
 
     return (
-
         <div className="body">
-        <div className="container" ref={containerRef}>
-
-                {/* LOGIN */}
-                
-        <div className="form-container register-container">
-            <form onSubmit={validateRegisterForm}>
-            <h1 className='titulo-login'>Registre-se aqui</h1>
-
-        <div className="form-control">
-            <input type="text" placeholder="Nome" ref={usernameRef} />
-            <small></small>
-        </div>
-
+            <div className="container" ref={containerRef}>
+                {/* Registro */}
+                <div className="form-container register-container">
+                    <form onSubmit={validateRegisterForm}>
+                        <h1 className='titulo-login'>Registre-se aqui</h1>
+                        <div className="form-control">
+                            <input type="text" placeholder="Nome" ref={usernameRef} />
+                            <small></small>
+                        </div>
                         <div className="form-control">
                             <input type="email" placeholder="Email" ref={emailRef} />
                             <small></small>
@@ -148,19 +141,12 @@ const Login = () => {
                             <small></small>
                         </div>
                         <button type="submit" className='botao-register' disabled={registerLoading}>
-                            {registerLoading ? "Registering..." : "Registrar"}
+                            {registerLoading ? "Registrando..." : "Registrar"}
                         </button>
                         {registerError && <small className="error">{registerError.message}</small>}
-                        <span className="subtitulo-botao-register">ou use sua conta</span>
-
-                        <div className="social-container">
-                            <div className="facebook-login"></div>
-                            <div className="google-login"></div>
-                            <div className="email-login"></div>
-                        </div>
                     </form>
                 </div>
-                {/* LOGIN */}
+                {/* Login */}
                 <div className="form-container login-container">
                     <form onSubmit={validateLoginForm}>
                         <h1 className='titulo-login'>Faça login aqui</h1>
@@ -173,17 +159,12 @@ const Login = () => {
                             <small></small>
                         </div>
                         <button type="submit" className='botao-login' disabled={loginLoading}>
-                            {loginLoading ? "Logging in..." : "Fazer login"}
+                            {loginLoading ? "Entrando..." : "Fazer login"}
                         </button>
                         {loginError && <small className="error">{loginError.message}</small>}
-                        <span className="subtitulo-botao-login">ou use sua conta</span>
-                        <div className="social-container">
-                            <div className="facebook-login"></div>
-                            <div className="google-login"></div>
-                            <div className="email-login"></div>
-                        </div>
                     </form>
                 </div>
+                {/* Overlay */}
                 <div className="overlay-container">
                     <div className="overlay">
                         <div className="overlay-panel overlay-left">
@@ -192,7 +173,7 @@ const Login = () => {
                         </div>
                         <div className="overlay-panel overlay-right">
                             <h1 className='titulo-login'>Ainda não tem conta?</h1>
-                            <button className="ghost" id="register">Registra-se</button>
+                            <button className="ghost" id="register">Registrar-se</button>
                         </div>
                     </div>
                 </div>
