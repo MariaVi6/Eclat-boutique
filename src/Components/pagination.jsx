@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 const Pagination = () => {
 
     return (
+        <>
     <div className="pagination-produtos">
     
     <nav className="pagination">
@@ -17,6 +18,7 @@ const Pagination = () => {
         </ul>
     </nav>
 </div>
+</>
 );
 
 }
