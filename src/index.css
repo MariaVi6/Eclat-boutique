@@ -2898,6 +2898,15 @@ form {
   background-size: cover;
   background-position: center;
 }
+.div17-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #54483ab4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
 /* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
 
 .img-1-39{
@@ -2920,6 +2929,14 @@ form {
   background-image: url(/src/image/1.1-calca-social-preta.jpg);
   background-size: cover;
   background-position: center;
+}
+.div18-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #000000;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 /*LINHA 4 - PÁGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
@@ -3123,6 +3140,15 @@ form {
   background-size: cover;
   background-position:  100% center;
 }
+.div19-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #c3b2a2b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
 /* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
 
 .img-1-43{
@@ -3145,6 +3171,14 @@ form {
   background-image: url(/src/image/1.2-jaqueta-off-withe.jpg);
   background-size: cover;
   background-position: center;
+}
+.div19-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #ece3d2b4;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 /* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
@@ -3170,6 +3204,7 @@ form {
   background-size: cover;
   background-position: center;
 }
+
 /* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
 
 .img-1-47{
@@ -3192,6 +3227,14 @@ form {
   background-image: url(/src/image/1.2-salto-alto-branco.jpg);
   background-size: cover;
   background-position: center;
+}
+.div20-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #dfdfdfb4;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 /*LINHA 5 - PÁGINA 1 PRODUTOS --------------------------------------------------------------------------------------------------*/

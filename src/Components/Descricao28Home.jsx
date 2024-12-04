@@ -61,7 +61,7 @@ const Descricao28Home = () => {
 
             <div className="cor-quantidade-produto">
 
-            <div className="div13-cor-produto"></div>
+            <div className="div20-cor-produto"></div>
     
             <select className="quantidade-produto" id="quantidade" name="quantidade">
                 <option value="1">1</option>
