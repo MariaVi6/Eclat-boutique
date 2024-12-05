@@ -5,8 +5,8 @@ const Descricao30Home = () => {
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
-                <div className="img-1-53"></div>
-                <div className="img-1-54"></div>
+                <div className="img-1-51"></div>
+                <div className="img-1-52"></div>
             </div>
 
             <div className="imagem-frete-produtos"></div>
@@ -78,7 +78,7 @@ const Descricao30Home = () => {
         
 
         <div className="imagem-frete-produtos">
-            <div className="img-2-30-produto"></div>
+            <div className="img-2-29-produto"></div>
             <div className="frete">
                 <div className="titulo-frete">Entrega</div>
                 <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>

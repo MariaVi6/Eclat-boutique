@@ -5,16 +5,16 @@ const Descricao31Home = () => {
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
-                <div className="img-1-25"></div>
-                <div className="img-1-26"></div>
+                <div className="img-1-53"></div>
+                <div className="img-1-54"></div>
             </div>
 
             <div className="imagem-frete-produtos"></div>
         </div>
 
         <div className="descricao-escrita-produto">
-            <h1 className="titulo-produto">Calça Mom</h1>
-            <h1 className="ref-produto">Calça | Mom | Ref: 204436291</h1>
+            <h1 className="titulo-produto">Moletom Sport Azul</h1>
+            <h1 className="ref-produto">Moletom | Sport | Ref: 204436591</h1>
             <div className="div-avaliacao-produto">
                 <div className="avaliacao-produto" >
                 <img className="estrela-produto" src="/src/image/estrela.png" alt="" />
@@ -27,7 +27,7 @@ const Descricao31Home = () => {
                 <div className="avaliacao2-produto">4,2 (1.100 Avaliações)</div>
             </div>
             <div className="precos-produto">
-                <h1 className="preco-produto">R$210,00</h1>
+                <h1 className="preco-produto">R$280,00</h1>
                 <h1 className="preco2-produto">R$400,00</h1>
             </div>
 
@@ -78,7 +78,7 @@ const Descricao31Home = () => {
         
 
         <div className="imagem-frete-produtos">
-            <div className="img-2-12-produto"></div>
+            <div className="img-2-31-produto"></div>
             <div className="frete">
                 <div className="titulo-frete">Entrega</div>
                 <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>

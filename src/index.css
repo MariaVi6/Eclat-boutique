@@ -3461,14 +3461,14 @@ form {
 .img-1-52{
   width: 413px;
   height: 770px;
-  background-image: url(/src/image/1.1-camisa-sport-cinza.jpg);
-  background-position: 80% center;
+  background-image: url(/src/image/1.2-camisa-sport-branca.jpg);
+  background-position: center;
   background-size: cover;
 }
 .img-2-29-produto{
   width: 836px;
   height: 928px;
-  background-image: url(/src/image/1.2-camisa-sport-cinza.jpg);
+  background-image: url(/src/image/1.1-camisa-sport-branca.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -3478,53 +3478,53 @@ form {
 .img-1-53{
   width: 413px;
   height: 770px;
-  background-image: url(/src/image/Camisa\ Sport\ Branca.jpg);
+  background-image: url(/src/image/Moletom\ Sport\ Azul.jpg);
   background-position: bottom;
   background-size: cover;
 }
 .img-1-54{
   width: 413px;
   height: 770px;
-  background-image: url(/src/image/1.2-camisa-sport-branca.jpg);
+  background-image: url(/src/image/1.2-moletom-sport-azul.jpg);
   background-position: center;
   background-size: cover;
 }
-.img-2-30-produto{
+.img-2-31-produto{
   width: 836px;
   height: 928px;
-  background-image: url(/src/image/1.1-camisa-sport-branca.jpg);
+  background-image: url(/src/image/1.1-moletom-azul-sport-azul.jpg);
   background-size: cover;
   background-position: center;
 }
 
 /* LINHA 5 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
 
-.img-1-47{
+.img-1-55{
   width: 413px;
   height: 770px;
-  background-image: url(/src/image/Salto\ Alto\ Branco.jpg);
+  background-image: url(/src/image/Moletom\ Sport\ Verde.jpg);
   background-position:  center;
   background-size: cover;
 }
-.img-1-48{
+.img-1-56{
   width: 413px;
   height: 770px;
-  background-image: url(/src/image/1.1-salto-alto-branco.jpg);
+  background-image: url(/src/image/1.2-moletom-sport-verde.jpg);
   background-position: center;
   background-size: cover;
 }
-.img-2-27-produto{
+.img-2-32-produto{
   width: 836px;
   height: 928px;
-  background-image: url(/src/image/1.2-salto-alto-branco.jpg);
+  background-image: url(/src/image/1.1-moletom-sport-verde.jpg);
   background-size: cover;
   background-position: center;
 }
-.div20-cor-produto{
+.div21-cor-produto{
   width: 40px;
   height: 40px;
   margin-top: 20px;
-  background-color: #dfdfdfb4;
+  background-color: #466739b4;
   border-radius: 100px;
   cursor: pointer;
 }

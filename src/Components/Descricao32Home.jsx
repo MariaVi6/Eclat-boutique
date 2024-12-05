@@ -5,16 +5,16 @@ const Descricao32Home = () => {
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
-                <div className="img-1-25"></div>
-                <div className="img-1-26"></div>
+                <div className="img-1-55"></div>
+                <div className="img-1-56"></div>
             </div>
 
             <div className="imagem-frete-produtos"></div>
         </div>
 
         <div className="descricao-escrita-produto">
-            <h1 className="titulo-produto">Calça Mom</h1>
-            <h1 className="ref-produto">Calça | Mom | Ref: 204436291</h1>
+            <h1 className="titulo-produto">Moletom Sport Verde</h1>
+            <h1 className="ref-produto">Moletom | Sport | Ref: 204436292</h1>
             <div className="div-avaliacao-produto">
                 <div className="avaliacao-produto" >
                 <img className="estrela-produto" src="/src/image/estrela.png" alt="" />
@@ -61,7 +61,7 @@ const Descricao32Home = () => {
 
             <div className="cor-quantidade-produto">
 
-            <div className="div13-cor-produto"></div>
+            <div className="div21-cor-produto"></div>
     
             <select className="quantidade-produto" id="quantidade" name="quantidade">
                 <option value="1">1</option>
@@ -78,7 +78,7 @@ const Descricao32Home = () => {
         
 
         <div className="imagem-frete-produtos">
-            <div className="img-2-12-produto"></div>
+            <div className="img-2-32-produto"></div>
             <div className="frete">
                 <div className="titulo-frete">Entrega</div>
                 <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>
