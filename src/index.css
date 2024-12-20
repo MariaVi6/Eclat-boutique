@@ -5,6 +5,7 @@
   font-family: "Nunito", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
+  box-sizing: border-box;
 }
 
 /* PÁGINA - HOME ----- HEADER ------------------------------------------------------------------------------------------------*/
@@ -15,6 +16,9 @@
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
   display: flex;
+  position: sticky;
+  top: 0; /* Isso faz com que ele fique fixo no topo da página */
+  z-index: 1000; /* Garante que o elemento fique acima de outros elementos */
 }
 .logo-header-home{
   width: 400px;
@@ -619,8 +623,7 @@ form {
 #carouselExampleIndicators{
   width: 100vw;
   height: 800px;
-  margin-top: 20px;
-  padding: 0;
+  margin-top: 24px;
   background-position: center;
   background-size: cover;
   display: flex;
@@ -1726,8 +1729,6 @@ form {
   justify-items: center;
   align-items: center;
   flex-direction: column;
-  background-color: #ffffff;
-  margin-top: 100px;
 }
 .logo-footer{
   width: 400px;
@@ -1807,6 +1808,9 @@ form {
   display: flex;
   background-color: rgb(255, 255, 255);
   box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.25);
+  position: sticky;
+  top: 0; /* Isso faz com que ele fique fixo no topo da página */
+  z-index: 1000; /* Garante que o elemento fique acima de outros elementos */
 }
 .nav-bar {
   display: flex;
@@ -1890,6 +1894,7 @@ form {
 .corpo-produtos{
   width: 100vw;
   height: 4800px;
+  position: sticky;
   margin-top: 60px;
   display: flex;
   gap: 20px;
@@ -2139,7 +2144,7 @@ form {
   letter-spacing: 0.80px;
   background-color: transparent;
   color: black;
-  border: 2px solid #a0a0a0;
+  border: 2px solid #c0c0c0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -2829,6 +2834,7 @@ form {
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+
 /* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
 
 .img-1-33{
