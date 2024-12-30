@@ -5381,3 +5381,12 @@ form {
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+
+/* RESPONSIVIDADE DO ECLAT BOUTIQUE*/
+
+@media screen and (width: 1920px) {
+  .indice-header {
+    width: 2000px;  /* Largura do header quando a tela for exatamente 1920px */
+    height: 160px;
+  }
+}
