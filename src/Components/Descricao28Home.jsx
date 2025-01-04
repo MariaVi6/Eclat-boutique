@@ -5,8 +5,8 @@ const Descricao28Home = () => {
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
-                <div className="img-1-47"></div>
-                <div className="img-1-48"></div>
+                <div className="img-1-55"></div>
+                <div className="img-1-56"></div>
             </div>
 
             <div className="imagem-frete-produtos"></div>
