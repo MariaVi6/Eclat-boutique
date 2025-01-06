@@ -48,8 +48,8 @@ const ProdutosHome = () => {
         </div>
 
         <div className="valor4-produto">
-        <div className="valor4-1">R$40</div>
-        <div className="valor4-2"><b>R$100</b></div>
+        <div className="valor4-1">R$100</div>
+        <div className="valor4-2"><b>R$40</b></div>
         </div>
 
         </div>

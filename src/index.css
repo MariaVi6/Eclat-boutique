@@ -2150,6 +2150,10 @@ form {
   align-items: center;
   cursor: pointer;
 }
+.tamanhos:hover{
+  transition: 0.3s;
+  border: 2px solid #000000;
+}
 .div13-cor-produto{
   width: 40px;
   height: 40px;
@@ -3528,7 +3532,7 @@ form {
   background-size: cover;
   background-position: center;
 }
-.div21-cor-produto{
+.div22-cor-produto{
   width: 40px;
   height: 40px;
   margin-top: 20px;
@@ -3744,7 +3748,7 @@ form {
 .produto27-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo\ Verde.jpg);
+  background-image: url(/src/image/Sobretudo\ Verde-musgo.jpg);
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
@@ -3752,8 +3756,8 @@ form {
 .produto28-pagina-produtos{
   width: 360px;
   height: 400px;
-  background-image: url(/src/image/Sobretudo3.jpg);
-  background-position: center;
+  background-image: url(/src/image/Sobretudo-Verde.jpg);
+  background-position: 20% center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
@@ -3893,6 +3897,133 @@ form {
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
+}
+
+/* LINHA 7 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+
+.img-1-71{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Sobretudo\ Preto.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-72{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-sobretudo-preto.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-37-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-sobretudo-preto.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div27-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #000000b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* LINHA 7 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+.img-1-73{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Sobretudo\ Listrado.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-74{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-sobretudo-listrado.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-38-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-sobretudo-listrado.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div28-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #2f3626b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* LINHA 7 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+.img-1-75{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Sobretudo\ Verde-musgo.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-76{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-sobretudo-verde-musgo.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-39-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-sobretudo-verde-musgo.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div29-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #545437b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+/* LINHA 7 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+
+.img-1-77{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Sobretudo-Verde.jpg);
+  background-position:  20% center;
+  background-size: cover;
+}
+.img-1-78{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.2-sobretudo-verde.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-40-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.1-sobretudo-verde.jpg);
+  background-size: cover;
+  background-position: 20% center;
+}
+.div30-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #466739b4;
+  border-radius: 100px;
+  cursor: pointer;
 }
 
 /*LINHA 8 - PÁGINA 1 PRODUTOS ---------------------------------------------------------------------------------------------------*/
