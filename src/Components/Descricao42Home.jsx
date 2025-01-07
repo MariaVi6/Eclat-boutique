@@ -1,20 +1,19 @@
+
 const Descricao42Home = () => {
+
 
     return ( <>
     
     <div className="descricao">
         <div className="imgs-produto">
             <div className="img-1-produto">
-                <div className="img-1-25"></div>
-                <div className="img-1-26"></div>
+                <div className="img-1-81"></div>
+                <div className="img-1-82"></div>
             </div>
-
-            <div className="imagem-frete-produtos"></div>
         </div>
-
         <div className="descricao-escrita-produto">
-            <h1 className="titulo-produto">Calça Mom</h1>
-            <h1 className="ref-produto">Calça | Mom | Ref: 204436291</h1>
+            <h1 className="titulo-produto">Pulseira Perolas</h1>
+            <h1 className="ref-produto">Acessorios | Pulseira | Ref: 302394329</h1>
             <div className="div-avaliacao-produto">
                 <div className="avaliacao-produto" >
                 <img className="estrela-produto" src="/src/image/estrela.png" alt="" />
@@ -24,61 +23,45 @@ const Descricao42Home = () => {
                 <img className="estrela-produto" src="/src/image/estrela-2.png" alt="" />
                 </div>
 
-                <div className="avaliacao2-produto">4,2 (1.100 Avaliações)</div>
+                <div className="avaliacao2-produto">4,9 (1.000 Avaliações)</div>
             </div>
             <div className="precos-produto">
-                <h1 className="preco-produto">R$210,00</h1>
+                <h1 className="preco-produto">R$200,00</h1>
                 <h1 className="preco2-produto">R$400,00</h1>
             </div>
 
             <h1 className="titulo-descricao2-produto">Descrição :</h1>
 
-            <div className="descricao3-produto">
-            Conjunto de anéis em prata 925 com design delicado e sofisticado. A peça combina a qualidade da prata de alta durabilidade com um design moderno e atemporal, perfeito para quem busca elegância discreta. Cada anel pode ser usado individualmente ou em conjunto.
-            </div>
-
-            <div className="titulo-tamanhos">Tamanhos:</div>
-
-            <div className="div-tamanhos">
-                <div className="tamanhos">PP</div>
-                <div className="tamanhos">P</div>
-                <div className="tamanhos">M</div>
-                <div className="tamanhos">G</div>
-                <div className="tamanhos">GG</div>
-                <div className="tamanhos">XG</div>
-                <div className="tamanhos">XGG</div>
-                <div className="tamanhos">EG</div>
-                <div className="tamanhos">EGG</div>
-            </div>
-
+            <div className="descricao2-produto">Brinco em prata 925 com pingente em formato de coração na cor azul. A peça combina a sofisticação da prata de alta qualidade com o charme vibrante do coração azul, criando um design elegante e atemporal. O pingente confere um toque de cor e brilho sutil, tornando o brinco perfeito tanto para ocasiões especiais quanto para uso diário.
+            <br />
+            Com 3 cm de comprimento, o brinco é discreto, mas de presença marcante, proporcionando conforto e elegância ao mesmo tempo. Ideal para quem busca uma peça clássica, com um toque de modernidade e cor.</div>
+            
             <div className="titulos-descricao2">
 
             <h1 className="titulo-cor-descricao2">Cor</h1>
 
             <label className="titulo-cor-descricao2" htmlFor="quantidade">Quantidade</label>
-
             </div>
 
             <div className="cor-quantidade-produto">
 
-            <div className="div13-cor-produto"></div>
-    
+            <div className="div31-cor-produto"></div>
+                
             <select className="quantidade-produto" id="quantidade" name="quantidade">
-                <option value="1">1</option>
-                <option value="2">2</option>
-                <option value="3">3</option>
-                <option value="4">4</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
             </select>
-        </div>
 
-            <button className="button2">Adicione ao Carrinho</button>
+            </div>
+
+            <button className="button">Adicione ao Carrinho</button>
         </div>
     </div>
 
-        
-
-        <div className="imagem-frete-produtos">
-            <div className="img-2-12-produto"></div>
+    <div className="imagem-frete-produtos">
+            <div className="img-2-42-produto"></div>
             <div className="frete">
                 <div className="titulo-frete">Entrega</div>
                 <div className="subtitulo-frete">Consulte o prazo e o valor do frete</div>
@@ -100,12 +83,9 @@ const Descricao42Home = () => {
                 <div className="textos-frete">Devolução é gratuita, assim que é solicitado a devolução é gerado um codigo do correio. </div>
                 <hr className="linhas-frete" />
                 <div className="titulos-descricao-frete">Composição</div>
-                <div className="textos-frete">90% algodão 10% elastano</div>
+                <div className="textos-frete">40% prata 70% plastico</div>
             </div>
         </div>
-            
-            <div className="tabela-tamanhos"></div>
-            
     </> );
 }
  

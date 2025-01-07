@@ -4205,6 +4205,8 @@ form {
   letter-spacing: 0.75px;
 }
 
+/* a descrição desses itens está sendo reutilizada*/
+
 /* PÁGINAÇÃO -----------------------------------------------------------------------------------------------------------------*/
 
 .pagination-produtos{
@@ -4422,6 +4424,111 @@ form {
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+
+/* LINHA 1 - PAGINA 2 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+
+.img-1-79{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Brinco\ Bola.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-80{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-brinco-bola.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-41-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-brinco-bola.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.div31-cor-produto{
+  width: 40px;
+  height: 40px;
+  margin-top: 20px;
+  background-color: #d4d4d4b4;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+/* LINHA 7 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+.img-1-81{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Pulseira\ Perolas.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-82{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-pulseira-perolas.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.img-2-42-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-pulseira-perolas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* LINHA 7 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+.img-1-83{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Colar\ de\ Perolas.jpg);
+  background-position:  center;
+  background-size: cover;
+}
+.img-1-84{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-colar-perolas.jpg);
+  background-position: 20% center;
+  background-size: cover;
+}
+.img-2-43-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-colar-perolas.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+/* LINHA 7 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+
+.img-1-85{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/Brinco\ Penduricalho.jpg);
+  background-position:  20% center;
+  background-size: cover;
+}
+.img-1-86{
+  width: 413px;
+  height: 770px;
+  background-image: url(/src/image/1.1-brinco-penduricalho.jpg);
+  background-position:   bottom;
+  background-size: cover;
+}
+.img-2-44-produto{
+  width: 836px;
+  height: 928px;
+  background-image: url(/src/image/1.2-brinco-penduricalho.jpg);
+  background-size: cover;
+  background-position: 20% center;
+}
+
 
 /* LINHA 2 - PÁGINA 2 PRODUTOS */
 
