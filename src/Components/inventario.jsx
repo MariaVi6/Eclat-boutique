@@ -32,7 +32,7 @@ const Inventario = () => {
 
   return (
     <>
-      <div>
+      <div className='p-3'>
         <select onChange={handleFilterChange}>
           <option value="">Filtrar</option>
           <option value="categoria1">Categoria 1</option>
@@ -42,22 +42,29 @@ const Inventario = () => {
           <option value="1000">Preço até 1000</option>
         </select>
       </div>
-      <div className="grid-images ">
+
+
+{/*d-flex   */}
+      <div className="grid-images d-flex center justify-content-center mt-5">
         {items.length > 0 ? (
           items.map(item => (
-            <div key={item._id} className="item ">
-              <img className="itemImg bg-rose-500" src={item.urlImg} alt={item.descricao} />
-              <p className="alt bg-gray-500">{item.descricao}</p>
-              <p className="rate bg-red-500">{item.nota}</p>
-              <p className="price">{item.preco}</p>
+            <div key={item._id} className="item border border-dark m-3 grid text-center bg-primary">
+              <img src={item.urlImg} class="img-thumbnail" alt={item.descricao}/>
+              {/* <img className="item-desc" src={item.urlImg} alt={item.descricao} /> */}
+              <p className="item alt">{item.descricao}</p>
+              <p className="item-rate">{item.nota}</p>
+              <p className="item-price">{item.preco}</p>
             </div>
-          ))
+          ))  
+          // if 
         ) : (
           <div className="spinner-border text-danger" role="status">
             <span className="sr-only">Loading...</span>
           </div>
         )}
       </div>
+
+
     </>
   );
 }
