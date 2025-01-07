@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import fetchImages from '../../js/fetchApis';
-
+import './inventario.css'
 const Inventario = () => {
   const [items, setItems] = useState([]);
   const [allItems, setAllItems] = useState([]);
@@ -96,21 +96,25 @@ const Inventario = () => {
         aria-hidden="true"
       >
         <div className="modal-dialog modal-lg" role="document" style={{ maxWidth: '50%' }}>
-          <div className="modal-content">
-            <div className="modal-header">
+          <div className="modal-content ">
+
+            {/* <div className="modal-header">
               <h5 className="modal-title" id="imageModalLabel"></h5>
               <button type="button" className="close" data-dismiss="modal" aria-label="Close">
                 <span aria-hidden="true">&times;</span>
               </button>
-            </div>
-            <div className="modal-body d-flex">
-              {selectedImage && <img src={selectedImage} className="img-fluid" alt="Selected" style={{ flex: 1 }} />}
+            </div> */}
 
 
-              <div style={{ flex: 1, marginLeft: '1px' }}>
-                <p>{items[selectedIndex]?.descricao}</p>
-                <p>Price: ${items[selectedIndex]?.preco}</p>
-                <p>Rate: {items[selectedIndex]?.nota}</p>
+
+            <div className="modal-body d-flex justify-content-center align-items-center ">
+              {/* image */}
+              {selectedImage && <img src={selectedImage} className="img-fluid border border-dark " alt="Selected" style={{ flex: 1 }} />}
+
+              <div style={{ flex: 1, marginLeft: '1px'}}>
+                <p className='fw-bold'>{items[selectedIndex]?.descricao}</p>
+                <p>Preço <span className='fw-bold'> ${items[selectedIndex]?.preco}</span> </p>
+                <p>Nota: {items[selectedIndex]?.nota}</p>
               </div>
             </div>
 
