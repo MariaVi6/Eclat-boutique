@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 const CorpoProduto2 = () => {
     return ( <>
         
@@ -11,10 +12,10 @@ const CorpoProduto2 = () => {
         {/*LINHA 9 - PAGINA PRODUTOS - 2*/}
 
         <div className="linha1-pag-produtos">
-        <div className="produto33-pagina-produtos"></div>
-        <div className="produto34-pagina-produtos"></div>
-        <div className="produto35-pagina-produtos"></div>
-        <div className="produto36-pagina-produtos"></div>
+        <Link to={"/descricao41"}><div className="produto33-pagina-produtos"></div></Link>
+        <Link to={"/descricao42"}><div className="produto34-pagina-produtos"></div></Link>
+        <Link to={"/descricao43"}><div className="produto35-pagina-produtos"></div></Link>
+        <Link to={"/descricao44"}><div className="produto36-pagina-produtos"></div></Link>
         </div>
 
         <div className="tipo-de-produto1-pagina">
@@ -26,30 +27,30 @@ const CorpoProduto2 = () => {
 
         <div className="linha1-descricao-produtos-pagina">
         <div className="descricao1-pagina-produto">Brinco Bola</div>
-        <div className="descricao2-pagina-produto">Pulseira de Perolas</div>
-        <div className="descricao3-pagina-produto">Conjunto Colar</div>
+        <div className="descricao2-pagina-produto">Pulseira Perolas</div>
+        <div className="descricao3-pagina-produto">Colar Perolas</div>
         <div className="descricao4-pagina-produto">Brinco de Perola</div>
         </div>
 
         <div className="valores1-produtos-pagina">
         <div className="valor1-produto-pagina">
         <div className="valor1-1-pagina-produto">R$200</div>
-        <div className="valor1-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor1-2-pagina-produto"><b>R$110</b></div>
         </div>
 
         <div className="valor2-produto-pagina">
-        <div className="valor2-1-pagina-produto">R$200</div>
-        <div className="valor2-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor2-1-pagina-produto">R$400</div>
+        <div className="valor2-2-pagina-produto"><b>R$200</b></div>
         </div>
 
         <div className="valor3-produto-pagina">
-        <div className="valor3-1-pagina-produto">R$200</div>
-        <div className="valor3-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor3-1-pagina-produto">R$400</div>
+        <div className="valor3-2-pagina-produto"><b>R$300</b></div>
         </div>
 
         <div className="valor4-produto-pagina">
         <div className="valor4-1-pagina-produto">R$200</div>
-        <div className="valor4-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor4-2-pagina-produto"><b>R$120</b></div>
         </div>
 
         </div>
