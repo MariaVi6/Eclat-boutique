@@ -5,6 +5,8 @@ const Inventario = () => {
   const [items, setItems] = useState([]);
   const [allItems, setAllItems] = useState([]);
   const [filtro, setFiltro] = useState('');
+  const [selectedImage, setSelectedImage] = useState(null);
+  const [selectedIndex, setSelectedIndex] = useState(0);
 
   useEffect(() => {
     const dados = async () => {
@@ -30,6 +32,23 @@ const Inventario = () => {
     setFiltro(e.target.value);
   };
 
+  const handleImageClick = (index) => {
+    setSelectedImage(items[index].urlImg);
+    setSelectedIndex(index);
+  };
+
+  const handleNext = () => {
+    const nextIndex = (selectedIndex + 1) % items.length;
+    setSelectedImage(items[nextIndex].urlImg);
+    setSelectedIndex(nextIndex);
+  };
+
+  const handlePrev = () => {
+    const prevIndex = (selectedIndex - 1 + items.length) % items.length;
+    setSelectedImage(items[prevIndex].urlImg);
+    setSelectedIndex(prevIndex);
+  };
+
   return (
     <>
       <div className='p-3'>
@@ -43,20 +62,23 @@ const Inventario = () => {
         </select>
       </div>
 
-
-{/*d-flex   */}
       <div className="grid-images d-flex center justify-content-center mt-5">
         {items.length > 0 ? (
-          items.map(item => (
+          items.map((item, index) => (
             <div key={item._id} className="item border border-dark m-3 grid text-center bg-primary">
-              <img src={item.urlImg} class="img-thumbnail" alt={item.descricao}/>
-              {/* <img className="item-desc" src={item.urlImg} alt={item.descricao} /> */}
+              <img
+                src={item.urlImg}
+                className="img-thumbnail"
+                alt={item.descricao}
+                data-toggle="modal"
+                data-target="#imageModal"
+                onClick={() => handleImageClick(index)}
+              />
               <p className="item alt">{item.descricao}</p>
               <p className="item-rate">{item.nota}</p>
               <p className="item-price">{item.preco}</p>
             </div>
-          ))  
-          // if 
+          ))
         ) : (
           <div className="spinner-border text-danger" role="status">
             <span className="sr-only">Loading...</span>
@@ -64,7 +86,44 @@ const Inventario = () => {
         )}
       </div>
 
+      {/* Modal */}
+      <div
+        className="modal fade"
+        id="imageModal"
+        tabIndex="-1"
+        role="dialog"
+        aria-labelledby="imageModalLabel"
+        aria-hidden="true"
+      >
+        <div className="modal-dialog modal-lg" role="document" style={{ maxWidth: '50%' }}>
+          <div className="modal-content">
+            <div className="modal-header">
+              <h5 className="modal-title" id="imageModalLabel"></h5>
+              <button type="button" className="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div className="modal-body d-flex">
+              {selectedImage && <img src={selectedImage} className="img-fluid" alt="Selected" style={{ flex: 1 }} />}
 
+
+              <div style={{ flex: 1, marginLeft: '1px' }}>
+                <p>{items[selectedIndex]?.descricao}</p>
+                <p>Price: ${items[selectedIndex]?.preco}</p>
+                <p>Rate: {items[selectedIndex]?.nota}</p>
+              </div>
+            </div>
+
+
+
+            {/* <div className="modal-footer">
+              <button type="button" className="btn btn-secondary" data-dismiss="modal">Close</button>
+              <button type="button" className="btn btn-primary" onClick={handlePrev}>Previous</button>
+              <button type="button" className="btn btn-primary" onClick={handleNext}>Next</button>
+            </div> */}
+          </div>
+        </div>
+      </div>
     </>
   );
 }
