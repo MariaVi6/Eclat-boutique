@@ -670,6 +670,9 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
+.produto1:hover{
+  background-image: url(/src/image/1.1-brinco-coracao.jpg);
+}
 .produto2{
   width: 360px;
   height: 400px;
@@ -677,6 +680,9 @@ form {
   background-position: center;
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
+}
+.produto2:hover{
+  background-image: url(/src/image/1-3-colar-curculo-verde.jpg);
 }
 .produto3{
   width: 360px;
@@ -686,6 +692,9 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
+.produto3:hover{
+  background-image: url(/src/image/1.2-conjunto-de-aneis.jpg);
+}
 .produto4{
   width: 360px;
   height: 400px;
@@ -694,35 +703,38 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
+.produto4:hover{
+  background-image: url(/src/image/1.1-brinco-circulo-verde.jpg);
+}
 .tipo-de-produto1{
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
   gap: 40px;
 }
 .tipo1{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo2{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo3{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo4{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .linha1-descricao-produtos{
   display: flex;
@@ -734,25 +746,25 @@ form {
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao2{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao3{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao4{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .valores-produtos{
   display: flex;
@@ -767,15 +779,11 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor1-1{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor2-produto{
   width: 360px;
@@ -785,15 +793,12 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
+  letter-spacing: 1px;
 }
 .valor2-1{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor3-produto{
   width: 360px;
@@ -803,15 +808,11 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor3-1{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor4-produto{
   width: 360px;
@@ -821,60 +822,56 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor4-1{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .botoes-produtos-linha1{
   display: flex;
   justify-content: center;
-  gap: 300px;
+  gap: 200px;
   margin-top: 40px;
 }
 .botao-produto1{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
   color: #fff;
   background-color: #000;
-  letter-spacing: 0.80px;
+  letter-spacing: 1px;
   cursor: pointer;
 }
 .botao-produto2{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
   color: #fff;
   background-color: #000;
-  letter-spacing: 0.80px;
+  letter-spacing: 1px;
   cursor: pointer;
 }
 .botao-produto3{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
   color: #fff;
   background-color: #000;
-  letter-spacing: 0.80px;
+  letter-spacing: 1px;
   cursor: pointer;
 }
 .botao-produto4{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
   color: #fff;
   background-color: #000;
-  letter-spacing: 0.80px;
+  letter-spacing: 1px;
   cursor: pointer;
 }
 
@@ -1197,151 +1194,56 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto2{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo5{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo6{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo7{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo8{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
-}
-.linha2-descricao-produtos{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  letter-spacing: 1px;
 }
 .descricao5{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao6{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao7{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao8{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
-}
-.valores-produto2{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-.valor5-produto{
-  display: flex;
-  width: 360px;
-  height: 40px;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor5-1{
-  color: #a0a0a0;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.valor6-produto{
-  width: 360px;
-  height: 40px;
-  display: flex;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor6-1{
-  color: #8F8F8F;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.valor7-produto{
-  width: 360px;
-  height: 40px;
-  display: flex;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor7-1{
-  color: #8F8F8F;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.valor8-produto{
-  width: 360px;
-  height: 40px;
-  display: flex;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor8-1{
-  color: #8F8F8F;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.botoes-produtos-linha2{
-  display: flex;
-  justify-content: center;
-  gap: 300px;
-  margin-top: 36px;
+  letter-spacing: 1px;
 }
 .botao-produto5{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1351,7 +1253,7 @@ form {
   cursor: pointer;
 }
 .botao-produto6{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1361,7 +1263,7 @@ form {
   cursor: pointer;
 }
 .botao-produto7{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1371,7 +1273,7 @@ form {
   cursor: pointer;
 }
 .botao-produto8{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1381,7 +1283,7 @@ form {
   cursor: pointer;
 }
 
-/*LINHA 3 - PRODUTOS - HOME ---------------------------------------------------------------------------------------------------*/
+/* LINHA 3 - PRODUTOS - HOME ---------------------------------------------------------------------------------------------------*/
 
 .section-l3{
   margin: 0;
@@ -1424,173 +1326,60 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto3{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo9{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo10{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo11{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo12{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
-}
-.linha3-descricao-produtos{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  letter-spacing: 1px;
 }
 .descricao9{
   width: 360px;
   height: 100px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao10{
   width: 360px;
   height: 100px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao11{
   width: 360px;
   height: 100px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao12{
   width: 360px;
   height: 100px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
-}
-.valores-produto3{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-}
-.valor9-produto{
-  display: flex;
-  width: 360px;
-  height: 40px;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor9-1{
-  color: #a0a0a0;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.valor10-produto{
-  display: flex;
-  width: 360px;
-  height: 40px;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor10-1{
-  color: #a0a0a0;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.valor11-produto{
-  display: flex;
-  width: 360px;
-  height: 40px;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor10-1{
-  color: #a0a0a0;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.valor11-produto{
-  display: flex;
-  width: 360px;
-  height: 40px;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor11-1{
-  color: #a0a0a0;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.valor12-produto{
-  display: flex;
-  width: 360px;
-  height: 40px;
-  justify-content: baseline;
-  font-size: 24px;
-  margin-top: 10px;
-  gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-}
-.valor12-1{
-  color: #a0a0a0;
-  text-decoration: line-through;
-  letter-spacing: 0.75px;
-}
-.botoes-produtos-linha3{
-  display: flex;
-  justify-content: center;
-  gap: 300px;
-  margin-top: 36px;
+  letter-spacing: 1px;
 }
 .botao-produto9{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1600,7 +1389,7 @@ form {
   cursor: pointer;
 }
 .botao-produto10{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1610,7 +1399,7 @@ form {
   cursor: pointer;
 }
 .botao-produto11{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1620,7 +1409,7 @@ form {
   cursor: pointer;
 }
 .botao-produto12{
-  width: 100px;
+  width: 200px;
   height: 40px;
   font-size: 16px;
   border: none;
@@ -1947,32 +1736,32 @@ form {
 .tipo-de-produto1-pagina{
   display: flex;
   justify-content: center;
-  margin-top: 10px;
+  margin-top: 20px;
   gap: 40px;
 }
 .tipo1-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo2-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo3-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo4-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .linha1-descricao-produtos-pagina{
   display: flex;
@@ -1984,13 +1773,13 @@ form {
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao2-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao3-pagina-produto{
   width: 360px;
@@ -2002,7 +1791,7 @@ form {
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .valores1-produtos-pagina{
   display: flex;
@@ -2017,7 +1806,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2025,7 +1813,7 @@ form {
 .valor1-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor2-produto-pagina{
   width: 360px;
@@ -2035,7 +1823,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2043,7 +1830,7 @@ form {
 .valor2-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor3-produto-pagina{
   width: 360px;
@@ -2053,7 +1840,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2061,7 +1847,7 @@ form {
 .valor3-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor4-produto-pagina{
   width: 360px;
@@ -2071,7 +1857,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2079,7 +1864,7 @@ form {
 .valor4-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 
 /* DESCRICAO - DETALHADA DOS PRODUTOS DA PAGINA - 1  --------------------------------------------------------------------------*/
@@ -2403,70 +2188,53 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto2-pagina{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo5-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo6-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo7-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo8-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
-}
-.linha2-descricao-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  letter-spacing: 1px;
 }
 .descricao5-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao6-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao7-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao8-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
-}
-.valores2-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+  letter-spacing: 1px;
 }
 .valor5-produto-pagina{
   display: flex;
@@ -2476,7 +2244,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2484,7 +2251,7 @@ form {
 .valor5-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor6-produto-pagina{
   width: 360px;
@@ -2494,7 +2261,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2502,7 +2268,7 @@ form {
 .valor6-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor7-produto-pagina{
   width: 360px;
@@ -2512,7 +2278,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2520,7 +2285,7 @@ form {
 .valor7-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor8-produto-pagina{
   width: 360px;
@@ -2530,7 +2295,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2538,7 +2302,7 @@ form {
 .valor8-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 
 /* LINHA 2- PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
@@ -2560,7 +2324,7 @@ form {
 .img-2-16-produto{
   width: 836px;
   height: 928px;
-  background-image: url(/src/image/1.2-moletom-jeans.jpg);
+  background-image: url(/src/image/1.2-colar-verde.jpg);
   background-size: cover;
   background-position: center;
 }
@@ -2702,71 +2466,53 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto3-pagina{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo9-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo10-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo11-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo12-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
-}
-.linha3-descricao-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  letter-spacing: 1px;
 }
 .descricao9-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao10-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao11-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao12-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
-}
-
-.valores3-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+  letter-spacing: 1px;
 }
 .valor9-produto-pagina{
   display: flex;
@@ -2776,7 +2522,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2784,7 +2529,7 @@ form {
 .valor9-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor10-produto-pagina{
   width: 360px;
@@ -2794,7 +2539,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2802,7 +2546,7 @@ form {
 .valor10-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor11-produto-pagina{
   width: 360px;
@@ -2812,7 +2556,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2820,7 +2563,7 @@ form {
 .valor11-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor12-produto-pagina{
   width: 360px;
@@ -2830,7 +2573,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -2838,10 +2580,10 @@ form {
 .valor12-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 
-/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
+/* LINHA 3 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
 
 .img-1-41{
   width: 413px;
@@ -2864,7 +2606,8 @@ form {
   background-size: cover;
   background-position: center;
 }
-/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
+
+/* LINHA 3 - PAGINA 1 PRODUTOS - PRODUTO - 2 ----------------------------------------------------------------------------------*/
 
 .img-1-43{
   width: 413px;
@@ -2887,7 +2630,8 @@ form {
   background-size: cover;
   background-position: center;
 }
-/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
+
+/* LINHA 3 - PAGINA 1 PRODUTOS - PRODUTO - 3 ----------------------------------------------------------------------------------*/
 
 .img-1-45{
   width: 413px;
@@ -2919,7 +2663,7 @@ form {
   cursor: pointer;
 }
 
-/* LINHA 2 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
+/* LINHA 3 - PAGINA 1 PRODUTOS - PRODUTO - 4 ----------------------------------------------------------------------------------*/
 
 .img-1-47{
   width: 413px;
@@ -2992,70 +2736,53 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto4-pagina{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo13-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo14-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo15-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo16-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
-}
-.linha4-descricao-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  letter-spacing: 1px;
 }
 .descricao13-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao14-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao15-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao16-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
-}
-.valores4-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+  letter-spacing: 1px;
 }
 .valor13-produto-pagina{
   display: flex;
@@ -3065,7 +2792,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3073,7 +2799,7 @@ form {
 .valor13-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor14-produto-pagina{
   width: 360px;
@@ -3083,7 +2809,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3091,7 +2816,7 @@ form {
 .valor14-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor15-produto-pagina{
   width: 360px;
@@ -3101,7 +2826,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3109,7 +2833,7 @@ form {
 .valor15-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor16-produto-pagina{
   width: 360px;
@@ -3119,7 +2843,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3127,7 +2850,7 @@ form {
 .valor16-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 
 /* LINHA 4 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
@@ -3291,70 +3014,53 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto5-pagina{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo17-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo18-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo19-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .tipo20-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
-}
-.linha5-descricao-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
+  letter-spacing: 1px;
 }
 .descricao17-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao18-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao19-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
 }
 .descricao20-pagina-produto{
   width: 360px;
   height: 38px;
   font-size: 24px;
-  letter-spacing: .80px;
-}
-.valores5-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
+  letter-spacing: 1px;
 }
 .valor17-produto-pagina{
   display: flex;
@@ -3364,7 +3070,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3372,7 +3077,7 @@ form {
 .valor17-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor18-produto-pagina{
   width: 360px;
@@ -3382,7 +3087,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3390,7 +3094,7 @@ form {
 .valor18-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor19-produto-pagina{
   width: 360px;
@@ -3400,7 +3104,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3408,7 +3111,7 @@ form {
 .valor19-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 .valor20-produto-pagina{
   width: 360px;
@@ -3418,7 +3121,6 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -3426,7 +3128,7 @@ form {
 .valor20-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 1px;
 }
 
 /* LINHA 5 - PAGINA 1 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
@@ -3582,12 +3284,6 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto6-pagina{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo21-pagina-produto{
   width: 360px;
   height: 20px;
@@ -3612,12 +3308,6 @@ form {
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha6-descricao-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
-}
 .descricao21-pagina-produto{
   width: 360px;
   height: 38px;
@@ -3641,11 +3331,6 @@ form {
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
-}
-.valores6-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
 }
 .valor21-produto-pagina{
   display: flex;
@@ -3761,12 +3446,6 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto7-pagina{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo25-pagina-produto{
   width: 360px;
   height: 20px;
@@ -3791,12 +3470,6 @@ form {
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha7-descricao-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
-}
 .descricao25-pagina-produto{
   width: 360px;
   height: 38px;
@@ -3820,11 +3493,6 @@ form {
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
-}
-.valores7-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
 }
 .valor25-produto-pagina{
   display: flex;
@@ -4067,12 +3735,6 @@ form {
   background-size: cover;
   box-shadow: 0px 5px 15px  rgba(0, 0, 0, 0.25);
 }
-.tipo-de-produto8-pagina{
-  display: flex;
-  justify-content: center;
-  margin-top: 10px;
-  gap: 40px;
-}
 .tipo29-pagina-produto{
   width: 360px;
   height: 20px;
@@ -4097,12 +3759,6 @@ form {
   font-size: 16px;
   letter-spacing: .80px;
 }
-.linha8-descricao-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
-  margin-top: 20px;
-}
 .descricao29-pagina-produto{
   width: 360px;
   height: 38px;
@@ -4126,11 +3782,6 @@ form {
   height: 38px;
   font-size: 24px;
   letter-spacing: .80px;
-}
-.valores8-produtos-pagina{
-  display: flex;
-  justify-content: center;
-  gap: 40px;
 }
 .valor29-produto-pagina{
   display: flex;

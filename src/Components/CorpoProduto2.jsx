@@ -64,21 +64,21 @@ const CorpoProduto2 = () => {
         <div className="produto40-pagina-produtos"></div>
         </div>
 
-        <div className="tipo-de-produto2-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo5-pagina-produto">Vestido</div>
         <div className="tipo6-pagina-produto">Colar</div>
         <div className="tipo7-pagina-produto">Bota</div>
         <div className="tipo8-pagina-produto">Colar</div>
         </div>
 
-        <div className="linha2-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao5-pagina-produto">Vestido Rosa</div>
         <div className="descricao6-pagina-produto">Conjunto Colar Correntes</div>
         <div className="descricao7-pagina-produto">Bota Roxa</div>
         <div className="descricao8-pagina-produto">Colar Correntes</div>
         </div>
 
-        <div className="valores2-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor5-produto-pagina">
         <div className="valor5-1-pagina-produto">R$200</div>
         <div className="valor5-2-pagina-produto"><b>R$180</b></div>
@@ -110,21 +110,21 @@ const CorpoProduto2 = () => {
         <div className="produto44-pagina-produtos"></div>
         </div>
 
-        <div className="tipo-de-produto3-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo9-pagina-produto">Salto</div>
         <div className="tipo10-pagina-produto">Capa</div>
         <div className="tipo11-pagina-produto">Brinco</div>
         <div className="tipo12-pagina-produto">Casaco</div>
         </div>
 
-        <div className="linha3-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao9-pagina-produto">Salto Plataforma Transparente</div>
         <div className="descricao10-pagina-produto">Capa Bege</div>
         <div className="descricao11-pagina-produto">Brinco Ouro</div>
         <div className="descricao12-pagina-produto">Casaco Marrom</div>
         </div>
 
-        <div className="valores3-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor9-produto-pagina">
         <div className="valor9-1-pagina-produto">R$200</div>
         <div className="valor9-2-pagina-produto"><b>R$180</b></div>
@@ -156,21 +156,21 @@ const CorpoProduto2 = () => {
         <div className="produto48-pagina-produtos"></div>
         </div>
 
-        <div className="tipo-de-produto4-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo13-pagina-produto">Jeans</div>
         <div className="tipo14-pagina-produto">Tênis</div>
         <div className="tipo15-pagina-produto">Crooped</div>
         <div className="tipo16-pagina-produto">Jeans</div>
         </div>
 
-        <div className="linha4-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao13-pagina-produto">Jaqueta Jeans Sem Manga</div>
         <div className="descricao14-pagina-produto">Tênis Branco</div>
         <div className="descricao15-pagina-produto">Crooped Lã Vermelho</div>
         <div className="descricao16-pagina-produto">Calça Jeans Coração</div>
         </div>
 
-        <div className="valores4-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor13-produto-pagina">
         <div className="valor13-1-pagina-produto">R$200</div>
         <div className="valor13-2-pagina-produto"><b>R$180</b></div>
@@ -202,21 +202,21 @@ const CorpoProduto2 = () => {
         <div className="produto52-pagina-produtos"></div>
         </div>
 
-        <div className="tipo-de-produto5-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo17-pagina-produto">Sport</div>
         <div className="tipo18-pagina-produto">Short</div>
         <div className="tipo19-pagina-produto">Sport</div>
         <div className="tipo20-pagina-produto">Liso</div>
         </div>
 
-        <div className="linha5-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao17-pagina-produto">Top Canelado Preto</div>
         <div className="descricao18-pagina-produto">Short Preto</div>
         <div className="descricao19-pagina-produto">Calça Legging Preta</div>
         <div className="descricao20-pagina-produto">Macacão Preto</div>
         </div>
 
-        <div className="valores5-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor17-produto-pagina">
         <div className="valor17-1-pagina-produto">R$200</div>
         <div className="valor17-2-pagina-produto"><b>R$180</b></div>
@@ -248,21 +248,21 @@ const CorpoProduto2 = () => {
         <div className="produto56-pagina-produtos"></div>
         </div>
 
-        <div className="tipo-de-produto6-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo21-pagina-produto">Calça</div>
         <div className="tipo22-pagina-produto">Calça</div>
         <div className="tipo23-pagina-produto">Salto</div>
         <div className="tipo24-pagina-produto">Jaqueta</div>
         </div>
 
-        <div className="linha6-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao21-pagina-produto">Calça Moletom Preta</div>
         <div className="descricao22-pagina-produto">Calça Branca</div>
         <div className="descricao23-pagina-produto">Salto Fino Preto</div>
         <div className="descricao24-pagina-produto">Jaqueta Verde</div>
         </div>
 
-        <div className="valores6-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor21-produto-pagina">
         <div className="valor21-1-pagina-produto">R$200</div>
         <div className="valor21-2-pagina-produto"><b>R$180</b></div>
@@ -294,21 +294,21 @@ const CorpoProduto2 = () => {
         <div className="produto60-pagina-produtos"></div>
         </div>
 
-        <div className="tipo-de-produto7-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo25-pagina-produto">Aneis</div>
         <div className="tipo26-pagina-produto">Colar</div>
         <div className="tipo27-pagina-produto">Sobretudo</div>
         <div className="tipo28-pagina-produto">Pulseiras</div>
         </div>
 
-        <div className="linha7-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao25-pagina-produto">Conjunto De Aneis Smile</div>
         <div className="descricao26-pagina-produto">Colar Dream</div>
         <div className="descricao27-pagina-produto">Conjunto Colar Flores</div>
         <div className="descricao28-pagina-produto">Conjunto Pulseiras Slime</div>
         </div>
 
-        <div className="valores7-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor25-produto-pagina">
         <div className="valor25-1-pagina-produto">R$200</div>
         <div className="valor25-2-pagina-produto"><b>R$180</b></div>
@@ -340,21 +340,21 @@ const CorpoProduto2 = () => {
         <div className="produto64-pagina-produtos"></div>
         </div>
 
-        <div className="tipo-de-produto8-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo29-pagina-produto">Chapel</div>
         <div className="tipo30-pagina-produto">Tenis</div>
         <div className="tipo31-pagina-produto">Sport</div>
         <div className="tipo32-pagina-produto">Sport</div>
         </div>
 
-        <div className="linha8-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao29-pagina-produto">Viseira Vermelha</div>
         <div className="descricao30-pagina-produto">Tenis Sportivo Branco</div>
         <div className="descricao31-pagina-produto">Vestido Polo Azul</div>
         <div className="descricao32-pagina-produto">Conjunto Polo Vermelho</div>
         </div>
 
-        <div className="valores8-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor29-produto-pagina">
         <div className="valor29-1-pagina-produto">R$200</div>
         <div className="valor29-2-pagina-produto"><b>R$180</b></div>
