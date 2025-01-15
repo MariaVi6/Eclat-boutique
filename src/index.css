@@ -50,7 +50,7 @@
   font-style: normal;
   cursor: pointer;
 }
-.produtos-home-header{
+.produtos-home{
   width: 148px;
   height: 30px;
   font-size: 19px;
@@ -58,13 +58,14 @@
   display: flex;
   justify-content: center;
   letter-spacing: 4.0px;
-  cursor: pointer;
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
-.link-produtos{
+.link-produto{
   text-decoration: none;
+  list-style: none;
+  color: inherit; 
   color: #000;
   cursor: pointer;
   font-family: "Montserrat", sans-serif;
@@ -72,6 +73,7 @@
   font-style: normal;
   cursor: pointer;
 }
+
 .sobre-nos-home{
   width: 148px;
   height: 30px;
@@ -91,7 +93,6 @@
   margin-top: 80px;
   text-align: center;
   letter-spacing: 4.0px;
-
   font-family: "Montserrat", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -626,7 +627,6 @@ form {
   margin-top: 24px;
   background-position: center;
   background-size: cover;
-  display: flex;
 }
 
 /* PÁGINA - HOME - PRODUTOS -------------------------------------------------------------------------------------------------XE */
