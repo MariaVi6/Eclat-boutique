@@ -32,22 +32,22 @@ const ProdutosHome = () => {
         <div className="valores-produtos">
         <div className="valor1-produto">
         <div className="valor1-1">R$100</div>
-        <div className="valor1-2"><b>R$80</b></div>
+        <div className="valor1-2">R$80</div>
         </div>
 
         <div className="valor2-produto">
         <div className="valor2-1">R$220</div>
-        <div className="valor2-2"><b>R$120</b></div>
+        <div className="valor2-2">R$120</div>
         </div>
 
         <div className="valor3-produto">
         <div className="valor3-1">R$200</div>
-        <div className="valor3-2"><b>R$110</b></div>
+        <div className="valor3-2">R$110</div>
         </div>
 
         <div className="valor4-produto">
         <div className="valor4-1">R$100</div>
-        <div className="valor4-2"><b>R$40</b></div>
+        <div className="valor4-2">R$40</div>
         </div>
 
         </div>
@@ -94,24 +94,24 @@ const ProdutosHome = () => {
         <div className="valor1-produto">
 
         <div className="valor1-1">R$400</div>
-        <div className="valor1-2"> <b>R$300</b></div>
+        <div className="valor1-2">R$300</div>
         </div>
 
         <div className="valor2-produto">
 
         <div className="valor2-1">R$350</div>
-        <div className="valor2-2"><b>R$280</b></div>
+        <div className="valor2-2">R$280</div>
         </div>
 
         <div className="valor3-produto">
         <div className="valor3-1">R$280</div>
-        <div className="valor3-2"><b>R$200</b></div>
+        <div className="valor3-2">R$200</div>
         </div>
 
         <div className="valor4-produto">
 
         <div className="valor4-1">R$350</div>
-        <div className="valor4-2"><b>R$320</b></div>
+        <div className="valor4-2">R$320</div>
         </div>
 
         </div>
@@ -138,8 +138,8 @@ const ProdutosHome = () => {
 
         <div className="tipo-de-produto1">
         <div className="tipo9">Brinco</div>
-        <div className="tipo10">Anel</div>
-        <div className="tipo11">Calça</div>
+        <div className="tipo10">Colar</div>
+        <div className="tipo11">Aneis</div>
         <div className="tipo12">Brinco</div>
         </div>
 
@@ -155,22 +155,22 @@ const ProdutosHome = () => {
         <div className="valor1-produto">
 
         <div className="valor1-1">R$100</div>
-        <div className="valor1-2"><b>R$80</b></div>
+        <div className="valor1-2">R$80</div>
         </div>
 
         <div className="valor2-produto">
         <div className="valor2-1">R$300</div>
-        <div className="valor2-2"><b>R$250</b></div>
+        <div className="valor2-2">R$250</div>
         </div>
 
         <div className="valor3-produto">
         <div className="valor3-1">R$180</div>
-        <div className="valor3-2"><b>R$100</b></div>
+        <div className="valor3-2">R$100</div>
         </div>
 
         <div className="valor4-produto">
         <div className="valor4-1">R$100</div>
-        <div className="valor4-2"><b>R$80</b></div>
+        <div className="valor4-2">R$80</div>
         </div>
 
         </div>
