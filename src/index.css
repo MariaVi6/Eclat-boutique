@@ -5993,24 +5993,265 @@ form {
 /* RESPONSIVIDADE DO ECLAT BOUTIQUE*/
 
 /* Estilos para telas com largura mínima de 1920px */
+
 @media screen and (min-width: 1920px) {
   .logo-header-home {
-    width: 400px;
-    height: 120px;
-    margin-top: 22px;
-    margin-left: 60px;
     margin-right: 64px;
-    background-image: url(/src/image/Logo-home-1.2.svg);
-    background-position: center;
-    background-size: cover;
   }
   .indice-header {
     width: 1240px;
-    height: 160px;
-    display: flex;
     margin-right: 180px;
-    justify-content: center;
     gap: 200px;
+  }
+  .section-l1{
+    margin-top: 260px;
+  }
+  .linha1-produtos{
+    gap: 200px;
+  }
+
+  /* Descrição detalhada dos produtos----------------------------------------------------------------------------------------------*/
+  
+  .imgs-produto{
+    width: 1110px;
+  }
+  .img-1-produto{
+    width: 1110px;
+    gap: 20px;
+  }
+  .img-1-1{
+    width: 555px;
+  }
+  .img-1-2{
+    width: 555px;
+  }
+  .img-2-produto {
+    width: 1110px;
+  }
+  .descricao-escrita-produto{
+    width: 1110px;
+  }
+  .descricao2-produto{
+    width: 1048px;
+  }
+  .button{
+    width: 1048px;
+  }
+  .tipo-de-produto1{
+    gap: 200px;
+  }
+  .linha1-descricao-produtos{
+    gap: 200px;
+  }
+  .valores-produtos{
+    gap: 200px;
+  }
+  .botoes-produtos-linha1{
+    gap: 368px;
+  }
+  .img-1-3{
+    width: 555px;
+  }
+  .img-1-4{
+    width: 555px;
+  }
+  .img-2-1-produto {
+    width: 1110px;
+    background-repeat: no-repeat;
+  }
+  .img-1-5{
+    width: 555px;
+  }
+  .img-1-6{
+    width: 555px;
+  }
+  .img-2-2-produto {
+    width: 1110px;
+    background-repeat: no-repeat;
+  }
+  .img-1-7{
+    width: 555px;
+  }
+  .img-1-8{
+    width: 555px;
+  }
+  .img-2-3-produto {
+    width: 1110px;
+    background-repeat: no-repeat;
+  }
+  .linha2-produtos{
+    gap: 200px;
+  }
+  .linha3-produtos{
+    gap: 200px;
+  }
+
+  /*Formas de pagamentos----------------------------------------------------------------------------------------------------------*/
+  
+  .container-div-descricao-eclac{
+    gap: 160px;
+  }
+  .container-descricao-eclac{
+    gap: 160px;
+  }
+  .container-descricao2-eclac{
+    gap: 160px;
+  }
+
+  /*Página produtos -1------------------------------------------------------------------------------------------------------------*/
+
+  .filtro-produtos {
+    width: 1400px;
+    margin-left: 20px;
+    margin-right: 100px;
+  }
+  .ul-filtros {
+    display: flex;
+    gap: 200px;
+  }
+  .linha1-pag-produtos{
+    gap: 200px;
+  }
+  .img-1-25{
+    width: 555px;
+  }
+  .img-1-26{
+    width: 555px;
+  }
+  .img-1-27{
+    width: 555px;
+  }
+  .img-1-28{
+    width: 555px;
+  }
+  .img-2-13-produto {
+    width: 1110px;
+  }
+  .tipo-de-produto1-pagina{
+    gap: 200px;
+  }
+  .img-1-29{
+    width: 555px;
+  }
+  .img-1-30{
+    width: 555px;
+  }
+  .img-2-14-produto {
+    width: 1110px;
+  }
+  .img-1-31{
+    width: 555px;
+  }
+  .img-1-32{
+    width: 555px;
+  }
+  .img-2-15-produto {
+    width: 1110px;
+  }
+  .img-1-33{
+    width: 555px;
+  }
+  .img-1-34{
+    width: 555px;
+  }
+  .img-2-16-produto {
+    width: 1110px;
+  }
+  .img-1-35{
+    width: 555px;
+  }
+  .img-1-36{
+    width: 555px;
+  }
+  .img-2-17-produto {
+    width: 1110px;
+  }
+  .img-1-37{
+    width: 555px;
+  }
+  .img-1-38{
+    width: 555px;
+  }
+  .img-2-18-produto {
+    width: 1110px;
+  }
+  .img-1-39{
+    width: 555px;
+  }
+  .img-1-40{
+    width: 555px;
+  }
+  .img-2-19-produto {
+    width: 1110px;
+  }
+  .linha1-descricao-produtos-pagina{
+    gap: 200px;
+  }
+  .valores1-produtos-pagina{
+    gap: 200px;
+  }
+  .linha2-pag-produtos{
+    gap: 200px;
+  }
+  .linha3-pag-produtos{
+    gap: 200px;
+  }
+  .linha4-pag-produtos{
+    gap: 200px;
+  }
+  .linha5-pag-produtos{
+    gap: 200px;
+  }
+  .linha6-pag-produtos{
+    gap: 200px;
+  }
+  .linha7-pag-produtos{
+    gap: 200px;
+  }
+  .linha8-pag-produtos{
+    gap: 200px;
+  }
+
+  /*Descrição detalhada dos produtos - pagina 1 e 2 ------------------------------------------------------------------------------*/
+  
+  .descricao3-produto{
+    width: 1048px;
+  }
+  .div-tamanhos{
+    width: 1048px;
+    gap: 46px;
+  }
+  .button2{
+    width: 1048px;
+  }
+  .img-2-12-produto {
+    width: 1110px;
+    background-repeat: no-repeat;
+    }
+  .frete{
+    width: 1110px;
+  }
+  .input-button-frete{
+    width: 1048px;
+    gap: 14px;
+  }
+  .input-frete{
+    width: 880px;
+  }
+  .button-frete{
+    width: 140px;
+  }
+  .vendedor-frete{
+    width: 1048px;
+  }
+  .linhas-frete{
+    width: 1048px;
+  }
+  .textos-frete{
+    width: 1048px;
+  }
+  .tabela-tamanhos{
+    background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-11.svg);
   }
 
 }
