@@ -4676,49 +4676,81 @@ form {
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo34-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo35-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo36-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao33-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao34-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao35-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao36-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor33-produto-pagina{
   display: flex;
@@ -4728,15 +4760,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor33-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor33-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor34-produto-pagina{
   width: 360px;
@@ -4746,15 +4785,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor34-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor34-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor35-produto-pagina{
   width: 360px;
@@ -4764,15 +4810,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor35-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor35-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor36-produto-pagina{
   width: 360px;
@@ -4782,15 +4835,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor36-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor36-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 
 /* LINHA 1 - PAGINA 2 PRODUTOS - PRODUTO - 1 ----------------------------------------------------------------------------------*/
@@ -4898,7 +4958,7 @@ form {
 }
 
 
-/* LINHA 2 - PÁGINA 2 PRODUTOS */
+/* LINHA 2 - PÁGINA 2 PRODUTOS ---------------------------------------------------------------------------------------------------*/
 
 .produto37-pagina-produtos{
   width: 360px;
@@ -4937,49 +4997,81 @@ form {
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo38-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo39-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo40-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao37-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao38-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao39-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao40-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor37-produto-pagina{
   display: flex;
@@ -4989,15 +5081,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor37-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor37-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor38-produto-pagina{
   width: 360px;
@@ -5007,15 +5106,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor38-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor38-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor39-produto-pagina{
   width: 360px;
@@ -5025,15 +5131,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor39-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor39-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor40-produto-pagina{
   width: 360px;
@@ -5043,18 +5156,21 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor40-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
   letter-spacing: 0.75px;
 }
+.valor40-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
 
-/*LINHA 3 - PAGINA 2 PRODUTOS*/
+/*LINHA 3 - PAGINA 2 PRODUTOS ----------------------------------------------------------------------------------------------------*/
 
 .produto41-pagina-produtos{
   width: 360px;
@@ -5093,49 +5209,81 @@ form {
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo42-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo43-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo44-pagina-produto{
   width: 360px;
-  height: 20px;
+  height: 22px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao41-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao42-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao43-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao44-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor41-produto-pagina{
   display: flex;
@@ -5145,15 +5293,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor41-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor41-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor42-produto-pagina{
   width: 360px;
@@ -5163,15 +5318,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor42-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor42-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor43-produto-pagina{
   width: 360px;
@@ -5181,15 +5343,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor43-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor43-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor44-produto-pagina{
   width: 360px;
@@ -5199,18 +5368,25 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor44-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor44-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 
-/*LINHA 4 - PÁGINA 2 PRODUTOS*/
+/*LINHA 4 - PÁGINA 2 PRODUTOS-----------------------------------------------------------------------------------------------------*/
 
 .produto45-pagina-produtos{
   width: 360px;
@@ -5249,49 +5425,81 @@ form {
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo46-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo47-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo48-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao45-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao46-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao47-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao48-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor45-produto-pagina{
   display: flex;
@@ -5301,15 +5509,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor45-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor45-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor46-produto-pagina{
   width: 360px;
@@ -5319,15 +5534,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor46-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor46-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor47-produto-pagina{
   width: 360px;
@@ -5337,15 +5559,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor47-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor47-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor48-produto-pagina{
   width: 360px;
@@ -5355,18 +5584,25 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor48-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor48-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 
-/*LINHA 5 - PÁGINA 2 PRODUTOS*/
+/*LINHA 5 - PÁGINA 2 PRODUTOS----------------------------------------------------------------------------------------------------*/
 
 .produto49-pagina-produtos{
   width: 360px;
@@ -5405,49 +5641,81 @@ form {
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo50-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo51-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .tipo52-pagina-produto{
   width: 360px;
   height: 20px;
   font-size: 16px;
-  letter-spacing: .80px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao49-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao50-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao51-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .descricao52-pagina-produto{
   width: 360px;
   height: 38px;
-  font-size: 24px;
-  letter-spacing: .80px;
+  font-size: 22px;
+  letter-spacing: 1px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor49-produto-pagina{
   display: flex;
@@ -5457,15 +5725,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor49-1-pagina-produto{
   color: #a0a0a0;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor49-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor50-produto-pagina{
   width: 360px;
@@ -5475,15 +5750,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor50-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor50-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor51-produto-pagina{
   width: 360px;
@@ -5493,15 +5775,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor51-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor51-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 .valor52-produto-pagina{
   width: 360px;
@@ -5511,15 +5800,22 @@ form {
   font-size: 24px;
   margin-top: 10px;
   gap: 10px;
-  letter-spacing: 0.75px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
 }
 .valor52-1-pagina-produto{
   color: #8F8F8F;
   text-decoration: line-through;
-  letter-spacing: 0.75px;
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
+}
+.valor52-2-pagina-produto{
+  letter-spacing: 2px;
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
 
 /*LINHA 6 - PÁGINA 2 PRODUTOS*/
@@ -5990,9 +6286,9 @@ form {
   letter-spacing: 0.75px;
 }
 
-/* RESPONSIVIDADE DO ECLAT BOUTIQUE*/
+/* RESPONSIVIDADE DO ECLAT BOUTIQUE-----------------------------------------------------------------------------------------------*/
 
-/* Estilos para telas com largura mínima de 1920px */
+/* Estilos para telas com largura mínima de 1920px -------------------------------------------------------------------------------*/
 
 @media screen and (min-width: 1920px) {
   .logo-header-home {
