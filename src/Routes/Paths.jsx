@@ -1,6 +1,6 @@
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "../Pages/Home";
-import Login from "../Pages/Login";
+// import Login from "../Pages/Login";
 import Produtos from "../Pages/Produtos";
 import Produtos2 from"../Pages/Produtos2"
 import Descricao1Home from "../Pages/Descricao1Home"
@@ -39,8 +39,8 @@ import Descricao41Home from "../Pages/Descricao41Home";
 import Descricao42Home from "../Pages/Descricao42Home";
 import Descricao43Home from "../Pages/Descricao43Home";
 import Descricao44Home from "../Pages/Descricao44Home";
-import Inventario from "../Components/inventario";
-import Procurar from "../Components/procurar";
+import ItemCard from "../Components/itemCard";
+import ItemPost from "../Components/ItemPost";
 
 
 const Paths = () => {
@@ -49,7 +49,7 @@ const Paths = () => {
     <BrowserRouter>
     <Routes>
         <Route path="/" element={<Home/>}/>
-        <Route path="/login" element={<Login/>}/>
+        {/* <Route path="/login" element={<Login/>}/> */}
         <Route path="/produtos" element={<Produtos/>}/>
         <Route path="/produtos2" element={<Produtos2/>}/>
         <Route path="/descricao1" element={<Descricao1Home/>}/>
@@ -88,8 +88,8 @@ const Paths = () => {
         <Route path="/descricao42" element={<Descricao42Home/>}/>
         <Route path="/descricao43" element={<Descricao43Home/>}/>
         <Route path="/descricao44" element={<Descricao44Home/>}/>
-        <Route path="/inventario" element={<Inventario/>}/>
-        <Route path="/procurar" element={<Procurar/>}/>
+        <Route path="/itemcard" element={<ItemCard/>}/>
+        <Route path="/itempost/:id" element={<ItemPost />}/>
     </Routes>
     </BrowserRouter>
     </> );
