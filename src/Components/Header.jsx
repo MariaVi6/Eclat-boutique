@@ -11,7 +11,7 @@ const  Header  = () => {
         <div className="indice-header">
 
         <div className="novidade-home">Novidades</div>
-        <div className="produtos-home-header"><Link className="link-produtos" to={"/produtos"}>Produtos</Link></div>
+        <div className="produtos-home"><Link className="link-produto" to={"/produtos"}>Produtos</Link></div>
         <div className="sobre-nos-home">Sobre Nós</div>
         <div className="promocoes-home">Promoções</div>
 

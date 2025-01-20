@@ -1,8 +1,6 @@
 import { Link } from "react-router-dom";
 
 const ProdutosHome = () => {
-
-
         return (
         <>
 
@@ -34,22 +32,22 @@ const ProdutosHome = () => {
         <div className="valores-produtos">
         <div className="valor1-produto">
         <div className="valor1-1">R$100</div>
-        <div className="valor1-2"><b>R$80</b></div>
+        <div className="valor1-2">R$80</div>
         </div>
 
         <div className="valor2-produto">
         <div className="valor2-1">R$220</div>
-        <div className="valor2-2"><b>R$120</b></div>
+        <div className="valor2-2">R$120</div>
         </div>
 
         <div className="valor3-produto">
         <div className="valor3-1">R$200</div>
-        <div className="valor3-2"><b>R$110</b></div>
+        <div className="valor3-2">R$110</div>
         </div>
 
         <div className="valor4-produto">
         <div className="valor4-1">R$100</div>
-        <div className="valor4-2"><b>R$40</b></div>
+        <div className="valor4-2">R$40</div>
         </div>
 
         </div>
@@ -77,49 +75,48 @@ const ProdutosHome = () => {
         <Link to={"/descricao28"}><div className="produto8"></div></Link>
         </div>
 
-        <div className="tipo-de-produto2">
+        <div className="tipo-de-produto1">
         <div className="tipo5">Sobretudo</div>
         <div className="tipo6">Alfaiataria</div>
         <div className="tipo7">Listrado</div>
         <div className="tipo8">Salto</div>
         </div>
 
-        <div className="linha2-descricao-produtos">
+        <div className="linha1-descricao-produtos">
         <div className="descricao5">Sobretudo Bege</div>
         <div className="descricao6">Jaqueta Off Withe</div>
         <div className="descricao7">Jaqueta Preta Listrada</div>
         <div className="descricao8">Salto Alto Branco</div>
         </div>
 
-        <div className="valores-produto2">
+        <div className="valores-produtos">
 
-        <div className="valor5-produto">
+        <div className="valor1-produto">
 
-        <div className="valor5-1">R$400</div>
-        <div className="valor5-2"> <b>R$300</b></div>
+        <div className="valor1-1">R$400</div>
+        <div className="valor1-2">R$300</div>
+        </div>
+
+        <div className="valor2-produto">
+
+        <div className="valor2-1">R$350</div>
+        <div className="valor2-2">R$280</div>
+        </div>
+
+        <div className="valor3-produto">
+        <div className="valor3-1">R$280</div>
+        <div className="valor3-2">R$200</div>
+        </div>
+
+        <div className="valor4-produto">
+
+        <div className="valor4-1">R$350</div>
+        <div className="valor4-2">R$320</div>
+        </div>
 
         </div>
 
-        <div className="valor6-produto">
-
-        <div className="valor6-1">R$350</div>
-        <div className="valor6-2"><b>R$280</b></div>
-        </div>
-
-        <div className="valor7-produto">
-        <div className="valor7-1">R$280</div>
-        <div className="valor7-2"><b>R$200</b></div>
-        </div>
-
-        <div className="valor8-produto">
-
-        <div className="valor8-1">R$350</div>
-        <div className="valor8-2"><b>R$320</b></div>
-        </div>
-
-        </div>
-
-        <div className="botoes-produtos-linha2">
+        <div className="botoes-produtos-linha1">
         <button className="botao-produto5">Comprar</button>
         <button className="botao-produto6">Comprar</button>
         <button className="botao-produto7">Comprar</button>
@@ -139,46 +136,46 @@ const ProdutosHome = () => {
         <div className="produto12"></div>
         </div>
 
-        <div className="tipo-de-produto3">
+        <div className="tipo-de-produto1">
         <div className="tipo9">Brinco</div>
-        <div className="tipo10">Anel</div>
-        <div className="tipo11">Calça</div>
+        <div className="tipo10">Colar</div>
+        <div className="tipo11">Aneis</div>
         <div className="tipo12">Brinco</div>
         </div>
 
-        <div className="linha3-descricao-produtos">
+        <div className="linha1-descricao-produtos">
         <div className="descricao9">Brinco Coração</div>
         <div className="descricao10">Colar Circulo Verde</div>
         <div className="descricao11">Conjunto Aneis</div>
         <div className="descricao12">Brinco Circulo Verde</div>
         </div>
 
-        <div className="valores-produto3">
+        <div className="valores-produtos">
 
-        <div className="valor9-produto">
+        <div className="valor1-produto">
 
-        <div className="valor9-1">R$100</div>
-        <div className="valor9-2"><b>R$80</b></div>
+        <div className="valor1-1">R$100</div>
+        <div className="valor1-2">R$80</div>
         </div>
 
-        <div className="valor10-produto">
-        <div className="valor10-1">R$300</div>
-        <div className="valor10-2"><b>R$250</b></div>
+        <div className="valor2-produto">
+        <div className="valor2-1">R$300</div>
+        <div className="valor2-2">R$250</div>
         </div>
 
-        <div className="valor11-produto">
-        <div className="valor11-1">R$180</div>
-        <div className="valor11-2"><b>R$100</b></div>
+        <div className="valor3-produto">
+        <div className="valor3-1">R$180</div>
+        <div className="valor3-2">R$100</div>
         </div>
 
-        <div className="valor12-produto">
-        <div className="valor12-1">R$100</div>
-        <div className="valor12-2"><b>R$80</b></div>
+        <div className="valor4-produto">
+        <div className="valor4-1">R$100</div>
+        <div className="valor4-2">R$80</div>
         </div>
 
         </div>
 
-        <div className="botoes-produtos-linha3">
+        <div className="botoes-produtos-linha1">
         <button className="botao-produto9">Comprar</button>
         <button className="botao-produto10">Comprar</button>
         <button className="botao-produto11">Comprar</button>

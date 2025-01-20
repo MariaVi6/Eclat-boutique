@@ -39,6 +39,37 @@ import Descricao41Home from "../Pages/Descricao41Home";
 import Descricao42Home from "../Pages/Descricao42Home";
 import Descricao43Home from "../Pages/Descricao43Home";
 import Descricao44Home from "../Pages/Descricao44Home";
+import Descricao45Home from "../Pages/Descricao45Home";
+import Descricao46Home from "../Pages/Descricao46Home";
+import Descricao47Home from "../Pages/Descricao47Home";
+import Descricao48Home from "../Pages/Descricao48Home";
+import Descricao49Home from "../Pages/Descricao49Home";
+import Descricao50Home from "../Pages/Descricao50Home";
+import Descricao51Home from "../Pages/Descricao51Home";
+import Descricao52Home from "../Pages/Descricao52Home";
+import Descricao53Home from "../Pages/Descricao53Home";
+import Descricao54Home from "../Pages/Descricao54Home";
+import Descricao55Home from "../Pages/Descricao55Home";
+import Descricao56Home from "../Pages/Descricao56Home";
+import Descricao57Home from "../Pages/Descricao57Home";
+import Descricao58Home from "../Pages/Descricao58Home";
+import Descricao59Home from "../Pages/Descricao59Home";
+import Descricao60Home from "../Pages/Descricao60Home";
+import Descricao61Home from "../Pages/Descricao61Home";
+import Descricao62Home from "../Pages/Descricao62Home";
+import Descricao63Home from "../Pages/Descricao63Home";
+import Descricao64Home from "../Pages/Descricao64Home";
+import Descricao65Home from "../Pages/Descricao65Home";
+import Descricao66Home from "../Pages/Descricao66Home";
+import Descricao67Home from "../Pages/Descricao67Home";
+import Descricao68Home from "../Pages/Descricao68Home";
+import Descricao69Home from "../Pages/Descricao69Home";
+import Descricao70Home from "../Pages/Descricao70Home";
+import Descricao71Home from "../Pages/Descricao71Home";
+import Descricao72Home from "../Pages/Descricao72Home";
+
+import Inventario from "../Components/inventario";
+import Procurar from "../Components/procurar";
 import ItemCard from "../Components/itemCard";
 import ItemPost from "../Components/ItemPost";
 
@@ -88,6 +119,36 @@ const Paths = () => {
         <Route path="/descricao42" element={<Descricao42Home/>}/>
         <Route path="/descricao43" element={<Descricao43Home/>}/>
         <Route path="/descricao44" element={<Descricao44Home/>}/>
+        <Route path="/descricao45" element={<Descricao45Home/>}/>
+        <Route path="/descricao46" element={<Descricao46Home/>}/>
+        <Route path="/descricao47" element={<Descricao47Home/>}/>
+        <Route path="/descricao48" element={<Descricao48Home/>}/>
+        <Route path="/descricao49" element={<Descricao49Home/>}/>
+        <Route path="/descricao50" element={<Descricao50Home/>}/>
+        <Route path="/descricao51" element={<Descricao51Home/>}/>
+        <Route path="/descricao52" element={<Descricao52Home/>}/>
+        <Route path="/descricao53" element={<Descricao53Home/>}/>
+        <Route path="/descricao54" element={<Descricao54Home/>}/>
+        <Route path="/descricao55" element={<Descricao55Home/>}/>
+        <Route path="/descricao56" element={<Descricao56Home/>}/>
+        <Route path="/descricao57" element={<Descricao57Home/>}/>
+        <Route path="/descricao58" element={<Descricao58Home/>}/>
+        <Route path="/descricao59" element={<Descricao59Home/>}/>
+        <Route path="/descricao60" element={<Descricao60Home/>}/>
+        <Route path="/descricao61" element={<Descricao61Home/>}/>
+        <Route path="/descricao62" element={<Descricao62Home/>}/>
+        <Route path="/descricao63" element={<Descricao63Home/>}/>
+        <Route path="/descricao64" element={<Descricao64Home/>}/>
+        <Route path="/descricao65" element={<Descricao65Home/>}/>
+        <Route path="/descricao66" element={<Descricao66Home/>}/>
+        <Route path="/descricao67" element={<Descricao67Home/>}/>
+        <Route path="/descricao68" element={<Descricao68Home/>}/>
+        <Route path="/descricao69" element={<Descricao69Home/>}/>
+        <Route path="/descricao70" element={<Descricao70Home/>}/>
+        <Route path="/descricao71" element={<Descricao71Home/>}/>
+        <Route path="/descricao72" element={<Descricao72Home/>}/>
+        <Route path="/inventario" element={<Inventario/>}/>
+        <Route path="/procurar" element={<Procurar/>}/>
         <Route path="/itemcard" element={<ItemCard/>}/>
         <Route path="/itempost/:id" element={<ItemPost />}/>
     </Routes>

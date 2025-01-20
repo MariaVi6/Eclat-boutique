@@ -33,22 +33,22 @@ const CorpoProdutos = () => {
         <div className="valores1-produtos-pagina">
         <div className="valor1-produto-pagina">
         <div className="valor1-1-pagina-produto">R$400</div>
-        <div className="valor1-2-pagina-produto"><b>R$110</b></div>
+        <div className="valor1-2-pagina-produto">R$110</div>
         </div>
 
         <div className="valor2-produto-pagina">
         <div className="valor2-1-pagina-produto">R$300</div>
-        <div className="valor2-2-pagina-produto"><b>R$140</b></div>
+        <div className="valor2-2-pagina-produto">R$140</div>
         </div>
 
         <div className="valor3-produto-pagina">
         <div className="valor3-1-pagina-produto">R$200</div>
-        <div className="valor3-2-pagina-produto"><b>R$120</b></div>
+        <div className="valor3-2-pagina-produto">R$120</div>
         </div>
 
         <div className="valor4-produto-pagina">
         <div className="valor4-1-pagina-produto">R$200</div>
-        <div className="valor4-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor4-2-pagina-produto">R$190</div>
         </div>
 
         </div>
@@ -62,39 +62,39 @@ const CorpoProdutos = () => {
         <Link to={"/descricao20"}><div className="produto8-pagina-produtos"></div></Link>
         </div>
 
-        <div className="tipo-de-produto2-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo5-pagina-produto">Colar</div>
         <div className="tipo6-pagina-produto">Bolsa</div>
         <div className="tipo7-pagina-produto">Anel</div>
         <div className="tipo8-pagina-produto">Brinco</div>
         </div>
 
-        <div className="linha2-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao5-pagina-produto">Colar Prata Verde</div>
         <div className="descricao6-pagina-produto">Bolsa De Mão</div>
         <div className="descricao7-pagina-produto">Anel Redondo Azul</div>
         <div className="descricao8-pagina-produto">Brinco Redondo Verde</div>
         </div>
 
-        <div className="valores2-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor5-produto-pagina">
         <div className="valor5-1-pagina-produto">R$200</div>
-        <div className="valor5-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor5-2-pagina-produto">R$180</div>
         </div>
 
         <div className="valor6-produto-pagina">
         <div className="valor6-1-pagina-produto">R$200</div>
-        <div className="valor6-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor6-2-pagina-produto">R$180</div>
         </div>
 
         <div className="valor7-produto-pagina">
         <div className="valor7-1-pagina-produto">R$200</div>
-        <div className="valor7-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor7-2-pagina-produto">R$190</div>
         </div>
 
         <div className="valor8-produto-pagina">
         <div className="valor8-1-pagina-produto">R$200</div>
-        <div className="valor8-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor8-2-pagina-produto">R$190</div>
         </div>
 
         </div>
@@ -108,39 +108,39 @@ const CorpoProdutos = () => {
         <Link to={"/descricao24"}><div className="produto12-pagina-produtos"></div></Link>
         </div>
 
-        <div className="tipo-de-produto3-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo9-pagina-produto">Social</div>
         <div className="tipo10-pagina-produto">Social</div>
         <div className="tipo11-pagina-produto">Social</div>
         <div className="tipo12-pagina-produto">Social</div>
         </div>
 
-        <div className="linha3-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao9-pagina-produto">Camisa Social Azul</div>
         <div className="descricao10-pagina-produto">Camisa Social Azul</div>
         <div className="descricao11-pagina-produto">Saia Social Bege</div>
         <div className="descricao12-pagina-produto">Calça Social Preta</div>
         </div>
 
-        <div className="valores3-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor9-produto-pagina">
         <div className="valor9-1-pagina-produto">R$200</div>
-        <div className="valor9-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor9-2-pagina-produto">R$180</div>
         </div>
 
         <div className="valor10-produto-pagina">
         <div className="valor10-1-pagina-produto">R$200</div>
-        <div className="valor10-2-pagina-produto"><b>R$160</b></div>
+        <div className="valor10-2-pagina-produto">R$160</div>
         </div>
 
         <div className="valor11-produto-pagina">
         <div className="valor11-1-pagina-produto">R$300</div>
-        <div className="valor11-2-pagina-produto"><b>R$120</b></div>
+        <div className="valor11-2-pagina-produto">R$120</div>
         </div>
 
         <div className="valor12-produto-pagina">
         <div className="valor12-1-pagina-produto">R$400</div>
-        <div className="valor12-2-pagina-produto"><b>R$290</b></div>
+        <div className="valor12-2-pagina-produto">R$290</div>
         </div>
 
         </div>
@@ -154,39 +154,39 @@ const CorpoProdutos = () => {
         <Link to={"/descricao28"}><div className="produto16-pagina-produtos"></div></Link>
         </div>
 
-        <div className="tipo-de-produto4-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo13-pagina-produto">Sobretudo</div>
         <div className="tipo14-pagina-produto">Alfaiataria</div>
         <div className="tipo15-pagina-produto">Listrado</div>
         <div className="tipo16-pagina-produto">Salto</div>
         </div>
 
-        <div className="linha4-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao13-pagina-produto">Sobretudo Bege</div>
         <div className="descricao14-pagina-produto">Jaqueta Off Withe</div>
         <div className="descricao15-pagina-produto">Jaqueta Preta Listrada</div>
         <div className="descricao16-pagina-produto">Salto Alto Branco</div>
         </div>
 
-        <div className="valores4-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor13-produto-pagina">
         <div className="valor13-1-pagina-produto">R$600</div>
-        <div className="valor13-2-pagina-produto"><b>R$300</b></div>
+        <div className="valor13-2-pagina-produto">R$300</div>
         </div>
 
         <div className="valor14-produto-pagina">
         <div className="valor14-1-pagina-produto">R$200</div>
-        <div className="valor14-2-pagina-produto"><b>R$110</b></div>
+        <div className="valor14-2-pagina-produto">R$110</div>
         </div>
 
         <div className="valor15-produto-pagina">
         <div className="valor15-1-pagina-produto">R$480</div>
-        <div className="valor15-2-pagina-produto"><b>R$200</b></div>
+        <div className="valor15-2-pagina-produto">R$200</div>
         </div>
 
         <div className="valor16-produto-pagina">
         <div className="valor16-1-pagina-produto">R$400</div>
-        <div className="valor16-2-pagina-produto"><b>R$280</b></div>
+        <div className="valor16-2-pagina-produto">R$280</div>
         </div>
 
         </div>
@@ -200,39 +200,39 @@ const CorpoProdutos = () => {
         <Link to={"/descricao32"}><div className="produto20-pagina-produtos"></div></Link>
         </div>
 
-        <div className="tipo-de-produto5-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo17-pagina-produto">Sport</div>
         <div className="tipo18-pagina-produto">Sport</div>
         <div className="tipo19-pagina-produto">Sport</div>
         <div className="tipo20-pagina-produto">Sport</div>
         </div>
 
-        <div className="linha5-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao17-pagina-produto">Camisa Sport Cinza</div>
         <div className="descricao18-pagina-produto">Camisa Sport Branca</div>
         <div className="descricao19-pagina-produto">Moletom Sport Azul</div>
         <div className="descricao20-pagina-produto">Moletom Sport Verde</div>
         </div>
 
-        <div className="valores5-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor17-produto-pagina">
         <div className="valor17-1-pagina-produto">R$200</div>
-        <div className="valor18-2-pagina-produto"><b>R$140</b></div>
+        <div className="valor18-2-pagina-produto">R$140</div>
         </div>
 
         <div className="valor18-produto-pagina">
         <div className="valor18-1-pagina-produto">R$200</div>
-        <div className="valor18-2-pagina-produto"><b>R$110</b></div>
+        <div className="valor18-2-pagina-produto">R$110</div>
         </div>
 
         <div className="valor19-produto-pagina">
         <div className="valor19-1-pagina-produto">R$400</div>
-        <div className="valor19-2-pagina-produto"><b>R$280</b></div>
+        <div className="valor19-2-pagina-produto">R$280</div>
         </div>
 
         <div className="valor20-produto-pagina">
         <div className="valor20-1-pagina-produto">R$200</div>
-        <div className="valor20-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor20-2-pagina-produto">R$190</div>
         </div>
 
         </div>
@@ -246,39 +246,39 @@ const CorpoProdutos = () => {
         <Link to={"/descricao36"}><div className="produto24-pagina-produtos"></div></Link>
         </div>
 
-        <div className="tipo-de-produto6-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo21-pagina-produto">Blazer</div>
         <div className="tipo22-pagina-produto">Blazer</div>
         <div className="tipo23-pagina-produto">Blazer</div>
         <div className="tipo24-pagina-produto">Blazer</div>
         </div>
 
-        <div className="linha6-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao21-pagina-produto">Blazer Verde</div>
         <div className="descricao22-pagina-produto">Blazer Branco</div>
         <div className="descricao23-pagina-produto">Blazer Azul</div>
         <div className="descricao24-pagina-produto">Blazer Rosa</div>
         </div>
 
-        <div className="valores6-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor21-produto-pagina">
         <div className="valor21-1-pagina-produto">R$200</div>
-        <div className="valor21-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor21-2-pagina-produto">R$180</div>
         </div>
 
         <div className="valor22-produto-pagina">
         <div className="valor22-1-pagina-produto">R$200</div>
-        <div className="valor22-2-pagina-produto"><b>R$180</b></div>
+        <div className="valor22-2-pagina-produto">R$180</div>
         </div>
 
         <div className="valor23-produto-pagina">
         <div className="valor23-1-pagina-produto">R$200</div>
-        <div className="valor23-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor23-2-pagina-produto">R$190</div>
         </div>
 
         <div className="valor24-produto-pagina">
         <div className="valor24-1-pagina-produto">R$200</div>
-        <div className="valor24-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor24-2-pagina-produto">R$190</div>
         </div>
 
         </div>
@@ -290,39 +290,39 @@ const CorpoProdutos = () => {
         <Link to={"/descricao40"}><div className="produto28-pagina-produtos"></div></Link>
         </div>
 
-        <div className="tipo-de-produto7-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo25-pagina-produto">Sobretudo</div>
         <div className="tipo26-pagina-produto">Sobretudo</div>
         <div className="tipo27-pagina-produto">Sobretudo</div>
         <div className="tipo28-pagina-produto">Blazer</div>
         </div>
 
-        <div className="linha7-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao25-pagina-produto">Sobretudo Preto</div>
         <div className="descricao26-pagina-produto">Sobretudo Listrado</div>
         <div className="descricao27-pagina-produto">Sobretudo Verde Musgo</div>
         <div className="descricao28-pagina-produto">Sobretudo Verde</div>
         </div>
 
-        <div className="valores7-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor25-produto-pagina">
         <div className="valor25-1-pagina-produto">R$600</div>
-        <div className="valor25-2-pagina-produto"><b>R$400</b></div>
+        <div className="valor25-2-pagina-produto">R$400</div>
         </div>
 
         <div className="valor26-produto-pagina">
         <div className="valor26-1-pagina-produto">R$680</div>
-        <div className="valor26-2-pagina-produto"><b>R$480</b></div>
+        <div className="valor26-2-pagina-produto">R$480</div>
         </div>
 
         <div className="valor27-produto-pagina">
         <div className="valor27-1-pagina-produto">R$600</div>
-        <div className="valor27-2-pagina-produto"><b>R$400</b></div>
+        <div className="valor27-2-pagina-produto">R$400</div>
         </div>
 
         <div className="valor28-produto-pagina">
         <div className="valor28-1-pagina-produto">R$200</div>
-        <div className="valor28-2-pagina-produto"><b>R$190</b></div>
+        <div className="valor28-2-pagina-produto">R$190</div>
         </div>
 
         </div>
@@ -334,39 +334,39 @@ const CorpoProdutos = () => {
         <Link to={"/descricao4"}><div className="produto4"></div></Link>
         </div>
 
-        <div className="tipo-de-produto8-pagina">
+        <div className="tipo-de-produto1-pagina">
         <div className="tipo29-pagina-produto">Brinco</div>
         <div className="tipo30-pagina-produto">Colar</div>
         <div className="tipo31-pagina-produto">Aneis</div>
         <div className="tipo32-pagina-produto">Brinco</div>
         </div>
 
-        <div className="linha8-descricao-produtos-pagina">
+        <div className="linha1-descricao-produtos-pagina">
         <div className="descricao29-pagina-produto">Brinco Coração</div>
         <div className="descricao30-pagina-produto">Colar Circulo Verde</div>
         <div className="descricao31-pagina-produto">Conjunto de Aneis</div>
         <div className="descricao32-pagina-produto">Brinco Circulo Verde</div>
         </div>
 
-        <div className="valores8-produtos-pagina">
+        <div className="valores1-produtos-pagina">
         <div className="valor29-produto-pagina">
         <div className="valor29-1-pagina-produto">R$100</div>
-        <div className="valor29-2-pagina-produto"><b>R$80</b></div>
+        <div className="valor29-2-pagina-produto">R$80</div>
         </div>
 
         <div className="valor30-produto-pagina">
         <div className="valor30-1-pagina-produto">R$120</div>
-        <div className="valor30-2-pagina-produto"><b>R$220</b></div>
+        <div className="valor30-2-pagina-produto">R$220</div>
         </div>
 
         <div className="valor31-produto-pagina">
         <div className="valor31-1-pagina-produto">R$110</div>
-        <div className="valor31-2-pagina-produto"><b>R$200</b></div>
+        <div className="valor31-2-pagina-produto">R$200</div>
         </div>
 
         <div className="valor32-produto-pagina">
         <div className="valor32-1-pagina-produto">R$80</div>
-        <div className="valor32-2-pagina-produto"><b>R$100</b></div>
+        <div className="valor32-2-pagina-produto">R$100</div>
         </div>
 
         </div>
