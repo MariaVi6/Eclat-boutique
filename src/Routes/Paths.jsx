@@ -68,8 +68,8 @@ import Descricao70Home from "../Pages/Descricao70Home";
 import Descricao71Home from "../Pages/Descricao71Home";
 import Descricao72Home from "../Pages/Descricao72Home";
 
-import Inventario from "../Components/inventario";
-import Procurar from "../Components/procurar";
+// import Inventario from "../Components/inventario";
+// import Procurar from "../Components/procurar";
 import ItemCard from "../Components/itemCard";
 import ItemPost from "../Components/ItemPost";
 
@@ -147,10 +147,15 @@ const Paths = () => {
         <Route path="/descricao70" element={<Descricao70Home/>}/>
         <Route path="/descricao71" element={<Descricao71Home/>}/>
         <Route path="/descricao72" element={<Descricao72Home/>}/>
-        <Route path="/inventario" element={<Inventario/>}/>
-        <Route path="/procurar" element={<Procurar/>}/>
+        {/* <Route path="/inventario" element={<Inventario/>}/>
+        <Route path="/procurar" element={<Procurar/>}/> */}
+
+
+        {/* rotas novas */}
         <Route path="/itemcard" element={<ItemCard/>}/>
         <Route path="/itempost/:id" element={<ItemPost />}/>
+
+        {/* Precisa tirar footer e header de todas as páginas e colocar nas routas  */}
     </Routes>
     </BrowserRouter>
     </> );
