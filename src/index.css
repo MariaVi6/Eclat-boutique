@@ -2303,7 +2303,7 @@ form {
 .tabela-tamanhos{
   width: 100vw;
   height: 400px;
-  background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-3.svg);
+  background-image: url(/src/image/Tabelas-Medidas-Eclac-Boutique-7.svg);
   background-position: center;
   background-repeat: no-repeat;
 }
@@ -5810,15 +5810,8 @@ form {
   font-style: normal;
   font-weight: normal;
 }
-.valor52-2-pagina-produto{
-  letter-spacing: 2px;
-  font-family: "Montserrat", sans-serif;
-  font-optical-sizing: auto;
-  font-style: normal;
-  font-weight: normal;
-}
 
-/*LINHA 6 - PÁGINA 2 PRODUTOS*/
+/*LINHA 6 - PÁGINA 2 PRODUTOS-----------------------------------------------------------------------------------------------------*/
 
 .produto53-pagina-produtos{
   width: 360px;
