@@ -70,7 +70,7 @@ import Descricao72Home from "../Pages/Descricao72Home";
 
 // import Inventario from "../Components/inventario";
 // import Procurar from "../Components/procurar";
-import ItemCard from "../Components/itemCard";
+
 import ItemPost from "../Components/ItemPost";
 
 
@@ -152,8 +152,7 @@ const Paths = () => {
 
 
         {/* rotas novas */}
-        <Route path="/itemcard" element={<ItemCard/>}/>
-        <Route path="/itempost/:id" element={<ItemPost />}/>
+
 
         {/* Precisa tirar footer e header de todas as páginas e colocar nas routas  */}
     </Routes>
