@@ -1,6 +1,4 @@
-import React, { useEffect, useState } from "react";
-import fetchImages from "../../js/fetchApis";
-import axios from "axios";
+import { useEffect, useState } from "react";
 import { useNavigate } from "react-router-dom";
 
 const ItemCard = () => {
